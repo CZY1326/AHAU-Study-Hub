@@ -26,8 +26,10 @@ function buildSidebar() {
     const items = [{ text: '本模块总览', link: `/${mod}/` }]
 
     if (children.length) {
+      // 04~12 是课程模块（含选修通识），00~03 是文章主题模块
+      const groupLabel = /^0[4-9]-|^1[0-2]-/.test(mod) ? '课程' : '主题'
       items.push({
-        text: '课程',
+        text: groupLabel,
         collapsed: false,
         items: children.map((c) => ({ text: c, link: `/${mod}/${c}/` })),
       })
