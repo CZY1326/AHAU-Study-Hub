@@ -24,4 +24,4 @@
 <video controls preload="metadata" style="width: 100%; max-width: 720px;" src="./2.校歌/3.校歌.mp4"></video>
 
 - <a href="./2.校歌/3.校歌.mp4" download>点击下载：校歌.mp4</a>
-- [校歌介绍（原文）](./2.校歌/)
+- [校歌介绍（原文）](https://mp.weixin.qq.com/s/IjKdWmoCKZYOL-9TtFkcdQ)
