@@ -526,6 +526,7 @@ npm run files         # 扫描课程目录，刷新每门课的资料清单表�
 npm run scaffold      # （可选）按模板补齐缺失的目录与 index.md
 npm run tree          # 刷新 README 里的目录树
 npm run checklinks    # 巡检文档里的外部链接是否失效
+npm run checksize     # 校验 docs/ 下单文件不超过 50 MB（CI 强制）
 ```
 
 > 本项目使用 **npm**（锁文件为 `package-lock.json`）。`files:copy` 由 CI 调用，本地一般无需手动执行。

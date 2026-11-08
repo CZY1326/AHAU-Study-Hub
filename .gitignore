@@ -155,14 +155,9 @@ vite.config.ts.timestamp-*
 # 下划线开头的临时 / 探针目录（本地调试用，不要提交）
 _*/
 
-# 大文件兜底：超过 GitHub 安全线的资料请放进 docs/13-资料链接库/
-*.zip
-*.7z
-*.rar
-*.mp4
-*.mkv
-*.avi
-*.mov
+# 大文件约定：单文件 < 50 MB 直接提交；>= 50 MB 请放进 docs/13-资料链接库/ 登记外链。
+# 不按扩展名一刀切忽略（曾导致 mp4 本地可见、CI 构建失败）；
+# 由 `npm run checksize` 在 CI 上强制 50 MB 上限。
 
 # 系统垃圾
 .DS_Store

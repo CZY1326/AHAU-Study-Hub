@@ -12,6 +12,7 @@
     "files:copy": "node scripts/gen-courses.mjs --copy",
     "tree": "node scripts/gen-tree.mjs",
     "checklinks": "node scripts/check-links.mjs",
+    "checksize": "node scripts/check-size.mjs",
     "scaffold": "node scripts/scaffold.mjs"
   },
   "devDependencies": {
