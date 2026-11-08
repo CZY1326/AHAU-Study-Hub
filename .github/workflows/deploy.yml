@@ -36,15 +36,27 @@ jobs:
         with:
           node-version: 20
 
+      # Node 20 默认启用 corepack，它会依据 packageManager 字段自行下载 pnpm，
+      # 与上面 pnpm/action-setup 安装的 pnpm 冲突（曾导致 install 步骤秒挂）。
+      # 这里显式关闭 corepack，统一使用 action-setup 提供的 pnpm。
+      - name: Disable corepack
+        run: corepack disable || true
+
       - name: Diagnose toolchain
         run: |
-          echo "node: $(node -v)"
-          echo "pnpm: $(pnpm -v)"
-          echo "lockfile:"
-          head -3 pnpm-lock.yaml
+          echo "== node =="
+          node -v
+          echo "== which pnpm =="
+          which pnpm || true
+          echo "== pnpm version =="
+          pnpm -v
+          echo "== lockfile head =="
+          head -5 pnpm-lock.yaml
+          echo "== files present =="
+          ls -la package.json pnpm-lock.yaml pnpm-workspace.yaml
 
       - name: Install dependencies
-        run: pnpm install --frozen-lockfile
+        run: pnpm install --frozen-lockfile --reporter=append-only
 
       # 部署前需要 Pages 的站点信息（basePath / page_url 等环境变量）
       - name: Setup Pages
