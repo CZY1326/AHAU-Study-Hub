@@ -293,7 +293,7 @@ async function runGenerate(checkOnly) {
   const stats = `${pages.length} 门课，索引 ${totalFiles} 个资料文件`
   if (checkOnly) {
     if (changed) {
-      console.error(`\n❌ 课程资料清单已过期（${stats}），请运行 \`pnpm files\` 后提交。`)
+      console.error(`\n❌ 课程资料清单已过期（${stats}），请运行 \`npm run files\` 后提交。`)
       process.exit(1)
     }
     console.log(`✅ 所有课程资料清单均为最新（${stats}）。`)
@@ -308,7 +308,7 @@ async function runGenerate(checkOnly) {
  */
 async function runCopy() {
   if (!(await exists(DIST))) {
-    console.error('❌ 未找到 dist 目录，请先运行 `pnpm docs:build`。')
+    console.error('❌ 未找到 dist 目录，请先运行 `npm run docs:build`。')
     process.exit(1)
   }
 
