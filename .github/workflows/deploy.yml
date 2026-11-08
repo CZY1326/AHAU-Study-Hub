@@ -27,22 +27,40 @@ jobs:
 
       - name: Setup pnpm
         uses: pnpm/action-setup@v4
-        # 版本从 package.json 的 packageManager 字段读取，避免两处声明冲突
+        with:
+          version: 11.28.9 # 显式指定，避免依赖 packageManager 解析
+          run_install: false
 
       - name: Setup Node
         uses: actions/setup-node@v4
         with:
           node-version: 20
-          cache: pnpm
+
+      - name: Diagnose toolchain
+        run: |
+          echo "node: $(node -v)"
+          echo "pnpm: $(pnpm -v)"
+          echo "lockfile:"
+          head -3 pnpm-lock.yaml
 
       - name: Install dependencies
         run: pnpm install --frozen-lockfile
 
+      # 部署前需要 Pages 的站点信息（basePath / page_url 等环境变量）
+      - name: Setup Pages
+        uses: actions/configure-pages@v5
+
+      # 根据课程目录里的真实文件，刷新每门课的资料清单
+      - name: Generate course file lists
+        run: pnpm files
+
       - name: Build site
         run: pnpm docs:build
 
-      - name: Setup Pages
-        uses: actions/configure-pages@v5
+      # VitePress 只发布 public/ 下的静态资源，
+      # 课程目录里的 PDF / PPT 需要显式复制进构建产物，否则下载链接会 404
+      - name: Copy course assets into dist
+        run: pnpm files:copy
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3

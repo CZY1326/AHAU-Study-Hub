@@ -47,7 +47,12 @@ export default defineConfig({
 
   cleanUrls: true,
   lastUpdated: true,
-  ignoreDeadLinks: false, // 死链会导致构建失败，保证资料链接质量
+  // 站内链接必须有效（拼错直接构建失败，保证导航质量）。
+  // 注意：VitePress 本身只检查站内链接，外部链接不受此选项影响，
+  // 外链失效由 .github/workflows/maintenance.yml 的每日巡检单独负责。
+  // 另：课程页里的资料下载链接使用原生 <a> 标签而非 Markdown 链接，
+  // 否则 VitePress 会把 PDF / 笔记当成站内路由去解析并报死链。
+  ignoreDeadLinks: false,
 
   head: [
     ['link', { rel: 'icon', type: 'image/svg+xml', href: '/AHAU-Study-Hub/logo.svg' }],

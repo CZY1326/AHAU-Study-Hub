@@ -229,6 +229,22 @@ docs/
 - `试卷与答案/` —— 期末真题、模拟卷、答案
 - `复习资料/` —— 复习提纲、重点整理、笔记
 
+### ✨ 资料清单会自动生成
+
+把文件丢进上面三个目录就行，**课程页里的清单会自己长出来**：
+
+| 行为 | 说明 |
+| :--- | :--- |
+| 自动列表 | 展示文件名、类型、大小，可预览的直接在线打开，其余一键下载 |
+| 自动排序 | 按数字前缀自然排序，`2-` 排在 `10-` 前面（不会出现 `10` 跑到 `2` 前的错乱） |
+| 自动忽略 | `.DS_Store`、`.tmp` 等临时文件与未知格式不入表 |
+| 支持子目录 | 目录里再建子目录（如 `复习资料/往年整理/`）也会被递归收录 |
+| 构建时同步 | 推送后 CI 自动刷新清单并把资料复制进站点，无需手动打包 |
+
+::: tip 你需要做的
+只要**放文件**（可选跑一次 `pnpm files` 在本地预览效果）。清单表由脚本维护在页面里的标记区间内，请不要手改那段内容。
+:::
+
 ---
 
 ## 🛠 本地开发
@@ -240,12 +256,13 @@ pnpm docs:dev         # 本地预览 http://localhost:5173/AHAU-Study-Hub/
 pnpm docs:build       # 构建静态站点到 docs/.vitepress/dist
 pnpm docs:preview     # 预览构建产物
 
+pnpm files            # 扫描课程目录，刷新每门课的资料清单表格
 pnpm scaffold         # （可选）按模板补齐缺失的目录与 index.md
 pnpm tree             # 刷新 README 里的目录树
 pnpm checklinks       # 巡检文档里的外部链接是否失效
 ```
 
-> 用 npm 也可以：把上面的 `pnpm` 换成 `npm run`，命令名不变。
+> 用 npm 也可以：把上面的 `pnpm` 换成 `npm run`，命令名不变。（`files:copy` 由 CI 调用，本地一般无需手动执行。）
 
 ---
 
@@ -254,10 +271,13 @@ pnpm checklinks       # 巡检文档里的外部链接是否失效
 站点通过 GitHub Actions 自动部署到 GitHub Pages：
 
 1. 仓库 **Settings → Pages → Source** 选择 **GitHub Actions**（只需设置一次）。
-2. 向 `main` 分支推送代码，`deploy.yml` 会自动构建并发布。
+2. 向 `main` 分支推送代码，`deploy.yml` 会自动执行：刷新资料清单 → 构建站点 → 复制资料文件 → 发布。
 3. 发布地址：<https://czy1326.github.io/AHAU-Study-Hub/>
 
-若仓库改名，需要同步修改 `docs/.vitepress/config.mts` 里的 `base`。
+若仓库改名，需要同步修改两处 `base`：
+
+- `docs/.vitepress/config.mts` 里的 `base`
+- `scripts/gen-courses.mjs` 里的 `BASE`（用于生成资料下载链接）
 
 ---
 
