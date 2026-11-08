@@ -334,6 +334,47 @@ async function runCopy() {
   }
 
   console.log(`✅ 已复制 ${copied} 个资料文件到 dist/资料/（共 ${humanSize(bytes)}）。`)
+
+  await runMirrorCopy()
+}
+
+/**
+ * 镜像复制：把 docs/ 下所有非 Markdown 文件按原相对路径复制进 dist。
+ *
+ * 解决「主题页附件」问题：主题页（00~03 模块）与课程页正文里用
+ * [下载](./文件.pdf) 这类相对链接时，VitePress 构建不会把这些文件
+ * 带进产物，线上点击会 404。镜像复制后，相对路径在站点里同样成立
+ * （cleanUrls 下页面 URL 是目录形式，./文件 正好落在同目录）。
+ *
+ * 排除：.md（由 VitePress 渲染）、.vitepress、public（已由构建处理）、
+ * 点开头文件（.gitkeep 等）。
+ */
+async function runMirrorCopy() {
+  let copied = 0
+  let bytes = 0
+
+  async function walk(current) {
+    const entries = await readdir(current, { withFileTypes: true })
+    for (const e of entries) {
+      if (e.name.startsWith('.')) continue
+      const full = join(current, e.name)
+      if (e.isDirectory()) {
+        if (e.name === '.vitepress' || e.name === 'public') continue
+        await walk(full)
+        continue
+      }
+      if (e.name.endsWith('.md')) continue
+      const rel = relative(DOCS, full)
+      const dst = join(DIST, rel)
+      await mkdir(dirname(dst), { recursive: true })
+      await copyFile(full, dst)
+      copied++
+      bytes += (await stat(full)).size
+    }
+  }
+
+  await walk(DOCS)
+  console.log(`✅ 已镜像复制 ${copied} 个附件到 dist（共 ${humanSize(bytes)}），主题页相对链接可用。`)
 }
 
 async function main() {
