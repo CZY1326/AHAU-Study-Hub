@@ -1,0 +1,22 @@
+{
+  "name": "ahau-study-hub",
+  "version": "0.1.0",
+  "private": true,
+  "description": "安徽农业大学 (AHAU) 本科四年课程资料、真题与避坑指南 —— 在线知识库",
+  "type": "module",
+  "scripts": {
+    "docs:dev": "vitepress dev docs",
+    "docs:build": "vitepress build docs",
+    "docs:preview": "vitepress preview docs",
+    "tree": "node scripts/gen-tree.mjs",
+    "checklinks": "node scripts/check-links.mjs",
+    "scaffold": "node scripts/scaffold.mjs"
+  },
+  "devDependencies": {
+    "vitepress": "^1.6.4"
+  },
+  "packageManager": "pnpm@11.28.5",
+  "engines": {
+    "node": ">=18"
+  }
+}

@@ -1,0 +1,99 @@
+/* ------------------------------------------------------------------ *
+ * AHAU Study Hub — 主题增强
+ * 目标：配色沉稳有「高级感」，中文排版更透气，卡片更像正经知识库。
+ * ------------------------------------------------------------------ */
+
+:root {
+  --vp-c-brand-1: #2f7d4f;
+  --vp-c-brand-2: #3d9a62;
+  --vp-c-brand-3: #45ab6d;
+  --vp-c-brand-soft: rgba(47, 125, 79, 0.14);
+
+  --vp-home-hero-name-color: transparent;
+  --vp-home-hero-name-background: linear-gradient(120deg, #2f7d4f 30%, #6cc48f);
+
+  --vp-home-hero-image-background-image: linear-gradient(-45deg, #45ab6d 50%, #a8e6c0 50%);
+  --vp-home-hero-image-filter: blur(44px);
+
+  --vp-font-family-base: 'Inter var', 'PingFang SC', 'Hiragino Sans GB',
+    'Microsoft YaHei', 'Source Han Sans SC', 'Noto Sans CJK SC', sans-serif;
+  --vp-font-family-mono: 'JetBrains Mono', 'Cascadia Code', 'Fira Code',
+    'SFMono-Regular', Consolas, monospace;
+}
+
+.dark {
+  --vp-c-brand-1: #6cc48f;
+  --vp-c-brand-2: #58b37e;
+  --vp-c-brand-3: #45ab6d;
+  --vp-c-brand-soft: rgba(108, 196, 143, 0.16);
+}
+
+/* 正文行高与段落间距稍微放松，长文更好读 */
+.vp-doc {
+  line-height: 1.78;
+}
+
+.vp-doc h1 {
+  letter-spacing: -0.01em;
+}
+
+.vp-doc h2 {
+  margin-top: 2.6rem;
+  padding-top: 1.4rem;
+  border-top: 1px solid var(--vp-c-divider);
+}
+
+/* 表格：更像知识库文档而不是默认样式 */
+.vp-doc table {
+  display: table;
+  width: 100%;
+  border-collapse: collapse;
+  margin: 1.2rem 0;
+  font-size: 0.94rem;
+}
+
+.vp-doc tr:nth-child(2n) {
+  background: var(--vp-c-bg-soft);
+}
+
+.vp-doc th {
+  background: var(--vp-c-brand-soft);
+  font-weight: 600;
+  white-space: nowrap;
+}
+
+.vp-doc th,
+.vp-doc td {
+  border: 1px solid var(--vp-c-divider);
+  padding: 0.6rem 0.9rem;
+}
+
+/* 引用块：用来放「教师 / 学分 / 考核方式」那一行元信息 */
+.vp-doc blockquote {
+  border-left: 3px solid var(--vp-c-brand-1);
+  background: var(--vp-c-bg-soft);
+  border-radius: 0 8px 8px 0;
+  padding: 0.7rem 1.1rem;
+  color: var(--vp-c-text-2);
+}
+
+/* 首屏 hero 的标语稍微收窄，读起来更稳 */
+.VPHero .tagline {
+  max-width: 34rem;
+  line-height: 1.7;
+}
+
+/* 首页 features 卡片轻微上浮 */
+.VPFeature {
+  transition: transform 0.18s ease, box-shadow 0.18s ease;
+}
+
+.VPFeature:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 10px 26px rgba(0, 0, 0, 0.08);
+}
+
+/* 侧边栏分组标题加一点层次 */
+.VPSidebarItem.level-0 > .item > .text {
+  font-weight: 700;
+}

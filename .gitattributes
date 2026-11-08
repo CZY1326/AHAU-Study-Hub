@@ -1,0 +1,22 @@
+# 统一换行符，避免 Windows 提交时产生 CRLF 噪音
+* text=auto eol=lf
+
+# 二进制 / 大文件不做换行转换
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.ico binary
+*.pdf binary
+*.zip binary
+*.7z binary
+*.rar binary
+*.mp4 binary
+*.pptx binary
+*.docx binary
+*.xlsx binary
+
+# 资源文件按二进制处理，防止 git 误判
+*.ppt binary
+*.doc binary
+*.xls binary

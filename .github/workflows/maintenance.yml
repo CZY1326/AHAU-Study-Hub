@@ -1,0 +1,95 @@
+name: Scheduled maintenance
+
+on:
+  schedule:
+    # 每天 UTC 02:00（北京时间 10:00）检查死链与目录树
+    - cron: '0 2 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  issues: write
+
+jobs:
+  link-check:
+    name: 死链巡检
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: pnpm/action-setup@v4
+        with:
+          version: 9
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: pnpm
+
+      - run: pnpm install --frozen-lockfile
+
+      - name: Check external links
+        id: links
+        continue-on-error: true
+        run: pnpm checklinks --fail
+
+      - name: Open issue when dead links found
+        if: steps.links.outcome == 'failure'
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const title = `🔗 死链巡检发现失效链接 (${new Date().toISOString().slice(0, 10)})`
+            const body = [
+              '定时任务在文档中发现失效的外链，请修复后关闭本 issue。',
+              '',
+              '本地复现：`pnpm checklinks`',
+              '',
+              '> 网盘类链接无法机器判定，已自动放行，不在此列。',
+            ].join('\n')
+            const existing = await github.rest.issues.listForRepo({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              state: 'open',
+              labels: 'dead-link',
+            })
+            if (existing.data.length === 0) {
+              await github.rest.issues.create({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                title,
+                body,
+                labels: ['dead-link', 'maintenance'],
+              })
+            }
+
+  update-tree:
+    name: 刷新目录树
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: pnpm/action-setup@v4
+        with:
+          version: 9
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: pnpm
+
+      - run: pnpm install --frozen-lockfile
+
+      - name: Regenerate directory tree in README
+        run: pnpm tree
+
+      - name: Commit if changed
+        run: |
+          if [[ -n "$(git status --porcelain README.md)" ]]; then
+            git config user.name  "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git add README.md
+            git commit -m "chore: 自动刷新目录树 [skip ci]"
+            git push
+          else
+            echo "目录树无变化，跳过提交。"
+          fi
