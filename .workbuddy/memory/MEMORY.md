@@ -60,8 +60,20 @@ docs/
 
 **不能用 Markdown 链接语法。** VitePress 会把 Markdown 链接当站内路由解析并做死链检查，
 `.md` 类型的资料（如复习笔记）会被误判为死链，**导致整个站点构建失败**。
+实测 `.docx` 的 Markdown 链接也会被死链检查拦截（`.pdf`/`.mp4`/`.zip` 不会，但统一用 `<a>` 最安全）。
 
 脚本里生成的是：`<a href="..." target="_blank">在线查看</a>` 或 `<a href="..." download>下载</a>`
+
+### 1.5 附件镜像复制（gen-courses --copy 内置）
+
+`--copy` 现在做两件事：① 课程三个资料目录 → `dist/资料/`；② **镜像复制** docs 下所有
+非 md 文件原路径进 dist（排除 .vitepress/public/点开头文件）。因此**任何页面**（含 00~03
+主题页）正文里用相对路径链接附件都能在线上打开。
+
+内容填充约定：
+- 图片：`![描述](./相对路径)` —— VitePress 资源管道自动打包
+- 视频观看：`<video controls src="./xx.mp4">` —— 同样走资源管道
+- 文件下载：`<a href="./相对路径" download>` —— 走镜像复制
 
 ### 2. 原生 `<a href>` 不会自动拼 base
 
