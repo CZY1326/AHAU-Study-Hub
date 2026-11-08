@@ -17,20 +17,16 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - uses: pnpm/action-setup@v4
-        # 版本从 package.json 的 packageManager 字段读取
-
       - uses: actions/setup-node@v4
         with:
           node-version: 20
-          cache: pnpm
 
-      - run: pnpm install --frozen-lockfile
+      - run: npm ci
 
       - name: Check external links
         id: links
         continue-on-error: true
-        run: pnpm checklinks --fail
+        run: npm run checklinks -- --fail
 
       - name: Open issue when dead links found
         if: steps.links.outcome == 'failure'
@@ -41,7 +37,7 @@ jobs:
             const body = [
               '定时任务在文档中发现失效的外链，请修复后关闭本 issue。',
               '',
-              '本地复现：`pnpm checklinks`',
+              '本地复现：`npm run checklinks`',
               '',
               '> 网盘类链接无法机器判定，已自动放行，不在此列。',
             ].join('\n')
@@ -67,18 +63,14 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - uses: pnpm/action-setup@v4
-        # 版本从 package.json 的 packageManager 字段读取
-
       - uses: actions/setup-node@v4
         with:
           node-version: 20
-          cache: pnpm
 
-      - run: pnpm install --frozen-lockfile
+      - run: npm ci
 
       - name: Regenerate directory tree in README
-        run: pnpm tree
+        run: npm run tree
 
       - name: Commit if changed
         run: |

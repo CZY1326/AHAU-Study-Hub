@@ -25,38 +25,23 @@ jobs:
         with:
           fetch-depth: 0 # lastUpdated 需要完整历史
 
-      - name: Setup pnpm
-        uses: pnpm/action-setup@v4
-        with:
-          version: 11.28.9 # 显式指定，避免依赖 packageManager 解析
-          run_install: false
-
+      # 项目只有一个依赖（vitepress），直接用 Node 自带的 npm，
+      # 避免 pnpm/corepack 在 CI 上互相干扰导致的安装故障。
       - name: Setup Node
         uses: actions/setup-node@v4
         with:
           node-version: 20
 
-      # Node 20 默认启用 corepack，它会依据 packageManager 字段自行下载 pnpm，
-      # 与上面 pnpm/action-setup 安装的 pnpm 冲突（曾导致 install 步骤秒挂）。
-      # 这里显式关闭 corepack，统一使用 action-setup 提供的 pnpm。
-      - name: Disable corepack
-        run: corepack disable || true
-
       - name: Diagnose toolchain
+        continue-on-error: true
         run: |
-          echo "== node =="
-          node -v
-          echo "== which pnpm =="
-          which pnpm || true
-          echo "== pnpm version =="
-          pnpm -v
-          echo "== lockfile head =="
-          head -5 pnpm-lock.yaml
-          echo "== files present =="
-          ls -la package.json pnpm-lock.yaml pnpm-workspace.yaml
+          echo "== node =="; node -v
+          echo "== npm =="; npm -v
+          echo "== which npm =="; which npm
+          echo "== lockfile =="; head -5 package-lock.json
 
       - name: Install dependencies
-        run: pnpm install --frozen-lockfile --reporter=append-only
+        run: npm ci
 
       # 部署前需要 Pages 的站点信息（basePath / page_url 等环境变量）
       - name: Setup Pages
@@ -64,15 +49,15 @@ jobs:
 
       # 根据课程目录里的真实文件，刷新每门课的资料清单
       - name: Generate course file lists
-        run: pnpm files
+        run: npm run files
 
       - name: Build site
-        run: pnpm docs:build
+        run: npm run docs:build
 
       # VitePress 只发布 public/ 下的静态资源，
       # 课程目录里的 PDF / PPT 需要显式复制进构建产物，否则下载链接会 404
       - name: Copy course assets into dist
-        run: pnpm files:copy
+        run: npm run files:copy
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
