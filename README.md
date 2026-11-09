@@ -564,7 +564,7 @@ docs/
 
 ---
 
-## 📄 License
+## License
 
 由贡献者编写的内容采用 [CC-BY-NC-SA 4.0：署名-非商业性使用-相同方式共享](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh) 许可（详见 [LICENSE](./LICENSE)）。
 
