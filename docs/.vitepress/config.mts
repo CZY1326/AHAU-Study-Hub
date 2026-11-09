@@ -132,7 +132,7 @@ export default defineConfig({
 
     footer: {
       message: '资料仅供学习交流 · 版权归原作者及安徽农业大学所有',
-      copyright: 'Copyright © 2026 AHAU Study Hub Contributors · MIT Licensed',
+      copyright: 'Copyright © 2026 AHAU Study Hub Contributors · CC BY-NC-SA 4.0',
     },
   },
 })
