@@ -4,7 +4,7 @@
 > 因为淋过雨，所以想为学弟学妹撑把伞。🌂
 
 [![Deploy](https://github.com/CZY1326/AHAU-Study-Hub/actions/workflows/deploy.yml/badge.svg)](https://github.com/CZY1326/AHAU-Study-Hub/actions/workflows/deploy.yml)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](./LICENSE)
+[![License: CC BY-NC-SA 4.0](https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)
 [![Made with VitePress](https://img.shields.io/badge/docs-VitePress-2f7d4f.svg)](https://vitepress.dev/)
 
 ---
@@ -612,4 +612,6 @@ npm run checksize     # 校验 docs/ 下单文件不超过 50 MB（CI 强制）
 
 ## 📄 License
 
-[MIT](./LICENSE) © 2026 AHAU Study Hub Contributors
+由贡献者编写的内容采用 [CC-BY-NC-SA 4.0：署名-非商业性使用-相同方式共享](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh) 许可（详见 [LICENSE](./LICENSE)）。
+
+> 资料仅供参考，请自己判断其适用性。课件、试卷等资料文件的版权归属于其各自的作者。
