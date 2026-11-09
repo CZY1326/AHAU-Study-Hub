@@ -139,6 +139,7 @@ const SEMESTER_COURSES = {
     ['毕业实习与毕业论文（设计）', '实习课'],
   ],
   '12-选修和通识课': [
+    // —— 校本公选课（全校开放的公选与通识课）——
     ['校本公选课/太极拳', '体育'],
     ['校本公选课/黄梅戏', '美育选修'],
     ['校本公选课/一片神奇的叶子', '选修'],
@@ -150,6 +151,51 @@ const SEMESTER_COURSES = {
     ['校本公选课/中西方文化比较', '选修'],
     ['校本公选课/人工智能通识课程', '通识课'],
     ['校本公选课/黄帝内经', '选修'],
+    ['校本公选课/大学语文', '公共课'],
+    ['校本公选课/线性代数', '公共课'],
+    ['校本公选课/概率论与数理统计', '公共课'],
+    ['校本公选课/园艺插花艺术', '美育选修'],
+    // —— 园艺专业选修课（专业选修、基础课与实验/实习）——
+    ['园艺专业选修课/分析化学', '基础课'],
+    ['园艺专业选修课/基础化学实验(B)', '实验课'],
+    ['园艺专业选修课/生物化学', '专业基础'],
+    ['园艺专业选修课/普通微生物学', '专业基础'],
+    ['园艺专业选修课/普通微生物学Ⅱ实验', '实验课'],
+    ['园艺专业选修课/土壤学实验', '实验课'],
+    ['园艺专业选修课/测量学', '专业课'],
+    ['园艺专业选修课/测量学实习', '实习课'],
+    ['园艺专业选修课/园艺植物育种学实验', '实验课'],
+    ['园艺专业选修课/园艺植物栽培学实验', '实验课'],
+    ['园艺专业选修课/农业生态学', '专业课'],
+    ['园艺专业选修课/农业生态学实验', '实验课'],
+    ['园艺专业选修课/植物营养学', '专业课'],
+    ['园艺专业选修课/植物营养学实验', '实验课'],
+    ['园艺专业选修课/园艺植物栽培学各论', '专业课'],
+    ['园艺专业选修课/食用菌栽培学', '专业课'],
+    ['园艺专业选修课/园艺病虫害防治各论', '专业课'],
+    ['园艺专业选修课/园艺学研究进展', '专业课'],
+    ['园艺专业选修课/设施园艺学实验', '实验课'],
+    ['园艺专业选修课/现代农业政策与法规', '专业课'],
+    ['园艺专业选修课/植保无人机与施药技术', '选修'],
+    ['园艺专业选修课/园艺研究法', '专业课'],
+    ['园艺专业选修课/农业推广学', '专业课'],
+    // —— 其他课程（课外资料、工具平台、事务指南等非课程页面）——
+    ['其他课程/国际歌', '兴趣资料'],
+    ['其他课程/安徽省农技推广人员定向培养', '政策资讯'],
+    ['其他课程/圆形花束教程', '技能教程'],
+    ['其他课程/查理九世', '兴趣阅读'],
+    ['其他课程/新生团员关系转接', '事务指南'],
+    ['其他课程/英语四级', '竞赛考证'],
+    ['其他课程/录取结果查询', '新生事务'],
+    ['其他课程/录取通知书班级寝室查询', '新生事务'],
+    ['其他课程/大一是否需要购买电脑', '生活建议'],
+    ['其他课程/方格音乐', '资源推荐'],
+    ['其他课程/六爻', '兴趣资料'],
+    ['其他课程/赤脚医生手册', '兴趣资料'],
+    ['其他课程/实验空间', '平台工具'],
+    ['其他课程/中国知网', '平台工具'],
+    ['其他课程/体测评分量表', '事务指南'],
+    ['其他课程/TBtools与MEGA', '软件工具'],
   ],
 }
 
@@ -357,6 +403,34 @@ function topicIndex(topicTitle, moduleTitle) {
 }
 
 /**
+ * 「其他课程」页模板：非正式课程（工具平台 / 事务指南 / 兴趣资料等），
+ * 保留资料清单区间以便上传附件，但去掉课程元信息行。
+ */
+function infoIndex(pageName, groupName) {
+  return `# ${pageName}
+
+> **所属分组**：${groupName} ｜ **类别**：待补充
+
+## 资料清单
+
+> 本节由 \`npm run files\` 自动生成 —— 把文件放进 \`课件/\`、\`试卷与答案/\`、\`复习资料/\` 三个目录，清单会自动更新。
+> 请勿手动编辑标记区间内的内容。
+
+<!-- FILES:START -->
+::: info 资料还在路上
+本页暂未上传附件。
+:::
+<!-- FILES:END -->
+
+## 内容介绍
+
+::: tip 待补充
+欢迎补充本页的介绍与使用说明，可点页面底部「在 GitHub 上编辑此页」直接完善。
+:::
+`
+}
+
+/**
  * 把模块的主题清单表注入模块 index.md 的 TOPICS 标记区间。
  * 没有标记区间时，自动在文末追加整段（含标记），保证幂等。
  */
@@ -398,21 +472,28 @@ async function main() {
 
     if (await emit(join(modDir, 'index.md'), content)) written.push(`${mod.dir}/index.md`)
 
-    // 学期模块：为每门课建目录 + 三个资料子目录 + 课程 index.md
+    // 学期模块：为每门课建目录 + 三个资料子目录 + 课程 index.md。
+    // 课程名支持「分组/课程」两层写法（如 校本公选课/太极拳）；
+    // 「其他课程」分组为非正式课程页面，使用轻量 infoIndex 模板。
     if (courses) {
-      for (const [cn] of courses) {
-        const courseDir = join(modDir, cn)
+      for (const [rawName] of courses) {
+        const parts = rawName.split('/')
+        const groupName = parts.length > 1 ? parts[0] : null
+        const courseName = parts[parts.length - 1]
+        const isInfo = groupName === '其他课程'
+        const courseDir = join(modDir, ...parts)
         await ensureDir(courseDir)
         for (const sub of COURSE_SUBDIRS) {
           await ensureDir(join(courseDir, sub))
           const keep = join(courseDir, sub, '.gitkeep')
           if (!(await exists(keep))) {
             await writeFile(keep, '', 'utf8')
-            written.push(`${mod.dir}/${cn}/${sub}/.gitkeep`)
+            written.push(`${mod.dir}/${rawName}/${sub}/.gitkeep`)
           }
         }
-        if (await emit(join(courseDir, 'index.md'), courseIndex(cn, mod.title))) {
-          written.push(`${mod.dir}/${cn}/index.md`)
+        const tpl = isInfo ? infoIndex(courseName, groupName) : courseIndex(courseName, mod.title)
+        if (await emit(join(courseDir, 'index.md'), tpl)) {
+          written.push(`${mod.dir}/${rawName}/index.md`)
         }
       }
     }

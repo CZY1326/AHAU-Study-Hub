@@ -253,15 +253,16 @@ async function findCoursePages() {
       if (!c.isDirectory()) continue
       const sub = join(semDir, c.name)
       const idx = join(sub, 'index.md')
+      // 目录自身有 index.md 则登记为课程页；
+      // 同时继续向下找一层「分组/课程」——分组目录也可能带自己的 index.md 总览页，
+      // 不能因为分组页存在就跳过其下的课程（如 12-选修和通识课/校本公选课）。
       if (await exists(idx)) {
         pages.push({
           file: idx,
           courseRel: `${sem.name}/${c.name}`,
           courseDir: sub,
         })
-        continue
       }
-      // 没有自己的 index.md，则当作「分组目录」，继续向下找一层课程
       const grouped = await readdir(sub, { withFileTypes: true })
       for (const g of grouped) {
         if (!g.isDirectory()) continue

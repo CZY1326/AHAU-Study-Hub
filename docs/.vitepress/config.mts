@@ -8,8 +8,9 @@ const DOCS = dirname(fileURLToPath(import.meta.url))
 /**
  * 侧边栏自动生成：扫描 docs/ 下的一级模块目录，
  * 每个模块若含 index.md 则作为分组入口，其子目录（课程）各自成为条目。
- * 支持一层「分组/课程」嵌套（如 12-选修和通识课/校本公选课/太极拳）：
- * 分组目录自身没有 index.md，但其子目录有课程页时，渲染为可折叠的子分组。
+ * 支持「分组/课程」两层嵌套（如 12-选修和通识课/校本公选课/太极拳）：
+ * 分组目录无论是否带 index.md 总览页，只要其下有课程页就渲染为可折叠子分组，
+ * 带 index.md 的分组会在组内第一条挂「分组总览」链接。
  * 这样新增课程后不需要手动改配置。
  */
 function buildSidebar() {
@@ -18,27 +19,35 @@ function buildSidebar() {
     .filter((name) => statSync(join(DOCS, name)).isDirectory())
     .sort()
 
+  /** 目录下是否存在「子目录/子目录/index.md」结构（即是否为分组目录） */
+  const hasCourseChildren = (dir) =>
+    readdirSync(dir).some((name) => {
+      const p = join(dir, name)
+      return statSync(p).isDirectory() && existsSync(join(p, 'index.md'))
+    })
+
+  /** 课程条目：带 index.md 且自身不是分组目录 */
   const courseEntries = (dir, prefix) =>
     readdirSync(dir)
       .filter((name) => statSync(join(dir, name)).isDirectory())
       .filter((name) => existsSync(join(dir, name, 'index.md')))
+      .filter((name) => !hasCourseChildren(join(dir, name)))
       .sort()
       .map((c) => ({ text: c, link: `/${prefix}/${c}/` }))
 
+  /** 分组：其下存在课程页的子目录；带 index.md 时组内首条为「分组总览」 */
   const nestedGroups = (dir, prefix) =>
     readdirSync(dir)
       .filter((name) => statSync(join(dir, name)).isDirectory())
-      .filter(
-        (name) =>
-          !existsSync(join(dir, name, 'index.md')) &&
-          courseEntries(join(dir, name), `${prefix}/${name}`).length > 0,
-      )
+      .filter((name) => hasCourseChildren(join(dir, name)))
       .sort()
-      .map((g) => ({
-        text: g,
-        collapsed: false,
-        items: courseEntries(join(dir, g), `${prefix}/${g}`),
-      }))
+      .map((g) => {
+        const items = courseEntries(join(dir, g), `${prefix}/${g}`)
+        if (existsSync(join(dir, g, 'index.md'))) {
+          items.unshift({ text: '分组总览', link: `/${prefix}/${g}/` })
+        }
+        return { text: g, collapsed: false, items }
+      })
 
   return modules.map((mod) => {
     const modDir = join(DOCS, mod)
