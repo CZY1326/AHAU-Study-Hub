@@ -8,6 +8,8 @@ const DOCS = dirname(fileURLToPath(import.meta.url))
 /**
  * 侧边栏自动生成：扫描 docs/ 下的一级模块目录，
  * 每个模块若含 index.md 则作为分组入口，其子目录（课程）各自成为条目。
+ * 支持一层「分组/课程」嵌套（如 12-选修和通识课/校本公选课/太极拳）：
+ * 分组目录自身没有 index.md，但其子目录有课程页时，渲染为可折叠的子分组。
  * 这样新增课程后不需要手动改配置。
  */
 function buildSidebar() {
@@ -16,23 +18,36 @@ function buildSidebar() {
     .filter((name) => statSync(join(DOCS, name)).isDirectory())
     .sort()
 
+  const courseEntries = (dir, prefix) =>
+    readdirSync(dir)
+      .filter((name) => statSync(join(dir, name)).isDirectory())
+      .filter((name) => existsSync(join(dir, name, 'index.md')))
+      .sort()
+      .map((c) => ({ text: c, link: `/${prefix}/${c}/` }))
+
+  const nestedGroups = (dir, prefix) =>
+    readdirSync(dir)
+      .filter((name) => statSync(join(dir, name)).isDirectory())
+      .filter(
+        (name) =>
+          !existsSync(join(dir, name, 'index.md')) &&
+          courseEntries(join(dir, name), `${prefix}/${name}`).length > 0,
+      )
+      .sort()
+      .map((g) => ({
+        text: g,
+        collapsed: false,
+        items: courseEntries(join(dir, g), `${prefix}/${g}`),
+      }))
+
   return modules.map((mod) => {
     const modDir = join(DOCS, mod)
-    const children = readdirSync(modDir)
-      .filter((name) => statSync(join(modDir, name)).isDirectory())
-      .filter((name) => existsSync(join(modDir, name, 'index.md')))
-      .sort()
-
+    const groupLabel = /^0[4-9]-|^1[0-2]-/.test(mod) ? '课程' : '主题'
     const items = [{ text: '本模块总览', link: `/${mod}/` }]
 
-    if (children.length) {
-      // 04~12 是课程模块（含选修通识），00~03 是文章主题模块
-      const groupLabel = /^0[4-9]-|^1[0-2]-/.test(mod) ? '课程' : '主题'
-      items.push({
-        text: groupLabel,
-        collapsed: false,
-        items: children.map((c) => ({ text: c, link: `/${mod}/${c}/` })),
-      })
+    const entries = [...courseEntries(modDir, mod), ...nestedGroups(modDir, mod)]
+    if (entries.length) {
+      items.push({ text: groupLabel, collapsed: false, items: entries })
     }
 
     return { text: mod, collapsed: false, items }

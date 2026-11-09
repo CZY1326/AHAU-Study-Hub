@@ -235,7 +235,10 @@ function replaceBlock(md, content) {
  * 主流程
  * ------------------------------------------------------------------ */
 
-/** 找出所有课程页：深度为 2 的 index.md（docs/<学期>/<课程>/index.md） */
+/**
+ * 找出所有课程页：docs/<学期>/<课程>/index.md，
+ * 以及带分组的选修课 docs/12-选修和通识课/<分组>/<课程>/index.md（深度 3）。
+ */
 async function findCoursePages() {
   const pages = []
   const semesters = await readdir(DOCS, { withFileTypes: true })
@@ -244,17 +247,32 @@ async function findCoursePages() {
     if (!sem.isDirectory()) continue
     if (!/^\d{2}-/.test(sem.name)) continue
     const semDir = join(DOCS, sem.name)
-    const courses = await readdir(semDir, { withFileTypes: true })
+    const entries = await readdir(semDir, { withFileTypes: true })
 
-    for (const c of courses) {
+    for (const c of entries) {
       if (!c.isDirectory()) continue
-      const idx = join(semDir, c.name, 'index.md')
+      const sub = join(semDir, c.name)
+      const idx = join(sub, 'index.md')
       if (await exists(idx)) {
         pages.push({
           file: idx,
           courseRel: `${sem.name}/${c.name}`,
-          courseDir: join(semDir, c.name),
+          courseDir: sub,
         })
+        continue
+      }
+      // 没有自己的 index.md，则当作「分组目录」，继续向下找一层课程
+      const grouped = await readdir(sub, { withFileTypes: true })
+      for (const g of grouped) {
+        if (!g.isDirectory()) continue
+        const gidx = join(sub, g.name, 'index.md')
+        if (await exists(gidx)) {
+          pages.push({
+            file: gidx,
+            courseRel: `${sem.name}/${c.name}/${g.name}`,
+            courseDir: join(sub, g.name),
+          })
+        }
       }
     }
   }
