@@ -4,7 +4,7 @@ layout: home
 hero:
   name: 安农学习时光
   text: AHAU Study Hub
-  tagline: 整合大学四年的课程资料、真题、复习攻略与生活指南。因为淋过雨，所以想为学弟学妹撑把伞。🌂
+  tagline: 安徽农业大学课程攻略共享计划 · 整合本科四年的课程资料、真题、复习攻略与生活指南。
   image:
     src: /logo.svg
     alt: AHAU Study Hub

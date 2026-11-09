@@ -1,7 +1,6 @@
 # 🎓 安农学习时光 (AHAU Study Hub)
 
-> 💡 整合安徽农业大学本科四年的课程资料、期末真题、复习攻略与生活指南。
-> 因为淋过雨，所以想为学弟学妹撑把伞。🌂
+> 安徽农业大学课程攻略共享计划 · 整合本科四年的课程资料、期末真题、复习攻略与生活指南。
 
 [![Deploy](https://github.com/CZY1326/AHAU-Study-Hub/actions/workflows/deploy.yml/badge.svg)](https://github.com/CZY1326/AHAU-Study-Hub/actions/workflows/deploy.yml)
 [![License: CC BY-NC-SA 4.0](https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)
