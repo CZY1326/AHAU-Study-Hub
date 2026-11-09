@@ -75,10 +75,11 @@ export default defineConfig({
       {
         text: '快速开始',
         items: [
-          { text: '🚀 前言与基础概要', link: '/00-前言与基础概要/' },
-          { text: '🏫 新生入学专栏', link: '/01-新生入学专栏/' },
-          { text: '🎒 大学生活专栏', link: '/02-大学生活专栏/' },
-          { text: '🧠 学业相关问题', link: '/03-学业相关问题/' },
+          { text: '前言与基础概要', link: '/00-前言与基础概要/' },
+          { text: '新生入学专栏', link: '/01-新生入学专栏/' },
+          { text: '大学生活专栏', link: '/02-大学生活专栏/' },
+          { text: '学业相关问题', link: '/03-学业相关问题/' },
+          { text: '仓库指南', link: '/14-仓库指南/' },
         ],
       },
       {
@@ -96,7 +97,6 @@ export default defineConfig({
       },
       { text: '选修通识', link: '/12-选修和通识课/' },
       { text: '链接库', link: '/13-资料链接库/' },
-      { text: '仓库指南', link: '/14-仓库指南/' },
     ],
 
     sidebar: buildSidebar(),
