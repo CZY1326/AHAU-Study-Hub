@@ -201,12 +201,12 @@ function renderSections(courseRelPath, sections) {
           ? 'target="_blank" rel="noopener"'
           : 'download'
         const action = previewable ? '在线查看' : '下载'
-        return `| ${f.type.icon} ${f.name} | ${f.type.label} | ${humanSize(f.size)} | <a href="${sitePath}" ${attrs}>${action}</a> |`
+        return `| ${f.name} | ${f.type.label} | ${humanSize(f.size)} | <a href="${sitePath}" ${attrs}>${action}</a> |`
       })
       .join('\n')
 
     blocks.push(
-      `### ${sec.icon} ${sec.label}（${sec.files.length}）\n\n` +
+      `### ${sec.label}（${sec.files.length}）\n\n` +
         `| 文件 | 类型 | 大小 | 操作 |\n` +
         `| :--- | :---: | ---: | :--- |\n` +
         rows,

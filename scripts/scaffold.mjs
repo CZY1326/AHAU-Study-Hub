@@ -266,7 +266,7 @@ const written = []
  * ------------------------------------------------------------------ */
 
 function moduleIndex(mod) {
-  return `# ${mod.icon} ${mod.title}
+  return `# ${mod.title}
 
 > ${mod.blurb}
 
@@ -275,36 +275,36 @@ function moduleIndex(mod) {
 VitePress 侧边栏会自动从目录结构生成，无需手动维护导航。
 :::
 
-## 📂 本模块内容
+## 本模块内容
 
-- 📄 见左侧侧边栏。
+- 见左侧侧边栏。
 `
 }
 
 function semesterIndex(mod, courses) {
   const rows = courses
-    .map(([cn, type]) => `| [${cn}](./${cn}/) | ${type} | ⬜ 待补充 |`)
+    .map(([cn, type]) => `| [${cn}](./${cn}/) | ${type} | 待补充 |`)
     .join('\n')
 
   const anchors = courses
     .map(([cn]) => `- [${cn}](./${cn}/)`)
     .join('\n')
 
-  return `# ${mod.icon} ${mod.title}
+  return `# ${mod.title}
 
 > ${mod.blurb}
 
-## 📚 课程一览
+## 课程一览
 
 | 课程 | 类型 | 资料状态 |
 | :--- | :---: | :---: |
 ${rows}
 
-## 🔗 快速跳转
+## 快速跳转
 
 ${anchors}
 
-## 💡 学期总攻略
+## 学期总攻略
 
 ::: warning 待补充
 把这一学期的共性经验写在这里（选课顺序、考试周安排、哪些课是「纸老虎」、哪些课必须提前预习）。
@@ -317,7 +317,7 @@ function courseIndex(courseName, semesterTitle) {
 
 > **开课学期**：${semesterTitle} ｜ **授课教师**：待补充 ｜ **学分**：待补充 ｜ **考核方式**：待补充
 
-## 📚 资料清单
+## 资料清单
 
 > 本节由 \`npm run files\` 自动生成 —— 把文件放进 \`课件/\`、\`试卷与答案/\`、\`复习资料/\` 三个目录，清单会自动更新。
 > 请勿手动编辑标记区间内的内容。
@@ -328,7 +328,7 @@ function courseIndex(courseName, semesterTitle) {
 :::
 <!-- FILES:END -->
 
-## 💡 避坑指南与复习攻略
+## 避坑指南与复习攻略
 
 ::: tip 待补充
 1. **平时分**：占比多少？作业/考勤/课堂表现如何计分。
@@ -336,7 +336,7 @@ function courseIndex(courseName, semesterTitle) {
 3. **冲刺**：考前怎么突击最有效，推荐刷哪些题。
 :::
 
-## ⚠️ 免责声明
+## 免责声明
 
 本目录资料仅用于学习交流，请勿用于任何商业用途；版权归原作者及安徽农业大学所有。
 `
@@ -364,7 +364,7 @@ async function injectTopicsTable(indexFile, moduleTitle, topics) {
   const rows = topics
     .map(([dir, title]) => `| [${title}](./${dir}/) |`)
     .join('\n')
-  const table = `## 📑 本模块主题\n\n| 主题 |\n| :--- |\n${rows}\n`
+  const table = `## 本模块主题\n\n| 主题 |\n| :--- |\n${rows}\n`
   const block = `${TOPICS_START}\n${table}${TOPICS_END}`
 
   let md = ''
