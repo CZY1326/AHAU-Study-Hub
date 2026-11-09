@@ -10,46 +10,52 @@ hero:
     alt: AHAU Study Hub
   actions:
     - theme: brand
-      text: 🚀 开始浏览
+      text: 开始浏览
       link: /00-前言与基础概要/
     - theme: alt
-      text: 🏫 新生先看这里
+      text: 新生先看这里
       link: /01-新生入学专栏/
     - theme: alt
       text: GitHub 仓库
       link: https://github.com/CZY1326/AHAU-Study-Hub
 
 features:
-  - icon: 📖
-    title: 园艺学院培养方案
-    details: 以园艺学院本科人才培养方案为蓝本，从大一上到大四下逐学期整理，公共课与专业课一网打尽，找资料像查课表一样直觉。
-  - icon: 📝
-    title: 文档比文件更值钱
-    details: 每门课都配一份 README：资料清单、平时分构成、期末难度、考前突击路线，一次说清。
-  - icon: 🎯
-    title: 真题与复习提纲
-    details: 期末真题、模拟卷、课堂重点、老师划的范围，集中归档，考前不用再四处私聊求资料。
-  - icon: 🧠
+  - icon: |
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"/><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/></svg>
+    title: 培养方案蓝本
+    details: 按学期整理四年课程，公共课与专业课全覆盖，找资料像查课表一样直觉。
+  - icon: |
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/></svg>
+    title: 课程文档
+    details: 每门课一页说清资料清单、考核构成与复习路线，比一堆散文件更值钱。
+  - icon: |
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><circle cx="12" cy="12" r="6"/><circle cx="12" cy="12" r="2"/></svg>
+    title: 真题与提纲
+    details: 期末真题、模拟卷与老师划过的重点集中归档，考前不必再四处私聊求资料。
+  - icon: |
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/><polyline points="9 11.5 11.5 14 15.5 9.5"/></svg>
     title: 避坑指南
-    details: 哪些课是纸老虎、哪些课必须提前预习、选修课给分口碑，都写成可执行的建议而不是空话。
-  - icon: 🔗
+    details: 哪些课是纸老虎、哪些课要提前预习、选修课给分口碑，只写可执行的建议。
+  - icon: |
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"/><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"/></svg>
     title: 大文件外链
-    details: 超过 50MB 的扫描件与视频不进仓库，统一收进资料链接库，仓库不爆炸、克隆不痛苦。
-  - icon: 🤝
+    details: 超过 50MB 的扫描件与视频统一收进资料链接库，仓库轻、克隆快。
+  - icon: |
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
     title: 欢迎共建
-    details: 缺哪门课的资料？写好了新的避坑笔记？直接提 Pull Request，让下一届少走一点弯路。
+    details: 缺资料、有新笔记？直接提 Pull Request，让下一届少走一点弯路。
 ---
 
-## 🌟 新生攻略
+## 新生攻略
 
 | 模块 | 说明 |
 | :--- | :--- |
-| [🚀 前言与基础概要](/00-前言与基础概要/) | 项目缘起、使用说明、更新日志 |
-| [🏫 新生入学专栏](/01-新生入学专栏/) | 报到、宿舍、军训、必备清单 |
-| [🎒 大学生活专栏](/02-大学生活专栏/) | 食堂、社团、奖助学金、转专业 |
-| [🧠 学业相关问题](/03-学业相关问题/) | 选课、绩点、保研考研答疑 |
+| [前言与基础概要](/00-前言与基础概要/) | 项目缘起、使用说明、更新日志 |
+| [新生入学专栏](/01-新生入学专栏/) | 报到、宿舍、军训、必备清单 |
+| [大学生活专栏](/02-大学生活专栏/) | 食堂、社团、奖助学金、转专业 |
+| [学业相关问题](/03-学业相关问题/) | 选课、绩点、保研考研答疑 |
 
-## 📚 课程资料
+## 课程资料
 
 > 课程目录以**园艺学院本科人才培养方案**为蓝本整理；其他学院同学同样可以按图索骥，公共课与通识课部分通用。
 
@@ -66,7 +72,7 @@ features:
 | 通识 | [12-选修和通识课](/12-选修和通识课/) | 校公选避坑与给分口碑 |
 | 外链 | [13-资料链接库](/13-资料链接库/) | 大于 50MB 的网盘资源 |
 
-## 🤝 参与贡献
+## 参与贡献
 
 如果你也有安农的优质资料，欢迎提交 Pull Request —— 无论是补一份真题、修一个死链，还是加一条避坑心得，都算数。
 

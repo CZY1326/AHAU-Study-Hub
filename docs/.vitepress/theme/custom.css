@@ -93,6 +93,22 @@
   box-shadow: 0 10px 26px rgba(0, 0, 0, 0.08);
 }
 
+/* features 图标：品牌绿线性 SVG，配浅绿圆角底 */
+.VPFeature .icon {
+  color: var(--vp-c-brand-1);
+  background: var(--vp-c-brand-soft);
+  border-radius: 12px;
+}
+
+.VPFeature .icon svg {
+  width: 28px;
+  height: 28px;
+}
+
+.dark .VPFeature .icon {
+  color: var(--vp-c-brand-1);
+}
+
 /* 侧边栏分组标题加一点层次 */
 .VPSidebarItem.level-0 > .item > .text {
   font-weight: 700;
