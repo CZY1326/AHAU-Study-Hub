@@ -42,7 +42,7 @@ function buildSidebar() {
 export default defineConfig({
   lang: 'zh-CN',
   title: '安农学习时光',
-  description: '安徽农业大学 (AHAU) 本科四年课程资料、真题与避坑指南 —— 因为淋过雨，所以想为学弟学妹撑把伞。',
+  description: '安徽农业大学 (AHAU) 课程攻略共享计划 —— 以园艺学院培养方案为蓝本，整合本科四年的课程资料、期末真题、复习攻略与生活指南。',
 
   // GitHub Pages 项目站点需设置 base 为 /<repo>/
   base: '/AHAU-Study-Hub/',
