@@ -109,7 +109,6 @@ export default defineConfig({
         ],
       },
       { text: '公选课外', link: '/05-公选课外/' },
-      { text: '链接库', link: '/06-资料链接/' },
     ],
 
     sidebar: buildSidebar(),
