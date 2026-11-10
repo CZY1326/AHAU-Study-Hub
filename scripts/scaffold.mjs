@@ -382,12 +382,11 @@ ${rows}
 `
 }
 
-/** 分组页（学期 / 公选分组通用）：课程表 + 快速跳转 */
+/** 分组页（学期 / 公选分组通用）：课程表（即跳转入口，不再单列快速跳转） */
 function groupIndex(groupName, courses, isInfo) {
   const rows = courses
     .map(([cn, type]) => `| [${cn}](./${cn}/) | ${type} | 待补充 |`)
     .join('\n')
-  const anchors = courses.map(([cn]) => `- [${cn}](./${cn}/)`).join('\n')
   const label = isInfo ? '内容一览' : '课程一览'
 
   return `# ${groupName}
@@ -399,10 +398,6 @@ function groupIndex(groupName, courses, isInfo) {
 | ${isInfo ? '页面 | 类别' : '课程 | 类型 | 资料状态'} |
 | :--- | ${isInfo ? ':---: |' : ':---: | :---: |'}
 ${rows}
-
-## 快速跳转
-
-${anchors}
 `
 }
 
