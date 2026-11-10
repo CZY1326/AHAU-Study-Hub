@@ -243,7 +243,7 @@ const TOPICS = {
     ['09-特别鸣谢23级生科小靳同学', '特别鸣谢 23 级生科小靳同学'],
   ],
   '01-新生专栏': [
-    ['01-新生信息查询指南', '想查询的各种信息'],
+    ["01-~o(〃'▽')o想查询的各种信息(•̀ω•́ 」∠)", '想查询的各种信息'],
     ['02-新生必备物品清单', '新生必备物品清单'],
     ['03-寝室情况简介', '寝室情况简介'],
     ['04-学杂费标准及缴费方式', '本科新生学杂费标准及缴费方式'],
@@ -482,7 +482,11 @@ function topicIndex(topicTitle, moduleTitle) {
  */
 async function injectTopicsTable(indexFile, moduleTitle, topics) {
   const rows = topics
-    .map(([dir, title]) => `| [${title}](./${dir}/) |`)
+    .map(([dir, title]) => {
+      // 目录名含括号/空格等字符时，Markdown 链接目标必须用尖括号包裹，否则解析会断
+      const dest = /[()\s<>]/.test(dir) ? `<./${dir}/>` : `./${dir}/`
+      return `| [${title}](${dest}) |`
+    })
     .join('\n')
   const table = `## 本模块主题\n\n| 主题 |\n| :--- |\n${rows}\n`
   const block = `${TOPICS_START}\n${table}${TOPICS_END}`
