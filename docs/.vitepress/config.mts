@@ -6,12 +6,12 @@ import { fileURLToPath } from 'node:url'
 const DOCS = dirname(fileURLToPath(import.meta.url))
 
 /**
- * 侧边栏自动生成：扫描 docs/ 下的一级模块目录，
- * 每个模块若含 index.md 则作为分组入口，其子目录（课程）各自成为条目。
- * 支持「分组/课程」两层嵌套（如 12-选修和通识课/校本公选课/太极拳）：
- * 分组目录无论是否带 index.md 总览页，只要其下有课程页就渲染为可折叠子分组，
- * 带 index.md 的分组会在组内第一条挂「分组总览」链接。
- * 这样新增课程后不需要手动改配置。
+ * 侧边栏自动生成：扫描 docs/ 下的 NN- 一级模块目录，递归处理子目录。
+ * 规则：
+ *   - 子目录有 index.md 且其下没有「子目录/index.md」结构 → 叶子条目（课程/主题页）；
+ *   - 子目录下还有课程页 → 分组（可折叠），带 index.md 时组内首条挂「分组总览」；
+ * 支持任意层级嵌套（如 02-课程资料/01-大一第一学期/高等数学Ⅲ），
+ * 新增课程后不需要手动改配置。
  */
 function buildSidebar() {
   const modules = readdirSync(DOCS)
@@ -26,41 +26,30 @@ function buildSidebar() {
       return statSync(p).isDirectory() && existsSync(join(p, 'index.md'))
     })
 
-  /** 课程条目：带 index.md 且自身不是分组目录 */
-  const courseEntries = (dir, prefix) =>
-    readdirSync(dir)
-      .filter((name) => statSync(join(dir, name)).isDirectory())
-      .filter((name) => existsSync(join(dir, name, 'index.md')))
-      .filter((name) => !hasCourseChildren(join(dir, name)))
-      .sort()
-      .map((c) => ({ text: c, link: `/${prefix}/${c}/` }))
-
-  /** 分组：其下存在课程页的子目录；带 index.md 时组内首条为「分组总览」 */
-  const nestedGroups = (dir, prefix) =>
-    readdirSync(dir)
-      .filter((name) => statSync(join(dir, name)).isDirectory())
-      .filter((name) => hasCourseChildren(join(dir, name)))
-      .sort()
-      .map((g) => {
-        const items = courseEntries(join(dir, g), `${prefix}/${g}`)
-        if (existsSync(join(dir, g, 'index.md'))) {
-          items.unshift({ text: '分组总览', link: `/${prefix}/${g}/` })
+  const buildItems = (dir, prefix) => {
+    const items = []
+    for (const name of readdirSync(dir).sort()) {
+      const p = join(dir, name)
+      if (!statSync(p).isDirectory()) continue
+      const child = prefix ? `${prefix}/${name}` : name
+      if (hasCourseChildren(p)) {
+        const group = { text: name, collapsed: false, items: buildItems(p, child) }
+        if (existsSync(join(p, 'index.md'))) {
+          group.items.unshift({ text: '分组总览', link: `/${child}/` })
         }
-        return { text: g, collapsed: false, items }
-      })
-
-  return modules.map((mod) => {
-    const modDir = join(DOCS, mod)
-    const groupLabel = /^0[4-9]-|^1[0-2]-/.test(mod) ? '课程' : '主题'
-    const items = [{ text: '本模块总览', link: `/${mod}/` }]
-
-    const entries = [...courseEntries(modDir, mod), ...nestedGroups(modDir, mod)]
-    if (entries.length) {
-      items.push({ text: groupLabel, collapsed: false, items: entries })
+        items.push(group)
+      } else if (existsSync(join(p, 'index.md'))) {
+        items.push({ text: name, link: `/${child}/` })
+      }
     }
+    return items
+  }
 
-    return { text: mod, collapsed: false, items }
-  })
+  return modules.map((mod) => ({
+    text: mod,
+    collapsed: false,
+    items: [{ text: '本模块总览', link: `/${mod}/` }, ...buildItems(join(DOCS, mod), mod)],
+  }))
 }
 
 export default defineConfig({
@@ -99,28 +88,28 @@ export default defineConfig({
       {
         text: '快速开始',
         items: [
-          { text: '前言与基础概要', link: '/00-前言与基础概要/' },
-          { text: '新生入学专栏', link: '/01-新生入学专栏/' },
-          { text: '大学生活专栏', link: '/02-大学生活专栏/' },
-          { text: '学业相关问题', link: '/03-学业相关问题/' },
-          { text: '仓库指南', link: '/14-仓库指南/' },
+          { text: '前言概要', link: '/00-前言概要/' },
+          { text: '仓库指南', link: '/00-前言概要/00-仓库指南/' },
+          { text: '新生专栏', link: '/01-新生专栏/' },
+          { text: '生活专栏', link: '/04-生活专栏/' },
+          { text: '学业专栏', link: '/03-学业专栏/' },
         ],
       },
       {
         text: '课程资料',
         items: [
-          { text: '① 大一第一学期', link: '/04-大一第一学期/' },
-          { text: '② 大一第二学期', link: '/05-大一第二学期/' },
-          { text: '③ 大二第一学期', link: '/06-大二第一学期/' },
-          { text: '④ 大二第二学期', link: '/07-大二第二学期/' },
-          { text: '⑤ 大三第一学期', link: '/08-大三第一学期/' },
-          { text: '⑥ 大三第二学期', link: '/09-大三第二学期/' },
-          { text: '⑦ 大四第一学期', link: '/10-大四第一学期/' },
-          { text: '⑧ 大四第二学期', link: '/11-大四第二学期/' },
+          { text: '① 大一第一学期', link: '/02-课程资料/01-大一第一学期/' },
+          { text: '② 大一第二学期', link: '/02-课程资料/02-大一第二学期/' },
+          { text: '③ 大二第一学期', link: '/02-课程资料/03-大二第一学期/' },
+          { text: '④ 大二第二学期', link: '/02-课程资料/04-大二第二学期/' },
+          { text: '⑤ 大三第一学期', link: '/02-课程资料/05-大三第一学期/' },
+          { text: '⑥ 大三第二学期', link: '/02-课程资料/06-大三第二学期/' },
+          { text: '⑦ 大四第一学期', link: '/02-课程资料/07-大四第一学期/' },
+          { text: '⑧ 大四第二学期', link: '/02-课程资料/08-大四第二学期/' },
         ],
       },
-      { text: '选修通识', link: '/12-选修和通识课/' },
-      { text: '链接库', link: '/13-资料链接库/' },
+      { text: '公选课外', link: '/05-公选课外/' },
+      { text: '链接库', link: '/06-资料链接/' },
     ],
 
     sidebar: buildSidebar(),

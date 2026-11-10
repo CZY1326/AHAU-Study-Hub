@@ -243,39 +243,30 @@ async function findCoursePages() {
   const pages = []
   const semesters = await readdir(DOCS, { withFileTypes: true })
 
+  /**
+   * 递归收集课程页：目录含 index.md 即登记为候选课程页，
+   * 同时继续向下递归——分组目录也可能带自己的 index.md 总览页
+   * （如 02-课程资料/01-大一第一学期、05-公选课外/校本公选），
+   * 不能因为上层有 index.md 就跳过其下的课程。
+   * 无 FILES 标记区间的页面在后续处理中会被自然跳过。
+   */
+  async function walk(dir, rel) {
+    const idx = join(dir, 'index.md')
+    if (await exists(idx)) {
+      pages.push({ file: idx, courseRel: rel, courseDir: dir })
+    }
+    const entries = await readdir(dir, { withFileTypes: true })
+    for (const e of entries) {
+      if (e.isDirectory()) {
+        await walk(join(dir, e.name), `${rel}/${e.name}`)
+      }
+    }
+  }
+
   for (const sem of semesters) {
     if (!sem.isDirectory()) continue
     if (!/^\d{2}-/.test(sem.name)) continue
-    const semDir = join(DOCS, sem.name)
-    const entries = await readdir(semDir, { withFileTypes: true })
-
-    for (const c of entries) {
-      if (!c.isDirectory()) continue
-      const sub = join(semDir, c.name)
-      const idx = join(sub, 'index.md')
-      // 目录自身有 index.md 则登记为课程页；
-      // 同时继续向下找一层「分组/课程」——分组目录也可能带自己的 index.md 总览页，
-      // 不能因为分组页存在就跳过其下的课程（如 12-选修和通识课/校本公选课）。
-      if (await exists(idx)) {
-        pages.push({
-          file: idx,
-          courseRel: `${sem.name}/${c.name}`,
-          courseDir: sub,
-        })
-      }
-      const grouped = await readdir(sub, { withFileTypes: true })
-      for (const g of grouped) {
-        if (!g.isDirectory()) continue
-        const gidx = join(sub, g.name, 'index.md')
-        if (await exists(gidx)) {
-          pages.push({
-            file: gidx,
-            courseRel: `${sem.name}/${c.name}/${g.name}`,
-            courseDir: join(sub, g.name),
-          })
-        }
-      }
-    }
+    await walk(join(DOCS, sem.name), sem.name)
   }
   return pages
 }
