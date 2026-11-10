@@ -781,4 +781,4 @@ docs/
 
 ## 致谢
 
-仓库的组织方式与文档结构参考了 [安徽农业大学课程资料共享计划](https://github.com/lastwejust/Leaning-in-AAU)、[浙江大学课程攻略共享计划](https://github.com/QSCTech/zju-icicles) 与 [Learning-In-UESTC](https://github.com/Fux-i/Learning-In-UESTC)，特此致谢。
+仓库的组织方式与文档结构参考了[浙江大学课程攻略共享计划](https://github.com/QSCTech/zju-icicles) 、[Learning-In-UESTC](https://github.com/Fux-i/Learning-In-UESTC) 与 [安徽农业大学课程资料共享计划](https://github.com/lastwejust/Leaning-in-AAU)，特此致谢。
