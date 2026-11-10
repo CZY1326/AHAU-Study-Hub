@@ -190,10 +190,14 @@ function renderSections(courseRelPath, sections) {
   for (const sec of sections) {
     const rows = sec.files
       .map((f) => {
-        // 文件在仓库中的位置：docs/<课程路径>/<子目录>/<文件名>
-        // 站点中映射到：<base>/资料/<课程路径>/<子目录>/<文件名>
+        // 文件在仓库中的位置：docs/<relPath>（relPath 相对 docs/，已含子目录）
+        // 站点中映射到：<base>/资料/<relPath>
         // 用 <a href> 而非 Markdown 链接，绕开 VitePress 的内部路由死链检查。
-        const sitePath = encodeURI(`${BASE}${ASSET_PREFIX}/${courseRelPath}/${sec.dir}/${f.name}`)
+        const sitePath = encodeURI(`${BASE}${ASSET_PREFIX}/${f.relPath}`)
+        // 资料目录里可能还有「1.卷一 / 2.卷二」这类分组子目录，
+        // 展示时补上分组名，避免同名文件看起来重复。
+        const parts = f.relPath.slice(courseRelPath.length + 1).split('/')
+        const label = parts.length > 2 ? parts.slice(1).join(' / ') : f.name
         const previewable = PREVIEWABLE.has(f.type.kind)
         // 可预览类型：新窗口直接打开（PDF/图片/视频浏览器原生支持）
         // 其他类型：触发下载
@@ -201,7 +205,7 @@ function renderSections(courseRelPath, sections) {
           ? 'target="_blank" rel="noopener"'
           : 'download'
         const action = previewable ? '在线查看' : '下载'
-        return `| ${f.name} | ${f.type.label} | ${humanSize(f.size)} | <a href="${sitePath}" ${attrs}>${action}</a> |`
+        return `| ${label} | ${f.type.label} | ${humanSize(f.size)} | <a href="${sitePath}" ${attrs}>${action}</a> |`
       })
       .join('\n')
 
@@ -216,7 +220,7 @@ function renderSections(courseRelPath, sections) {
   blocks.push(
     '::: tip 关于下载\n' +
       'PDF 与图片可直接在浏览器里**在线查看**；PPT / Word / Excel / 压缩包点「下载」后用本地软件打开。\n' +
-      '单文件超过 50 MB 的资料不进仓库，请到 [13-资料链接库](/13-资料链接库/) 找外链。\n' +
+      '单文件超过 50 MB 的资料不进仓库，请到 [资料链接库](/06-资料链接/) 找外链。\n' +
       ':::',
   )
 
@@ -334,7 +338,9 @@ async function runCopy() {
       const files = await collectFiles(secDir, DOCS)
       for (const f of files) {
         const src = join(DOCS, f.relPath)
-        const dst = join(DIST, '资料', page.courseRel, sec.dir, f.name)
+        // 保持 relPath 的子目录结构（资料目录里可能有「1.卷一」这类分组），
+        // 否则同名文件会互相覆盖、且与页面里的链接对不上。
+        const dst = join(DIST, '资料', f.relPath)
         await mkdir(dirname(dst), { recursive: true })
         await copyFile(src, dst)
         copied++
