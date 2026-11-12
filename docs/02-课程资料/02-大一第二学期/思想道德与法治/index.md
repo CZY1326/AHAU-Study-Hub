@@ -8,11 +8,13 @@
 > 请勿手动编辑标记区间内的内容。
 
 <!-- FILES:START -->
-### 课件（1）
+### 课件（3）
 
 | 文件 | 类型 | 大小 | 操作 |
 | :--- | :---: | ---: | :--- |
-| 思想道德与法治课件（2023年版）.pdf | PDF | 1.57 GB | 网盘待上传 |
+| 思想道德与法治课件（2023年版）-0001-0336.pdf | PDF | 34.1 MB | <a href="/AHAU-Study-Hub/%E8%B5%84%E6%96%99/02-%E8%AF%BE%E7%A8%8B%E8%B5%84%E6%96%99/02-%E5%A4%A7%E4%B8%80%E7%AC%AC%E4%BA%8C%E5%AD%A6%E6%9C%9F/%E6%80%9D%E6%83%B3%E9%81%93%E5%BE%B7%E4%B8%8E%E6%B3%95%E6%B2%BB/%E8%AF%BE%E4%BB%B6/%E6%80%9D%E6%83%B3%E9%81%93%E5%BE%B7%E4%B8%8E%E6%B3%95%E6%B2%BB%E8%AF%BE%E4%BB%B6%EF%BC%882023%E5%B9%B4%E7%89%88%EF%BC%89-0001-0336.pdf" target="_blank" rel="noopener">在线查看</a> |
+| 思想道德与法治课件（2023年版）-0337-0672.pdf | PDF | 37.5 MB | <a href="/AHAU-Study-Hub/%E8%B5%84%E6%96%99/02-%E8%AF%BE%E7%A8%8B%E8%B5%84%E6%96%99/02-%E5%A4%A7%E4%B8%80%E7%AC%AC%E4%BA%8C%E5%AD%A6%E6%9C%9F/%E6%80%9D%E6%83%B3%E9%81%93%E5%BE%B7%E4%B8%8E%E6%B3%95%E6%B2%BB/%E8%AF%BE%E4%BB%B6/%E6%80%9D%E6%83%B3%E9%81%93%E5%BE%B7%E4%B8%8E%E6%B3%95%E6%B2%BB%E8%AF%BE%E4%BB%B6%EF%BC%882023%E5%B9%B4%E7%89%88%EF%BC%89-0337-0672.pdf" target="_blank" rel="noopener">在线查看</a> |
+| 思想道德与法治课件（2023年版）-0673-1007.pdf | PDF | 34.5 MB | <a href="/AHAU-Study-Hub/%E8%B5%84%E6%96%99/02-%E8%AF%BE%E7%A8%8B%E8%B5%84%E6%96%99/02-%E5%A4%A7%E4%B8%80%E7%AC%AC%E4%BA%8C%E5%AD%A6%E6%9C%9F/%E6%80%9D%E6%83%B3%E9%81%93%E5%BE%B7%E4%B8%8E%E6%B3%95%E6%B2%BB/%E8%AF%BE%E4%BB%B6/%E6%80%9D%E6%83%B3%E9%81%93%E5%BE%B7%E4%B8%8E%E6%B3%95%E6%B2%BB%E8%AF%BE%E4%BB%B6%EF%BC%882023%E5%B9%B4%E7%89%88%EF%BC%89-0673-1007.pdf" target="_blank" rel="noopener">在线查看</a> |
 
 ### 试卷与答案（3）
 
@@ -22,16 +24,16 @@
 | 思想与道德题目二.pdf | PDF | 3.9 MB | <a href="/AHAU-Study-Hub/%E8%B5%84%E6%96%99/02-%E8%AF%BE%E7%A8%8B%E8%B5%84%E6%96%99/02-%E5%A4%A7%E4%B8%80%E7%AC%AC%E4%BA%8C%E5%AD%A6%E6%9C%9F/%E6%80%9D%E6%83%B3%E9%81%93%E5%BE%B7%E4%B8%8E%E6%B3%95%E6%B2%BB/%E8%AF%95%E5%8D%B7%E4%B8%8E%E7%AD%94%E6%A1%88/%E6%80%9D%E6%83%B3%E4%B8%8E%E9%81%93%E5%BE%B7%E9%A2%98%E7%9B%AE%E4%BA%8C.pdf" target="_blank" rel="noopener">在线查看</a> |
 | 思想与道德题目一.pdf | PDF | 2.2 MB | <a href="/AHAU-Study-Hub/%E8%B5%84%E6%96%99/02-%E8%AF%BE%E7%A8%8B%E8%B5%84%E6%96%99/02-%E5%A4%A7%E4%B8%80%E7%AC%AC%E4%BA%8C%E5%AD%A6%E6%9C%9F/%E6%80%9D%E6%83%B3%E9%81%93%E5%BE%B7%E4%B8%8E%E6%B3%95%E6%B2%BB/%E8%AF%95%E5%8D%B7%E4%B8%8E%E7%AD%94%E6%A1%88/%E6%80%9D%E6%83%B3%E4%B8%8E%E9%81%93%E5%BE%B7%E9%A2%98%E7%9B%AE%E4%B8%80.pdf" target="_blank" rel="noopener">在线查看</a> |
 
-### 复习资料（2）
+### 复习资料（3）
 
 | 文件 | 类型 | 大小 | 操作 |
 | :--- | :---: | ---: | :--- |
-| 《思想道德与法治》（2023年版）.pdf | PDF | 98.9 MB | 网盘待上传 |
+| 《思想道德与法治》（2023年版）-001-132.pdf | PDF | 48.3 MB | <a href="/AHAU-Study-Hub/%E8%B5%84%E6%96%99/02-%E8%AF%BE%E7%A8%8B%E8%B5%84%E6%96%99/02-%E5%A4%A7%E4%B8%80%E7%AC%AC%E4%BA%8C%E5%AD%A6%E6%9C%9F/%E6%80%9D%E6%83%B3%E9%81%93%E5%BE%B7%E4%B8%8E%E6%B3%95%E6%B2%BB/%E5%A4%8D%E4%B9%A0%E8%B5%84%E6%96%99/%E3%80%8A%E6%80%9D%E6%83%B3%E9%81%93%E5%BE%B7%E4%B8%8E%E6%B3%95%E6%B2%BB%E3%80%8B%EF%BC%882023%E5%B9%B4%E7%89%88%EF%BC%89-001-132.pdf" target="_blank" rel="noopener">在线查看</a> |
+| 《思想道德与法治》（2023年版）-133-264.pdf | PDF | 49.8 MB | <a href="/AHAU-Study-Hub/%E8%B5%84%E6%96%99/02-%E8%AF%BE%E7%A8%8B%E8%B5%84%E6%96%99/02-%E5%A4%A7%E4%B8%80%E7%AC%AC%E4%BA%8C%E5%AD%A6%E6%9C%9F/%E6%80%9D%E6%83%B3%E9%81%93%E5%BE%B7%E4%B8%8E%E6%B3%95%E6%B2%BB/%E5%A4%8D%E4%B9%A0%E8%B5%84%E6%96%99/%E3%80%8A%E6%80%9D%E6%83%B3%E9%81%93%E5%BE%B7%E4%B8%8E%E6%B3%95%E6%B2%BB%E3%80%8B%EF%BC%882023%E5%B9%B4%E7%89%88%EF%BC%89-133-264.pdf" target="_blank" rel="noopener">在线查看</a> |
 | 思想道德与法治个人作业.pdf | PDF | 116 KB | <a href="/AHAU-Study-Hub/%E8%B5%84%E6%96%99/02-%E8%AF%BE%E7%A8%8B%E8%B5%84%E6%96%99/02-%E5%A4%A7%E4%B8%80%E7%AC%AC%E4%BA%8C%E5%AD%A6%E6%9C%9F/%E6%80%9D%E6%83%B3%E9%81%93%E5%BE%B7%E4%B8%8E%E6%B3%95%E6%B2%BB/%E5%A4%8D%E4%B9%A0%E8%B5%84%E6%96%99/%E6%80%9D%E6%83%B3%E9%81%93%E5%BE%B7%E4%B8%8E%E6%B3%95%E6%B2%BB%E4%B8%AA%E4%BA%BA%E4%BD%9C%E4%B8%9A.pdf" target="_blank" rel="noopener">在线查看</a> |
 
 ::: tip 关于下载
 PDF 与图片可直接在浏览器里**在线查看**；PPT / Word / Excel / 压缩包点「下载」后用本地软件打开。
-单文件超过 50 MB 的资料不进仓库，网盘链接补上后表格里会显示「网盘下载」；现在标着「网盘待上传」的还在等链接。
 :::
 <!-- FILES:END -->
 

@@ -13,7 +13,7 @@
 | 文件 | 类型 | 大小 | 操作 |
 | :--- | :---: | ---: | :--- |
 | 教学课件.zip | ZIP | 4.5 MB | <a href="/AHAU-Study-Hub/%E8%B5%84%E6%96%99/02-%E8%AF%BE%E7%A8%8B%E8%B5%84%E6%96%99/02-%E5%A4%A7%E4%B8%80%E7%AC%AC%E4%BA%8C%E5%AD%A6%E6%9C%9F/%E7%94%9F%E7%89%A9%E7%BB%9F%E8%AE%A1/%E8%AF%BE%E4%BB%B6/%E6%95%99%E5%AD%A6%E8%AF%BE%E4%BB%B6.zip" download>下载</a> |
-| 课件(陈德玲老师).zip | ZIP | 348.0 MB | 网盘待上传 |
+| 课件(陈德玲老师).zip | ZIP | 20.9 MB | <a href="/AHAU-Study-Hub/%E8%B5%84%E6%96%99/02-%E8%AF%BE%E7%A8%8B%E8%B5%84%E6%96%99/02-%E5%A4%A7%E4%B8%80%E7%AC%AC%E4%BA%8C%E5%AD%A6%E6%9C%9F/%E7%94%9F%E7%89%A9%E7%BB%9F%E8%AE%A1/%E8%AF%BE%E4%BB%B6/%E8%AF%BE%E4%BB%B6(%E9%99%88%E5%BE%B7%E7%8E%B2%E8%80%81%E5%B8%88).zip" download>下载</a> |
 
 ### 复习资料（17）
 
@@ -57,7 +57,6 @@
 
 ::: tip 关于下载
 PDF 与图片可直接在浏览器里**在线查看**；PPT / Word / Excel / 压缩包点「下载」后用本地软件打开。
-单文件超过 50 MB 的资料不进仓库，网盘链接补上后表格里会显示「网盘下载」；现在标着「网盘待上传」的还在等链接。
 :::
 <!-- FILES:END -->
 

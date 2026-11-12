@@ -29,13 +29,12 @@
 
 | 文件 | 类型 | 大小 | 操作 |
 | :--- | :---: | ---: | :--- |
+| 近现代史作业①——红色故事分享（小组） / 红色故事分享会.mp4 | 视频 | 37.0 MB | <a href="/AHAU-Study-Hub/%E8%B5%84%E6%96%99/02-%E8%AF%BE%E7%A8%8B%E8%B5%84%E6%96%99/01-%E5%A4%A7%E4%B8%80%E7%AC%AC%E4%B8%80%E5%AD%A6%E6%9C%9F/%E4%B8%AD%E5%9B%BD%E8%BF%91%E7%8E%B0%E4%BB%A3%E5%8F%B2%E7%BA%B2%E8%A6%81/%E5%A4%8D%E4%B9%A0%E8%B5%84%E6%96%99/%E8%BF%91%E7%8E%B0%E4%BB%A3%E5%8F%B2%E4%BD%9C%E4%B8%9A%E2%91%A0%E2%80%94%E2%80%94%E7%BA%A2%E8%89%B2%E6%95%85%E4%BA%8B%E5%88%86%E4%BA%AB%EF%BC%88%E5%B0%8F%E7%BB%84%EF%BC%89/%E7%BA%A2%E8%89%B2%E6%95%85%E4%BA%8B%E5%88%86%E4%BA%AB%E4%BC%9A.mp4" target="_blank" rel="noopener">在线查看</a> |
 | 近现代史作业①——红色故事分享（小组） / 红色故事分享会.pdf | PDF | 106 KB | <a href="/AHAU-Study-Hub/%E8%B5%84%E6%96%99/02-%E8%AF%BE%E7%A8%8B%E8%B5%84%E6%96%99/01-%E5%A4%A7%E4%B8%80%E7%AC%AC%E4%B8%80%E5%AD%A6%E6%9C%9F/%E4%B8%AD%E5%9B%BD%E8%BF%91%E7%8E%B0%E4%BB%A3%E5%8F%B2%E7%BA%B2%E8%A6%81/%E5%A4%8D%E4%B9%A0%E8%B5%84%E6%96%99/%E8%BF%91%E7%8E%B0%E4%BB%A3%E5%8F%B2%E4%BD%9C%E4%B8%9A%E2%91%A0%E2%80%94%E2%80%94%E7%BA%A2%E8%89%B2%E6%95%85%E4%BA%8B%E5%88%86%E4%BA%AB%EF%BC%88%E5%B0%8F%E7%BB%84%EF%BC%89/%E7%BA%A2%E8%89%B2%E6%95%85%E4%BA%8B%E5%88%86%E4%BA%AB%E4%BC%9A.pdf" target="_blank" rel="noopener">在线查看</a> |
 | 近现代史实践作业②——访谈（个人） / 金寨红色文化资源发展现状.pdf | PDF | 388 KB | <a href="/AHAU-Study-Hub/%E8%B5%84%E6%96%99/02-%E8%AF%BE%E7%A8%8B%E8%B5%84%E6%96%99/01-%E5%A4%A7%E4%B8%80%E7%AC%AC%E4%B8%80%E5%AD%A6%E6%9C%9F/%E4%B8%AD%E5%9B%BD%E8%BF%91%E7%8E%B0%E4%BB%A3%E5%8F%B2%E7%BA%B2%E8%A6%81/%E5%A4%8D%E4%B9%A0%E8%B5%84%E6%96%99/%E8%BF%91%E7%8E%B0%E4%BB%A3%E5%8F%B2%E5%AE%9E%E8%B7%B5%E4%BD%9C%E4%B8%9A%E2%91%A1%E2%80%94%E2%80%94%E8%AE%BF%E8%B0%88%EF%BC%88%E4%B8%AA%E4%BA%BA%EF%BC%89/%E9%87%91%E5%AF%A8%E7%BA%A2%E8%89%B2%E6%96%87%E5%8C%96%E8%B5%84%E6%BA%90%E5%8F%91%E5%B1%95%E7%8E%B0%E7%8A%B6.pdf" target="_blank" rel="noopener">在线查看</a> |
-| 近现代史作业①——红色故事分享（小组） / 红色故事分享会.mp4 | 视频 | 83.0 MB | 网盘待上传 |
 
 ::: tip 关于下载
 PDF 与图片可直接在浏览器里**在线查看**；PPT / Word / Excel / 压缩包点「下载」后用本地软件打开。
-单文件超过 50 MB 的资料不进仓库，网盘链接补上后表格里会显示「网盘下载」；现在标着「网盘待上传」的还在等链接。
 :::
 <!-- FILES:END -->
 

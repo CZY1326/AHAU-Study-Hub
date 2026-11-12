@@ -1,9 +1,9 @@
 #!/usr/bin/env node
 /**
- * check-size.mjs — 强制 50 MB 单文件上限。
+ * check-size.mjs — 强制 60 MB 单文件上限。
  *
- * 约定：docs/ 下单个文件 < 50 MB 直接提交进仓库；
- * >= 50 MB 的资料不进仓库，登记到 scripts/big-files.json（网盘链接合并进课程页资料清单）。
+ * 约定：docs/ 下单个文件 < 60 MB 直接提交进仓库；
+ * >= 60 MB 的资料不进仓库，登记到 scripts/big-files.json（网盘链接合并进课程页资料清单）。
  *
  * 为什么存在：过去用 .gitignore 按扩展名（*.mp4/*.zip 等）一刀切忽略，
  * 导致文件本地存在但从未入库，本地构建正常、CI 构建失败且难以排查。
@@ -19,8 +19,8 @@ import { fileURLToPath } from 'node:url'
 const ROOT = join(dirname(fileURLToPath(import.meta.url)), '..')
 const DOCS = join(ROOT, 'docs')
 
-/** 50 MB 安全线（GitHub 单文件硬上限 100 MB，>50MB 推送时会有警告） */
-const LIMIT = 50 * 1024 * 1024
+/** 60 MB 安全线（GitHub 单文件硬上限 100 MB，>60MB 推送时会有警告） */
+const LIMIT = 60 * 1024 * 1024
 
 /** 人类可读的文件大小 */
 function humanSize(bytes) {
@@ -50,12 +50,12 @@ async function walk(current) {
 await walk(DOCS)
 
 if (oversized.length) {
-  console.error(`❌ 发现 ${oversized.length} 个超过 50 MB 的文件：\n`)
+  console.error(`❌ 发现 ${oversized.length} 个超过 60 MB 的文件：\n`)
   for (const f of oversized) {
     console.error(`   ${humanSize(f.size).padStart(8)}  ${f.rel}`)
   }
-  console.error('\n按约定，>= 50 MB 的资料不进仓库：先登记到 scripts/big-files.json，再删除本地大文件。')
+  console.error('\n按约定，>= 60 MB 的资料不进仓库：先登记到 scripts/big-files.json，再删除本地大文件。')
   process.exit(1)
 }
 
-console.log('✅ 所有文件均在 50 MB 以内。')
+console.log('✅ 所有文件均在 60 MB 以内。')

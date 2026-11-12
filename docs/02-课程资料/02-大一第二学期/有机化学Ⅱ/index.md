@@ -8,11 +8,12 @@
 > 请勿手动编辑标记区间内的内容。
 
 <!-- FILES:START -->
-### 课件（1）
+### 课件（2）
 
 | 文件 | 类型 | 大小 | 操作 |
 | :--- | :---: | ---: | :--- |
-| 有机化学（第二版）.pdf | PDF | 105.7 MB | 网盘待上传 |
+| 有机化学（第二版）-001-147.pdf | PDF | 39.1 MB | <a href="/AHAU-Study-Hub/%E8%B5%84%E6%96%99/02-%E8%AF%BE%E7%A8%8B%E8%B5%84%E6%96%99/02-%E5%A4%A7%E4%B8%80%E7%AC%AC%E4%BA%8C%E5%AD%A6%E6%9C%9F/%E6%9C%89%E6%9C%BA%E5%8C%96%E5%AD%A6%E2%85%A1/%E8%AF%BE%E4%BB%B6/%E6%9C%89%E6%9C%BA%E5%8C%96%E5%AD%A6%EF%BC%88%E7%AC%AC%E4%BA%8C%E7%89%88%EF%BC%89-001-147.pdf" target="_blank" rel="noopener">在线查看</a> |
+| 有机化学（第二版）-148-294.pdf | PDF | 42.2 MB | <a href="/AHAU-Study-Hub/%E8%B5%84%E6%96%99/02-%E8%AF%BE%E7%A8%8B%E8%B5%84%E6%96%99/02-%E5%A4%A7%E4%B8%80%E7%AC%AC%E4%BA%8C%E5%AD%A6%E6%9C%9F/%E6%9C%89%E6%9C%BA%E5%8C%96%E5%AD%A6%E2%85%A1/%E8%AF%BE%E4%BB%B6/%E6%9C%89%E6%9C%BA%E5%8C%96%E5%AD%A6%EF%BC%88%E7%AC%AC%E4%BA%8C%E7%89%88%EF%BC%89-148-294.pdf" target="_blank" rel="noopener">在线查看</a> |
 
 ### 试卷与答案（4）
 
@@ -35,7 +36,6 @@
 
 ::: tip 关于下载
 PDF 与图片可直接在浏览器里**在线查看**；PPT / Word / Excel / 压缩包点「下载」后用本地软件打开。
-单文件超过 50 MB 的资料不进仓库，网盘链接补上后表格里会显示「网盘下载」；现在标着「网盘待上传」的还在等链接。
 :::
 <!-- FILES:END -->
 

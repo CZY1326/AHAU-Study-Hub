@@ -174,7 +174,7 @@ async function courseSections(courseDir) {
  * 扫描一门课，返回各资料子目录的清单。
  * courseDir 形如 docs/02-课程资料/01-大一第一学期/高等数学Ⅲ
  *
- * 超过 50 MB、不进仓库的资料登记在 scripts/big-files.json 里（按课程 + 章节），
+ * 超过 60 MB、不进仓库的资料登记在 scripts/big-files.json 里（按课程 + 章节），
  * 这里把它们合并回原本所属的章节表格，保持「资料就在它该在的地方」，
  * 不再单设「大文件」小节。
  */
@@ -279,10 +279,14 @@ function renderSections(courseRelPath, sections) {
     )
   }
 
+  // 只有本课真有大文件登记时，才提「网盘待上传」那句，避免全是本地文件时出现噪音
+  const hasExternal = sections.some((s) => s.files.some((f) => f.external))
   blocks.push(
     '::: tip 关于下载\n' +
       'PDF 与图片可直接在浏览器里**在线查看**；PPT / Word / Excel / 压缩包点「下载」后用本地软件打开。\n' +
-      '单文件超过 50 MB 的资料不进仓库，网盘链接补上后表格里会显示「网盘下载」；现在标着「网盘待上传」的还在等链接。\n' +
+      (hasExternal
+        ? '单文件超过 60 MB 的资料不进仓库，网盘链接补上后表格里会显示「网盘下载」；现在标着「网盘待上传」的还在等链接。\n'
+        : '') +
       ':::',
   )
 
