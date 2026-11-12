@@ -151,12 +151,32 @@ async function collectFiles(dir, docsRelBase) {
 }
 
 /**
- * 扫描一门课，返回三个 section 的资料清单。
- * courseDir 形如 docs/04-大一第一学期/高等数学A1
+ * 课程实际存在的资料子目录：固定的三项优先（保持 课件 → 试卷与答案 → 复习资料 顺序），
+ * 之后再按目录名追加课程里实际出现的其他资料目录
+ * （如「教材」「往年真题」——用户可以自由扩展，脚本照常收录）。
+ */
+async function courseSections(courseDir) {
+  const secs = []
+  for (const sec of SECTIONS) {
+    if (await isDir(join(courseDir, sec.dir))) secs.push(sec)
+  }
+  const known = new Set(SECTIONS.map((s) => s.dir))
+  const entries = await readdir(courseDir, { withFileTypes: true })
+  const extras = entries
+    .filter((e) => e.isDirectory() && !known.has(e.name) && !e.name.startsWith('.'))
+    .map((e) => e.name)
+    .sort(naturalCompare)
+  for (const name of extras) secs.push({ dir: name, icon: '📁', label: name })
+  return secs
+}
+
+/**
+ * 扫描一门课，返回各资料子目录的清单。
+ * courseDir 形如 docs/02-课程资料/01-大一第一学期/高等数学Ⅲ
  */
 async function scanCourse(courseDir) {
   const result = []
-  for (const sec of SECTIONS) {
+  for (const sec of await courseSections(courseDir)) {
     const files = await collectFiles(join(courseDir, sec.dir), DOCS)
     if (files.length) result.push({ ...sec, files })
   }
@@ -331,7 +351,7 @@ async function runCopy() {
   let bytes = 0
 
   for (const page of pages) {
-    for (const sec of SECTIONS) {
+    for (const sec of await courseSections(page.courseDir)) {
       const secDir = join(page.courseDir, sec.dir)
       if (!(await isDir(secDir))) continue
 

@@ -8,9 +8,28 @@
 > 请勿手动编辑标记区间内的内容。
 
 <!-- FILES:START -->
-::: info 资料还在路上
-这门课的课件 / 试卷与答案 / 复习资料暂未上传。
-如果你手上有**历年真题**或**老师的复习提纲**，欢迎提 PR 补进来 —— 那是价值最高的东西。
+### 课件（1）
+
+| 文件 | 类型 | 大小 | 操作 |
+| :--- | :---: | ---: | :--- |
+| 大学英语2选词填空及翻译题.pdf | PDF | 2.4 MB | <a href="/AHAU-Study-Hub/%E8%B5%84%E6%96%99/02-%E8%AF%BE%E7%A8%8B%E8%B5%84%E6%96%99/02-%E5%A4%A7%E4%B8%80%E7%AC%AC%E4%BA%8C%E5%AD%A6%E6%9C%9F/%E5%A4%A7%E5%AD%A6%E8%8B%B1%E8%AF%AD2/%E8%AF%BE%E4%BB%B6/%E5%A4%A7%E5%AD%A6%E8%8B%B1%E8%AF%AD2%E9%80%89%E8%AF%8D%E5%A1%AB%E7%A9%BA%E5%8F%8A%E7%BF%BB%E8%AF%91%E9%A2%98.pdf" target="_blank" rel="noopener">在线查看</a> |
+
+### 试卷与答案（2）
+
+| 文件 | 类型 | 大小 | 操作 |
+| :--- | :---: | ---: | :--- |
+| 大学英语（2）：教材单元翻译题汇总.pdf | PDF | 213 KB | <a href="/AHAU-Study-Hub/%E8%B5%84%E6%96%99/02-%E8%AF%BE%E7%A8%8B%E8%B5%84%E6%96%99/02-%E5%A4%A7%E4%B8%80%E7%AC%AC%E4%BA%8C%E5%AD%A6%E6%9C%9F/%E5%A4%A7%E5%AD%A6%E8%8B%B1%E8%AF%AD2/%E8%AF%95%E5%8D%B7%E4%B8%8E%E7%AD%94%E6%A1%88/%E5%A4%A7%E5%AD%A6%E8%8B%B1%E8%AF%AD%EF%BC%882%EF%BC%89%EF%BC%9A%E6%95%99%E6%9D%90%E5%8D%95%E5%85%83%E7%BF%BB%E8%AF%91%E9%A2%98%E6%B1%87%E6%80%BB.pdf" target="_blank" rel="noopener">在线查看</a> |
+| 大学英语（2）：教材单元选词填空汇总.pdf | PDF | 163 KB | <a href="/AHAU-Study-Hub/%E8%B5%84%E6%96%99/02-%E8%AF%BE%E7%A8%8B%E8%B5%84%E6%96%99/02-%E5%A4%A7%E4%B8%80%E7%AC%AC%E4%BA%8C%E5%AD%A6%E6%9C%9F/%E5%A4%A7%E5%AD%A6%E8%8B%B1%E8%AF%AD2/%E8%AF%95%E5%8D%B7%E4%B8%8E%E7%AD%94%E6%A1%88/%E5%A4%A7%E5%AD%A6%E8%8B%B1%E8%AF%AD%EF%BC%882%EF%BC%89%EF%BC%9A%E6%95%99%E6%9D%90%E5%8D%95%E5%85%83%E9%80%89%E8%AF%8D%E5%A1%AB%E7%A9%BA%E6%B1%87%E6%80%BB.pdf" target="_blank" rel="noopener">在线查看</a> |
+
+### 复习资料（1）
+
+| 文件 | 类型 | 大小 | 操作 |
+| :--- | :---: | ---: | :--- |
+| The Mysterious Island 演讲2024.5.7.pdf | PDF | 1.1 MB | <a href="/AHAU-Study-Hub/%E8%B5%84%E6%96%99/02-%E8%AF%BE%E7%A8%8B%E8%B5%84%E6%96%99/02-%E5%A4%A7%E4%B8%80%E7%AC%AC%E4%BA%8C%E5%AD%A6%E6%9C%9F/%E5%A4%A7%E5%AD%A6%E8%8B%B1%E8%AF%AD2/%E5%A4%8D%E4%B9%A0%E8%B5%84%E6%96%99/The%20Mysterious%20Island%20%E6%BC%94%E8%AE%B22024.5.7.pdf" target="_blank" rel="noopener">在线查看</a> |
+
+::: tip 关于下载
+PDF 与图片可直接在浏览器里**在线查看**；PPT / Word / Excel / 压缩包点「下载」后用本地软件打开。
+单文件超过 50 MB 的资料不进仓库，其网盘链接直接登记在本页下方「大文件」小节。
 :::
 <!-- FILES:END -->
 
@@ -21,6 +40,15 @@
 2. **期末**：难度如何？题型结构、重点章节、是否考原题。
 3. **冲刺**：考前怎么突击最有效，推荐刷哪些题。
 :::
+
+## 大文件（网盘链接）
+
+以下资料超过 50 MB，不进仓库；网盘链接补上后即可下载。
+
+| 资料 | 大小 | 网盘链接 |
+| :--- | ---: | :--- |
+| 新视野大学英语（第四版）读写教程 2（思政智慧版） | 114.8 MB | 待上传 |
+| 新目标大学英语（第二版）视听说教程 2 | 60.5 MB | 待上传 |
 
 ## 免责声明
 
