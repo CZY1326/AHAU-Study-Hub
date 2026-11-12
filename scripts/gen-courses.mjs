@@ -351,6 +351,10 @@ async function runCopy() {
   let bytes = 0
 
   for (const page of pages) {
+    // 分组页（学期 / 公选分组）没有 FILES 标记区间，不是课程页；
+    // 但 courseSections 会把其下的课程目录当扩展 section，导致整个学期被重复复制。
+    const idx = await readFile(page.file, 'utf8')
+    if (!idx.includes(START)) continue
     for (const sec of await courseSections(page.courseDir)) {
       const secDir = join(page.courseDir, sec.dir)
       if (!(await isDir(secDir))) continue
