@@ -54,7 +54,7 @@ if (oversized.length) {
   for (const f of oversized) {
     console.error(`   ${humanSize(f.size).padStart(8)}  ${f.rel}`)
   }
-  console.error('\n按约定，>= 60 MB 的资料不进仓库：先登记到 scripts/big-files.json，再删除本地大文件。')
+  console.error('\n按约定，>= 60 MB 的资料应先压缩或按页段分割成多卷（每卷 < 60 MB）再入库；确无办法压缩的，登记到 scripts/big-files.json 后删除本地大文件。')
   process.exit(1)
 }
 
