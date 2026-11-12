@@ -37,19 +37,11 @@
 | 生物统计资料汇总.pdf | PDF | 1.8 MB | <a href="/AHAU-Study-Hub/%E8%B5%84%E6%96%99/02-%E8%AF%BE%E7%A8%8B%E8%B5%84%E6%96%99/02-%E5%A4%A7%E4%B8%80%E7%AC%AC%E4%BA%8C%E5%AD%A6%E6%9C%9F/%E7%94%9F%E7%89%A9%E7%BB%9F%E8%AE%A1/%E5%A4%8D%E4%B9%A0%E8%B5%84%E6%96%99/%E7%94%9F%E7%89%A9%E7%BB%9F%E8%AE%A1%E8%B5%84%E6%96%99%E6%B1%87%E6%80%BB.pdf" target="_blank" rel="noopener">在线查看</a> |
 | 生物统计资料加强版.doc | DOC | 132 KB | <a href="/AHAU-Study-Hub/%E8%B5%84%E6%96%99/02-%E8%AF%BE%E7%A8%8B%E8%B5%84%E6%96%99/02-%E5%A4%A7%E4%B8%80%E7%AC%AC%E4%BA%8C%E5%AD%A6%E6%9C%9F/%E7%94%9F%E7%89%A9%E7%BB%9F%E8%AE%A1/%E5%A4%8D%E4%B9%A0%E8%B5%84%E6%96%99/%E7%94%9F%E7%89%A9%E7%BB%9F%E8%AE%A1%E8%B5%84%E6%96%99%E5%8A%A0%E5%BC%BA%E7%89%88.doc" download>下载</a> |
 
-### 教材（9）
+### 教材（1）
 
 | 文件 | 类型 | 大小 | 操作 |
 | :--- | :---: | ---: | :--- |
-| 试验统计方法（第五版）-001-055.pdf | PDF | 78.3 MB | 网盘待上传 |
-| 试验统计方法（第五版）-056-110.pdf | PDF | 67.3 MB | 网盘待上传 |
-| 试验统计方法（第五版）-111-165.pdf | PDF | 67.0 MB | 网盘待上传 |
-| 试验统计方法（第五版）-166-220.pdf | PDF | 63.4 MB | 网盘待上传 |
-| 试验统计方法（第五版）-221-275.pdf | PDF | 66.3 MB | 网盘待上传 |
-| 试验统计方法（第五版）-276-330.pdf | PDF | 68.4 MB | 网盘待上传 |
-| 试验统计方法（第五版）-331-385.pdf | PDF | 64.8 MB | 网盘待上传 |
-| 试验统计方法（第五版）-386-440.pdf | PDF | 52.9 MB | 网盘待上传 |
-| 试验统计方法（第五版）目录a1-33.pdf | PDF | 38.2 MB | <a href="/AHAU-Study-Hub/%E8%B5%84%E6%96%99/02-%E8%AF%BE%E7%A8%8B%E8%B5%84%E6%96%99/02-%E5%A4%A7%E4%B8%80%E7%AC%AC%E4%BA%8C%E5%AD%A6%E6%9C%9F/%E7%94%9F%E7%89%A9%E7%BB%9F%E8%AE%A1/%E6%95%99%E6%9D%90/%E8%AF%95%E9%AA%8C%E7%BB%9F%E8%AE%A1%E6%96%B9%E6%B3%95%EF%BC%88%E7%AC%AC%E4%BA%94%E7%89%88%EF%BC%89%E7%9B%AE%E5%BD%95a1-33.pdf" target="_blank" rel="noopener">在线查看</a> |
+| 试验统计方法（第五版）.pdf | PDF | 32.7 MB | <a href="/AHAU-Study-Hub/%E8%B5%84%E6%96%99/02-%E8%AF%BE%E7%A8%8B%E8%B5%84%E6%96%99/02-%E5%A4%A7%E4%B8%80%E7%AC%AC%E4%BA%8C%E5%AD%A6%E6%9C%9F/%E7%94%9F%E7%89%A9%E7%BB%9F%E8%AE%A1/%E6%95%99%E6%9D%90/%E8%AF%95%E9%AA%8C%E7%BB%9F%E8%AE%A1%E6%96%B9%E6%B3%95%EF%BC%88%E7%AC%AC%E4%BA%94%E7%89%88%EF%BC%89.pdf" target="_blank" rel="noopener">在线查看</a> |
 
 ### 往年真题（7）
 

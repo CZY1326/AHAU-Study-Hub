@@ -12,8 +12,8 @@
 
 | 文件 | 类型 | 大小 | 操作 |
 | :--- | :---: | ---: | :--- |
-| 高等数学Ⅲ.zip | ZIP | 78.5 MB | 网盘待上传 |
-| 高等数学III课程PPT(新版教材).zip | ZIP | 60.0 MB | 网盘待上传 |
+| 高等数学Ⅲ.zip | ZIP | 15.5 MB | <a href="/AHAU-Study-Hub/%E8%B5%84%E6%96%99/02-%E8%AF%BE%E7%A8%8B%E8%B5%84%E6%96%99/01-%E5%A4%A7%E4%B8%80%E7%AC%AC%E4%B8%80%E5%AD%A6%E6%9C%9F/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6%E2%85%A2/%E8%AF%BE%E4%BB%B6/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6%E2%85%A2.zip" download>下载</a> |
+| 高等数学III课程PPT(新版教材).zip | ZIP | 13.9 MB | <a href="/AHAU-Study-Hub/%E8%B5%84%E6%96%99/02-%E8%AF%BE%E7%A8%8B%E8%B5%84%E6%96%99/01-%E5%A4%A7%E4%B8%80%E7%AC%AC%E4%B8%80%E5%AD%A6%E6%9C%9F/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6%E2%85%A2/%E8%AF%BE%E4%BB%B6/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6III%E8%AF%BE%E7%A8%8BPPT(%E6%96%B0%E7%89%88%E6%95%99%E6%9D%90).zip" download>下载</a> |
 
 ### 试卷与答案（1）
 

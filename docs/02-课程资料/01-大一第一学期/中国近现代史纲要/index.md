@@ -12,9 +12,9 @@
 
 | 文件 | 类型 | 大小 | 操作 |
 | :--- | :---: | ---: | :--- |
-| 1.中国近现代史纲要课件（2023年版）第一部分.pdf | PDF | 587.6 MB | 网盘待上传 |
-| 2.中国近现代史纲要课件（2023年版）第二部分.pdf | PDF | 475.9 MB | 网盘待上传 |
-| 3.中国近现代史纲要课件（2023年版）第三部分.pdf | PDF | 546.5 MB | 网盘待上传 |
+| 1.中国近现代史纲要课件（2023年版）第一部分.pdf | PDF | 25.2 MB | <a href="/AHAU-Study-Hub/%E8%B5%84%E6%96%99/02-%E8%AF%BE%E7%A8%8B%E8%B5%84%E6%96%99/01-%E5%A4%A7%E4%B8%80%E7%AC%AC%E4%B8%80%E5%AD%A6%E6%9C%9F/%E4%B8%AD%E5%9B%BD%E8%BF%91%E7%8E%B0%E4%BB%A3%E5%8F%B2%E7%BA%B2%E8%A6%81/%E8%AF%BE%E4%BB%B6/1.%E4%B8%AD%E5%9B%BD%E8%BF%91%E7%8E%B0%E4%BB%A3%E5%8F%B2%E7%BA%B2%E8%A6%81%E8%AF%BE%E4%BB%B6%EF%BC%882023%E5%B9%B4%E7%89%88%EF%BC%89%E7%AC%AC%E4%B8%80%E9%83%A8%E5%88%86.pdf" target="_blank" rel="noopener">在线查看</a> |
+| 2.中国近现代史纲要课件（2023年版）第二部分.pdf | PDF | 23.7 MB | <a href="/AHAU-Study-Hub/%E8%B5%84%E6%96%99/02-%E8%AF%BE%E7%A8%8B%E8%B5%84%E6%96%99/01-%E5%A4%A7%E4%B8%80%E7%AC%AC%E4%B8%80%E5%AD%A6%E6%9C%9F/%E4%B8%AD%E5%9B%BD%E8%BF%91%E7%8E%B0%E4%BB%A3%E5%8F%B2%E7%BA%B2%E8%A6%81/%E8%AF%BE%E4%BB%B6/2.%E4%B8%AD%E5%9B%BD%E8%BF%91%E7%8E%B0%E4%BB%A3%E5%8F%B2%E7%BA%B2%E8%A6%81%E8%AF%BE%E4%BB%B6%EF%BC%882023%E5%B9%B4%E7%89%88%EF%BC%89%E7%AC%AC%E4%BA%8C%E9%83%A8%E5%88%86.pdf" target="_blank" rel="noopener">在线查看</a> |
+| 3.中国近现代史纲要课件（2023年版）第三部分.pdf | PDF | 27.4 MB | <a href="/AHAU-Study-Hub/%E8%B5%84%E6%96%99/02-%E8%AF%BE%E7%A8%8B%E8%B5%84%E6%96%99/01-%E5%A4%A7%E4%B8%80%E7%AC%AC%E4%B8%80%E5%AD%A6%E6%9C%9F/%E4%B8%AD%E5%9B%BD%E8%BF%91%E7%8E%B0%E4%BB%A3%E5%8F%B2%E7%BA%B2%E8%A6%81/%E8%AF%BE%E4%BB%B6/3.%E4%B8%AD%E5%9B%BD%E8%BF%91%E7%8E%B0%E4%BB%A3%E5%8F%B2%E7%BA%B2%E8%A6%81%E8%AF%BE%E4%BB%B6%EF%BC%882023%E5%B9%B4%E7%89%88%EF%BC%89%E7%AC%AC%E4%B8%89%E9%83%A8%E5%88%86.pdf" target="_blank" rel="noopener">在线查看</a> |
 
 ### 试卷与答案（4）
 
