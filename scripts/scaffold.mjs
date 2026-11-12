@@ -12,7 +12,7 @@
  *   00-前言概要 / 01-新生专栏 / 03-学业专栏 / 04-生活专栏 —— 主题模块（TOPICS）
  *   02-课程资料/<NN-学期>/<课程>/ —— 学期分组课程
  *   05-公选课外/<分组>/<课程>/ —— 公选与课外分组课程
- *   （大文件不单独设模块：网盘链接直接登记在对应课程页的「大文件」小节）
+ *   （大文件不单独设模块：登记在 scripts/big-files.json，网盘链接合并进课程页资料清单）
  */
 import { mkdir, readFile, writeFile, access } from 'node:fs/promises'
 import { join, dirname } from 'node:path'

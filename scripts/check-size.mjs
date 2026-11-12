@@ -3,7 +3,7 @@
  * check-size.mjs — 强制 50 MB 单文件上限。
  *
  * 约定：docs/ 下单个文件 < 50 MB 直接提交进仓库；
- * >= 50 MB 的资料不进仓库，网盘链接登记到对应课程页的「大文件」小节。
+ * >= 50 MB 的资料不进仓库，登记到 scripts/big-files.json（网盘链接合并进课程页资料清单）。
  *
  * 为什么存在：过去用 .gitignore 按扩展名（*.mp4/*.zip 等）一刀切忽略，
  * 导致文件本地存在但从未入库，本地构建正常、CI 构建失败且难以排查。
@@ -54,7 +54,7 @@ if (oversized.length) {
   for (const f of oversized) {
     console.error(`   ${humanSize(f.size).padStart(8)}  ${f.rel}`)
   }
-  console.error('\n按约定，>= 50 MB 的资料不进仓库：把网盘链接登记到对应课程页的「大文件」小节，再删除本地大文件。')
+  console.error('\n按约定，>= 50 MB 的资料不进仓库：先登记到 scripts/big-files.json，再删除本地大文件。')
   process.exit(1)
 }
 

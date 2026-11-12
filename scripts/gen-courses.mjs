@@ -173,14 +173,49 @@ async function courseSections(courseDir) {
 /**
  * 扫描一门课，返回各资料子目录的清单。
  * courseDir 形如 docs/02-课程资料/01-大一第一学期/高等数学Ⅲ
+ *
+ * 超过 50 MB、不进仓库的资料登记在 scripts/big-files.json 里（按课程 + 章节），
+ * 这里把它们合并回原本所属的章节表格，保持「资料就在它该在的地方」，
+ * 不再单设「大文件」小节。
  */
-async function scanCourse(courseDir) {
+async function scanCourse(courseDir, courseRel, bigAll) {
   const result = []
-  for (const sec of await courseSections(courseDir)) {
+  const regs = (bigAll || {})[courseRel] || []
+  const secs = await courseSections(courseDir)
+
+  // 登记表里出现但磁盘上没有的章节（例如整章都是大文件），也要建出小节
+  for (const r of regs) {
+    if (!secs.some((s) => s.dir === r.section)) {
+      secs.push({ dir: r.section, icon: '📁', label: r.section })
+    }
+  }
+
+  for (const sec of secs) {
     const files = await collectFiles(join(courseDir, sec.dir), DOCS)
-    if (files.length) result.push({ ...sec, files })
+    const extras = regs
+      .filter((r) => r.section === sec.dir)
+      .map((r) => ({
+        name: r.name,
+        relPath: `${courseRel}/${sec.dir}/${r.name}`,
+        size: r.bytes,
+        type: FILE_TYPES[extname(r.name).toLowerCase()] || { icon: '', label: '文件', kind: 'binary' },
+        link: r.link || '',
+        external: true,
+      }))
+    const all = files.concat(extras).sort((a, b) => naturalCompare(a.name, b.name))
+    if (all.length) result.push({ ...sec, files: all })
   }
   return result
+}
+
+/** 读取大文件登记表（不存在时返回空表） */
+async function loadBigFiles() {
+  try {
+    const raw = await readFile(join(ROOT, 'scripts', 'big-files.json'), 'utf8')
+    return JSON.parse(raw).courses || {}
+  } catch {
+    return {}
+  }
 }
 
 /* ------------------------------------------------------------------ *
@@ -210,6 +245,13 @@ function renderSections(courseRelPath, sections) {
   for (const sec of sections) {
     const rows = sec.files
       .map((f) => {
+        // 登记在 big-files.json 的大文件：没有本地副本，直接指向网盘
+        if (f.external) {
+          const action = f.link
+            ? `<a href="${f.link}" target="_blank" rel="noopener">网盘下载</a>`
+            : '网盘待上传'
+          return `| ${f.name} | ${f.type.label} | ${humanSize(f.size)} | ${action} |`
+        }
         // 文件在仓库中的位置：docs/<relPath>（relPath 相对 docs/，已含子目录）
         // 站点中映射到：<base>/资料/<relPath>
         // 用 <a href> 而非 Markdown 链接，绕开 VitePress 的内部路由死链检查。
@@ -240,7 +282,7 @@ function renderSections(courseRelPath, sections) {
   blocks.push(
     '::: tip 关于下载\n' +
       'PDF 与图片可直接在浏览器里**在线查看**；PPT / Word / Excel / 压缩包点「下载」后用本地软件打开。\n' +
-      '单文件超过 50 MB 的资料不进仓库，其网盘链接直接登记在本页下方「大文件」小节。\n' +
+      '单文件超过 50 MB 的资料不进仓库，网盘链接补上后表格里会显示「网盘下载」；现在标着「网盘待上传」的还在等链接。\n' +
       ':::',
   )
 
@@ -297,13 +339,14 @@ async function findCoursePages() {
 
 async function runGenerate(checkOnly) {
   const pages = await findCoursePages()
+  const bigAll = await loadBigFiles()
   let changed = 0
   let skipped = 0
   let totalFiles = 0
 
   for (const page of pages) {
     const md = await readFile(page.file, 'utf8')
-    const sections = await scanCourse(page.courseDir)
+    const sections = await scanCourse(page.courseDir, page.courseRel, bigAll)
     totalFiles += sections.reduce((n, s) => n + s.files.length, 0)
 
     const content = renderSections(page.courseRel, sections)
