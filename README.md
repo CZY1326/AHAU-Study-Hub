@@ -27,6 +27,9 @@
 > 📖 **推荐访问网页版，左侧目录 + 全文搜索，体验远好于翻仓库：**
 > **<https://czy1326.github.io/AHAU-Study-Hub/>**
 
+> 🎫 **学习通课程门户（原始文件与通知，需登录学习通）：**
+> **<https://mooc1.chaoxing.com/mooc-ans/course/portal/hRG5C5vWREn8t1KtkLwSwg==>**
+
 ---
 
 ## 10 秒上手

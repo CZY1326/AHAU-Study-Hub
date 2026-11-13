@@ -16,6 +16,9 @@ hero:
       text: 新生先看这里
       link: /01-新生专栏/
     - theme: alt
+      text: 学习通课程
+      link: https://mooc1.chaoxing.com/mooc-ans/course/portal/hRG5C5vWREn8t1KtkLwSwg==
+    - theme: alt
       text: GitHub 仓库
       link: https://github.com/CZY1326/AHAU-Study-Hub
 

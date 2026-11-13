@@ -109,6 +109,10 @@ export default defineConfig({
         ],
       },
       { text: '公选课外', link: '/05-公选课外/' },
+      {
+        text: '学习通课程',
+        link: 'https://mooc1.chaoxing.com/mooc-ans/course/portal/hRG5C5vWREn8t1KtkLwSwg==',
+      },
     ],
 
     sidebar: buildSidebar(),

@@ -18,6 +18,11 @@
 - [校图书馆官网](https://lib.ahau.edu.cn/)
 - [学生处](http://xgb.ahau.edu.cn)（迎新专栏、资助政策、宿舍通知）
 
+## 学习平台
+
+- **超星学习通**：上课签到、作业、课件与考试都在这上面，必备。[安农学习时光 · 课程门户（本站配套课程）](https://mooc1.chaoxing.com/mooc-ans/course/portal/hRG5C5vWREn8t1KtkLwSwg==)，登录后可看课程资料与通知
+- 手机端在应用商店搜「学习通」下载，用学号登录即可
+
 ## 部门联系方式
 
 ![部门联系方式](./3.png)
