@@ -26,10 +26,11 @@
 
 > 📖 **推荐访问网页版**：左侧目录 + 全文搜索，体验远好于翻仓库。
 
-| 入口 | 链接 | 适用场景 |
+| 入口 | 链接 | 说明 |
 | :--- | :--- | :--- |
 | 🌐 **主网址**（推荐） | [ahaustudyhub.me](https://ahaustudyhub.me/) | 日常浏览、搜课程、下资料 |
-| 🛟 备用网址 | [czy1326.github.io/AHAU-Study-Hub](https://czy1326.github.io/AHAU-Study-Hub/) | 主站打不开时用；平时访问会自动跳转到主网址 |
+| 🗂 **仓库直连**（兜底） | [CZY1326/AHAU-Study-Hub](https://github.com/CZY1326/AHAU-Study-Hub/tree/main/docs) | 网页版打不开时用；进 `docs/` 按学期找目录，直接看/下文件 |
+| 🔁 旧地址 | [czy1326.github.io/AHAU-Study-Hub](https://czy1326.github.io/AHAU-Study-Hub/) | 会自动 301 跳到主网址；与主站同一套托管，**不是备份** |
 | 🎫 学习通课程门户 | [mooc1.chaoxing.com · 安农学习时光](https://mooc1.chaoxing.com/mooc-ans/course/portal/hRG5C5vWREn8t1KtkLwSwg==) | 看通知、拿未整理的原始文件，需登录学习通 |
 
 ---

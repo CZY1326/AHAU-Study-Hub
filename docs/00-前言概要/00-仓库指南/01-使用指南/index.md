@@ -4,11 +4,16 @@
 
 ### 在网页版找（推荐）
 
-访问 [安农学习时光](https://ahaustudyhub.me/)（**主网址**）。主站打不开时可换备用网址
-[czy1326.github.io/AHAU-Study-Hub](https://czy1326.github.io/AHAU-Study-Hub/)，内容完全一致，平时会自动跳转到主网址：
+直接打开主网址 [ahaustudyhub.me](https://ahaustudyhub.me/)：
 
 - 顶部导航按「学期 / 选修通识 / 链接库」进入，左侧目录再点具体课程；
 - 右上角**搜索框**可直接搜课程名、老师名（缩写）、文件名，例如「高等数学」「期末试卷」。
+
+::: tip 主网址打不开怎么办
+旧地址 czy1326.github.io/AHAU-Study-Hub 会 **301 跳到主网址**，它和主网址是同一套托管，只是换了个域名，**不能当备份用**——主域名挂了，它也会一起挂。
+
+真要兜底请走 **GitHub 仓库**：[CZY1326/AHAU-Study-Hub](https://github.com/CZY1326/AHAU-Study-Hub/tree/main/docs)，不经过网页托管，进 `docs/` 找对应学期目录就能直接看、直接下载原始文件（顺手可在仓库首页点 ⭐ 收藏）。
+:::
 
 ### 在学习通课程里找
 
