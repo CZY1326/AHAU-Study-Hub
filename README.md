@@ -25,7 +25,8 @@
 ## 在线浏览
 
 > 📖 **推荐访问网页版，左侧目录 + 全文搜索，体验远好于翻仓库：**
-> **<https://ahaustudyhub.me/>**（原 <https://czy1326.github.io/AHAU-Study-Hub/> 会自动跳转）
+> 主网址：**<https://ahaustudyhub.me/>**
+> 备用网址：**<https://czy1326.github.io/AHAU-Study-Hub/>**（访问会自动跳转到主网址，主站打不开时可直接用）
 
 > 🎫 **学习通课程门户（原始文件与通知，需登录学习通）：**
 > **<https://mooc1.chaoxing.com/mooc-ans/course/portal/hRG5C5vWREn8t1KtkLwSwg==>**
