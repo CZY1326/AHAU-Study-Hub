@@ -12,7 +12,7 @@
 
 | 文件 | 类型 | 大小 | 操作 |
 | :--- | :---: | ---: | :--- |
-| 国家安全教育大学生读本.pdf | PDF | 10.5 MB | <a href="/AHAU-Study-Hub/%E8%B5%84%E6%96%99/02-%E8%AF%BE%E7%A8%8B%E8%B5%84%E6%96%99/02-%E5%A4%A7%E4%B8%80%E7%AC%AC%E4%BA%8C%E5%AD%A6%E6%9C%9F/%E5%9B%BD%E5%AE%B6%E5%AE%89%E5%85%A8%E6%95%99%E8%82%B2/%E8%AF%BE%E4%BB%B6/%E5%9B%BD%E5%AE%B6%E5%AE%89%E5%85%A8%E6%95%99%E8%82%B2%E5%A4%A7%E5%AD%A6%E7%94%9F%E8%AF%BB%E6%9C%AC.pdf" target="_blank" rel="noopener">在线查看</a> |
+| 国家安全教育大学生读本.pdf | PDF | 10.5 MB | <a href="/%E8%B5%84%E6%96%99/02-%E8%AF%BE%E7%A8%8B%E8%B5%84%E6%96%99/02-%E5%A4%A7%E4%B8%80%E7%AC%AC%E4%BA%8C%E5%AD%A6%E6%9C%9F/%E5%9B%BD%E5%AE%B6%E5%AE%89%E5%85%A8%E6%95%99%E8%82%B2/%E8%AF%BE%E4%BB%B6/%E5%9B%BD%E5%AE%B6%E5%AE%89%E5%85%A8%E6%95%99%E8%82%B2%E5%A4%A7%E5%AD%A6%E7%94%9F%E8%AF%BB%E6%9C%AC.pdf" target="_blank" rel="noopener">在线查看</a> |
 
 ::: tip 关于下载
 PDF 与图片可直接在浏览器里**在线查看**；PPT / Word / Excel / 压缩包点「下载」后用本地软件打开。

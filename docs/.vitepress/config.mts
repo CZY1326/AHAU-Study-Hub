@@ -57,8 +57,11 @@ export default defineConfig({
   title: '安农学习时光',
   description: '安徽农业大学 (AHAU) 本科四年课程资料、真题与避坑指南 —— 因为淋过雨，所以想为学弟学妹撑把伞。',
 
-  // GitHub Pages 项目站点需设置 base 为 /<repo>/
-  base: '/AHAU-Study-Hub/',
+  // 站点已绑定自定义域名 ahaustudyhub.me（Pages 自定义域 → 站点挂在根路径），
+  // 所以 base 必须是 '/'。旧的 czy1326.github.io/AHAU-Study-Hub/... 会被 GitHub
+  // 301 到 ahaustudyhub.me/...（自动去掉仓库前缀），旧链接不会失效。
+  // 若将来取消自定义域名，必须把这里和 scripts/gen-courses.mjs 的 BASE 一起改回 '/AHAU-Study-Hub/'。
+  base: '/',
 
   cleanUrls: true,
   lastUpdated: true,
@@ -70,7 +73,7 @@ export default defineConfig({
   ignoreDeadLinks: false,
 
   head: [
-    ['link', { rel: 'icon', type: 'image/svg+xml', href: '/AHAU-Study-Hub/logo.svg' }],
+    ['link', { rel: 'icon', type: 'image/svg+xml', href: '/logo.svg' }],
     ['meta', { name: 'theme-color', content: '#2f7d4f' }],
     ['meta', { name: 'author', content: 'AHAU Study Hub Contributors' }],
   ],

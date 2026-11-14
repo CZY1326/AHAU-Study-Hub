@@ -25,7 +25,7 @@
 ## 在线浏览
 
 > 📖 **推荐访问网页版，左侧目录 + 全文搜索，体验远好于翻仓库：**
-> **<https://czy1326.github.io/AHAU-Study-Hub/>**
+> **<https://ahaustudyhub.me/>**（原 <https://czy1326.github.io/AHAU-Study-Hub/> 会自动跳转）
 
 > 🎫 **学习通课程门户（原始文件与通知，需登录学习通）：**
 > **<https://mooc1.chaoxing.com/mooc-ans/course/portal/hRG5C5vWREn8t1KtkLwSwg==>**
@@ -44,7 +44,7 @@
 | 看注意事项 | [提醒与警告](./docs/00-前言概要/00-仓库指南/04-提醒与警告/index.md) |
 | 遇到问题 | [常见问题](./docs/00-前言概要/00-仓库指南/05-常见问题/index.md) |
 
-> 以上页面均已收录进[网页版](https://czy1326.github.io/AHAU-Study-Hub/)侧边栏的「仓库指南」模块。
+> 以上页面均已收录进[网页版](https://ahaustudyhub.me/)侧边栏的「仓库指南」模块。
 
 ---
 

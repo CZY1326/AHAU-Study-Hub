@@ -12,7 +12,7 @@
 
 | 文件 | 类型 | 大小 | 操作 |
 | :--- | :---: | ---: | :--- |
-| SAS生物统计分析软件教程.pdf | PDF | 28.7 MB | <a href="/AHAU-Study-Hub/%E8%B5%84%E6%96%99/02-%E8%AF%BE%E7%A8%8B%E8%B5%84%E6%96%99/02-%E5%A4%A7%E4%B8%80%E7%AC%AC%E4%BA%8C%E5%AD%A6%E6%9C%9F/%E7%94%9F%E7%89%A9%E7%BB%9F%E8%AE%A1%E5%AE%9E%E9%AA%8C/%E8%AF%BE%E4%BB%B6/SAS%E7%94%9F%E7%89%A9%E7%BB%9F%E8%AE%A1%E5%88%86%E6%9E%90%E8%BD%AF%E4%BB%B6%E6%95%99%E7%A8%8B.pdf" target="_blank" rel="noopener">在线查看</a> |
+| SAS生物统计分析软件教程.pdf | PDF | 28.7 MB | <a href="/%E8%B5%84%E6%96%99/02-%E8%AF%BE%E7%A8%8B%E8%B5%84%E6%96%99/02-%E5%A4%A7%E4%B8%80%E7%AC%AC%E4%BA%8C%E5%AD%A6%E6%9C%9F/%E7%94%9F%E7%89%A9%E7%BB%9F%E8%AE%A1%E5%AE%9E%E9%AA%8C/%E8%AF%BE%E4%BB%B6/SAS%E7%94%9F%E7%89%A9%E7%BB%9F%E8%AE%A1%E5%88%86%E6%9E%90%E8%BD%AF%E4%BB%B6%E6%95%99%E7%A8%8B.pdf" target="_blank" rel="noopener">在线查看</a> |
 
 ::: tip 关于下载
 PDF 与图片可直接在浏览器里**在线查看**；PPT / Word / Excel / 压缩包点「下载」后用本地软件打开。

@@ -12,8 +12,8 @@
 
 | 文件 | 类型 | 大小 | 操作 |
 | :--- | :---: | ---: | :--- |
-| 《花卉学》A卷 参考答案及评分标准.pdf | PDF | 358 KB | <a href="/AHAU-Study-Hub/%E8%B5%84%E6%96%99/05-%E5%85%AC%E9%80%89%E8%AF%BE%E5%A4%96/%E5%9B%AD%E8%89%BA%E4%B8%93%E9%80%89/%E8%8A%B1%E5%8D%89%E5%AD%A6/%E8%AF%95%E5%8D%B7%E4%B8%8E%E7%AD%94%E6%A1%88/%E3%80%8A%E8%8A%B1%E5%8D%89%E5%AD%A6%E3%80%8BA%E5%8D%B7%20%E5%8F%82%E8%80%83%E7%AD%94%E6%A1%88%E5%8F%8A%E8%AF%84%E5%88%86%E6%A0%87%E5%87%86.pdf" target="_blank" rel="noopener">在线查看</a> |
-| 《花卉学》A卷.pdf | PDF | 324 KB | <a href="/AHAU-Study-Hub/%E8%B5%84%E6%96%99/05-%E5%85%AC%E9%80%89%E8%AF%BE%E5%A4%96/%E5%9B%AD%E8%89%BA%E4%B8%93%E9%80%89/%E8%8A%B1%E5%8D%89%E5%AD%A6/%E8%AF%95%E5%8D%B7%E4%B8%8E%E7%AD%94%E6%A1%88/%E3%80%8A%E8%8A%B1%E5%8D%89%E5%AD%A6%E3%80%8BA%E5%8D%B7.pdf" target="_blank" rel="noopener">在线查看</a> |
+| 《花卉学》A卷 参考答案及评分标准.pdf | PDF | 358 KB | <a href="/%E8%B5%84%E6%96%99/05-%E5%85%AC%E9%80%89%E8%AF%BE%E5%A4%96/%E5%9B%AD%E8%89%BA%E4%B8%93%E9%80%89/%E8%8A%B1%E5%8D%89%E5%AD%A6/%E8%AF%95%E5%8D%B7%E4%B8%8E%E7%AD%94%E6%A1%88/%E3%80%8A%E8%8A%B1%E5%8D%89%E5%AD%A6%E3%80%8BA%E5%8D%B7%20%E5%8F%82%E8%80%83%E7%AD%94%E6%A1%88%E5%8F%8A%E8%AF%84%E5%88%86%E6%A0%87%E5%87%86.pdf" target="_blank" rel="noopener">在线查看</a> |
+| 《花卉学》A卷.pdf | PDF | 324 KB | <a href="/%E8%B5%84%E6%96%99/05-%E5%85%AC%E9%80%89%E8%AF%BE%E5%A4%96/%E5%9B%AD%E8%89%BA%E4%B8%93%E9%80%89/%E8%8A%B1%E5%8D%89%E5%AD%A6/%E8%AF%95%E5%8D%B7%E4%B8%8E%E7%AD%94%E6%A1%88/%E3%80%8A%E8%8A%B1%E5%8D%89%E5%AD%A6%E3%80%8BA%E5%8D%B7.pdf" target="_blank" rel="noopener">在线查看</a> |
 
 ::: tip 关于下载
 PDF 与图片可直接在浏览器里**在线查看**；PPT / Word / Excel / 压缩包点「下载」后用本地软件打开。

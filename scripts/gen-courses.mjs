@@ -29,10 +29,11 @@ const END = '<!-- FILES:END -->'
 
 /**
  * 站点 base 前缀，必须与 docs/.vitepress/config.mts 里的 base 保持一致。
- * 原生 <a href> 不会被 VitePress 自动拼接 base，所以这里要显式加上，
- * 否则部署到 GitHub Pages 子路径后下载链接会 404。
+ * 原生 <a href> 不会被 VitePress 自动拼接 base，所以这里要显式加上。
+ * 已绑定自定义域名 ahaustudyhub.me，站点位于根路径，故为 '/'。
+ * 若取消自定义域名，需与 config.mts 一起改回 '/AHAU-Study-Hub/'。
  */
-const BASE = '/AHAU-Study-Hub/'
+const BASE = '/'
 const ASSET_PREFIX = '资料'
 
 /** 每门课固定三个资料子目录，顺序即展示顺序 */

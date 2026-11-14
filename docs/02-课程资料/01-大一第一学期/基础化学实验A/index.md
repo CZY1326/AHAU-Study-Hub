@@ -12,7 +12,7 @@
 
 | 文件 | 类型 | 大小 | 操作 |
 | :--- | :---: | ---: | :--- |
-| 基础化学实验A实验报告.pdf | PDF | 5.0 MB | <a href="/AHAU-Study-Hub/%E8%B5%84%E6%96%99/02-%E8%AF%BE%E7%A8%8B%E8%B5%84%E6%96%99/01-%E5%A4%A7%E4%B8%80%E7%AC%AC%E4%B8%80%E5%AD%A6%E6%9C%9F/%E5%9F%BA%E7%A1%80%E5%8C%96%E5%AD%A6%E5%AE%9E%E9%AA%8CA/%E5%A4%8D%E4%B9%A0%E8%B5%84%E6%96%99/%E5%9F%BA%E7%A1%80%E5%8C%96%E5%AD%A6%E5%AE%9E%E9%AA%8CA%E5%AE%9E%E9%AA%8C%E6%8A%A5%E5%91%8A.pdf" target="_blank" rel="noopener">在线查看</a> |
+| 基础化学实验A实验报告.pdf | PDF | 5.0 MB | <a href="/%E8%B5%84%E6%96%99/02-%E8%AF%BE%E7%A8%8B%E8%B5%84%E6%96%99/01-%E5%A4%A7%E4%B8%80%E7%AC%AC%E4%B8%80%E5%AD%A6%E6%9C%9F/%E5%9F%BA%E7%A1%80%E5%8C%96%E5%AD%A6%E5%AE%9E%E9%AA%8CA/%E5%A4%8D%E4%B9%A0%E8%B5%84%E6%96%99/%E5%9F%BA%E7%A1%80%E5%8C%96%E5%AD%A6%E5%AE%9E%E9%AA%8CA%E5%AE%9E%E9%AA%8C%E6%8A%A5%E5%91%8A.pdf" target="_blank" rel="noopener">在线查看</a> |
 
 ::: tip 关于下载
 PDF 与图片可直接在浏览器里**在线查看**；PPT / Word / Excel / 压缩包点「下载」后用本地软件打开。

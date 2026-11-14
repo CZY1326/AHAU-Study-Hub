@@ -12,14 +12,14 @@
 
 | 文件 | 类型 | 大小 | 操作 |
 | :--- | :---: | ---: | :--- |
-| 农业信息技术论文参考.pdf | PDF | 272 KB | <a href="/AHAU-Study-Hub/%E8%B5%84%E6%96%99/05-%E5%85%AC%E9%80%89%E8%AF%BE%E5%A4%96/%E5%85%B6%E4%BB%96%E8%AF%BE%E7%A8%8B/%E5%86%9C%E4%B8%9A%E4%BF%A1%E6%81%AF%E6%8A%80%E6%9C%AF/%E8%AF%95%E5%8D%B7%E4%B8%8E%E7%AD%94%E6%A1%88/%E5%86%9C%E4%B8%9A%E4%BF%A1%E6%81%AF%E6%8A%80%E6%9C%AF%E8%AE%BA%E6%96%87%E5%8F%82%E8%80%83.pdf" target="_blank" rel="noopener">在线查看</a> |
+| 农业信息技术论文参考.pdf | PDF | 272 KB | <a href="/%E8%B5%84%E6%96%99/05-%E5%85%AC%E9%80%89%E8%AF%BE%E5%A4%96/%E5%85%B6%E4%BB%96%E8%AF%BE%E7%A8%8B/%E5%86%9C%E4%B8%9A%E4%BF%A1%E6%81%AF%E6%8A%80%E6%9C%AF/%E8%AF%95%E5%8D%B7%E4%B8%8E%E7%AD%94%E6%A1%88/%E5%86%9C%E4%B8%9A%E4%BF%A1%E6%81%AF%E6%8A%80%E6%9C%AF%E8%AE%BA%E6%96%87%E5%8F%82%E8%80%83.pdf" target="_blank" rel="noopener">在线查看</a> |
 
 ### 复习资料（2）
 
 | 文件 | 类型 | 大小 | 操作 |
 | :--- | :---: | ---: | :--- |
-| 农业信息技术题库.docx | DOC | 21 KB | <a href="/AHAU-Study-Hub/%E8%B5%84%E6%96%99/05-%E5%85%AC%E9%80%89%E8%AF%BE%E5%A4%96/%E5%85%B6%E4%BB%96%E8%AF%BE%E7%A8%8B/%E5%86%9C%E4%B8%9A%E4%BF%A1%E6%81%AF%E6%8A%80%E6%9C%AF/%E5%A4%8D%E4%B9%A0%E8%B5%84%E6%96%99/%E5%86%9C%E4%B8%9A%E4%BF%A1%E6%81%AF%E6%8A%80%E6%9C%AF%E9%A2%98%E5%BA%93.docx" download>下载</a> |
-| 现代农业信息技术复习资料期末考试重点知识点总结.docx | DOC | 21 KB | <a href="/AHAU-Study-Hub/%E8%B5%84%E6%96%99/05-%E5%85%AC%E9%80%89%E8%AF%BE%E5%A4%96/%E5%85%B6%E4%BB%96%E8%AF%BE%E7%A8%8B/%E5%86%9C%E4%B8%9A%E4%BF%A1%E6%81%AF%E6%8A%80%E6%9C%AF/%E5%A4%8D%E4%B9%A0%E8%B5%84%E6%96%99/%E7%8E%B0%E4%BB%A3%E5%86%9C%E4%B8%9A%E4%BF%A1%E6%81%AF%E6%8A%80%E6%9C%AF%E5%A4%8D%E4%B9%A0%E8%B5%84%E6%96%99%E6%9C%9F%E6%9C%AB%E8%80%83%E8%AF%95%E9%87%8D%E7%82%B9%E7%9F%A5%E8%AF%86%E7%82%B9%E6%80%BB%E7%BB%93.docx" download>下载</a> |
+| 农业信息技术题库.docx | DOC | 21 KB | <a href="/%E8%B5%84%E6%96%99/05-%E5%85%AC%E9%80%89%E8%AF%BE%E5%A4%96/%E5%85%B6%E4%BB%96%E8%AF%BE%E7%A8%8B/%E5%86%9C%E4%B8%9A%E4%BF%A1%E6%81%AF%E6%8A%80%E6%9C%AF/%E5%A4%8D%E4%B9%A0%E8%B5%84%E6%96%99/%E5%86%9C%E4%B8%9A%E4%BF%A1%E6%81%AF%E6%8A%80%E6%9C%AF%E9%A2%98%E5%BA%93.docx" download>下载</a> |
+| 现代农业信息技术复习资料期末考试重点知识点总结.docx | DOC | 21 KB | <a href="/%E8%B5%84%E6%96%99/05-%E5%85%AC%E9%80%89%E8%AF%BE%E5%A4%96/%E5%85%B6%E4%BB%96%E8%AF%BE%E7%A8%8B/%E5%86%9C%E4%B8%9A%E4%BF%A1%E6%81%AF%E6%8A%80%E6%9C%AF/%E5%A4%8D%E4%B9%A0%E8%B5%84%E6%96%99/%E7%8E%B0%E4%BB%A3%E5%86%9C%E4%B8%9A%E4%BF%A1%E6%81%AF%E6%8A%80%E6%9C%AF%E5%A4%8D%E4%B9%A0%E8%B5%84%E6%96%99%E6%9C%9F%E6%9C%AB%E8%80%83%E8%AF%95%E9%87%8D%E7%82%B9%E7%9F%A5%E8%AF%86%E7%82%B9%E6%80%BB%E7%BB%93.docx" download>下载</a> |
 
 ::: tip 关于下载
 PDF 与图片可直接在浏览器里**在线查看**；PPT / Word / Excel / 压缩包点「下载」后用本地软件打开。

@@ -12,7 +12,7 @@
 
 | 文件 | 类型 | 大小 | 操作 |
 | :--- | :---: | ---: | :--- |
-| 信息技术应用教程.pdf | PDF | 35.7 MB | <a href="/AHAU-Study-Hub/%E8%B5%84%E6%96%99/02-%E8%AF%BE%E7%A8%8B%E8%B5%84%E6%96%99/01-%E5%A4%A7%E4%B8%80%E7%AC%AC%E4%B8%80%E5%AD%A6%E6%9C%9F/%E8%AE%A1%E7%AE%97%E6%80%9D%E7%BB%B4%E4%B8%8E%E4%BF%A1%E6%81%AF%E6%8A%80%E6%9C%AF/%E5%A4%8D%E4%B9%A0%E8%B5%84%E6%96%99/%E4%BF%A1%E6%81%AF%E6%8A%80%E6%9C%AF%E5%BA%94%E7%94%A8%E6%95%99%E7%A8%8B.pdf" target="_blank" rel="noopener">在线查看</a> |
+| 信息技术应用教程.pdf | PDF | 35.7 MB | <a href="/%E8%B5%84%E6%96%99/02-%E8%AF%BE%E7%A8%8B%E8%B5%84%E6%96%99/01-%E5%A4%A7%E4%B8%80%E7%AC%AC%E4%B8%80%E5%AD%A6%E6%9C%9F/%E8%AE%A1%E7%AE%97%E6%80%9D%E7%BB%B4%E4%B8%8E%E4%BF%A1%E6%81%AF%E6%8A%80%E6%9C%AF/%E5%A4%8D%E4%B9%A0%E8%B5%84%E6%96%99/%E4%BF%A1%E6%81%AF%E6%8A%80%E6%9C%AF%E5%BA%94%E7%94%A8%E6%95%99%E7%A8%8B.pdf" target="_blank" rel="noopener">在线查看</a> |
 
 ::: tip 关于下载
 PDF 与图片可直接在浏览器里**在线查看**；PPT / Word / Excel / 压缩包点「下载」后用本地软件打开。
