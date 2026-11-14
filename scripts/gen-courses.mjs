@@ -251,7 +251,9 @@ function renderSections(courseRelPath, sections) {
           const action = f.link
             ? `<a href="${f.link}" target="_blank" rel="noopener">网盘下载</a>`
             : '网盘待上传'
-          return `| ${f.name} | ${f.type.label} | ${humanSize(f.size)} | ${action} |`
+          // name 允许带子目录（如「教材/xxx.pdf」），展示时用「 / 」连起来，与本地文件的写法一致
+          const label = f.name.split('/').join(' / ')
+          return `| ${label} | ${f.type.label} | ${humanSize(f.size)} | ${action} |`
         }
         // 文件在仓库中的位置：docs/<relPath>（relPath 相对 docs/，已含子目录）
         // 站点中映射到：<base>/资料/<relPath>

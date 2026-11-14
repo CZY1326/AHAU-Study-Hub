@@ -8,9 +8,22 @@
 > 请勿手动编辑标记区间内的内容。
 
 <!-- FILES:START -->
-::: info 资料还在路上
-这门课的课件 / 试卷与答案 / 复习资料暂未上传。
-如果你手上有**历年真题**或**老师的复习提纲**，欢迎提 PR 补进来 —— 那是价值最高的东西。
+### 课件（2）
+
+| 文件 | 类型 | 大小 | 操作 |
+| :--- | :---: | ---: | :--- |
+| 新目标大学英语第二版视听说教程4.pdf | PDF | 16.6 MB | <a href="/%E8%B5%84%E6%96%99/02-%E8%AF%BE%E7%A8%8B%E8%B5%84%E6%96%99/04-%E5%A4%A7%E4%BA%8C%E7%AC%AC%E4%BA%8C%E5%AD%A6%E6%9C%9F/%E5%A4%A7%E5%AD%A6%E8%8B%B1%E8%AF%AD4/%E8%AF%BE%E4%BB%B6/%E6%96%B0%E7%9B%AE%E6%A0%87%E5%A4%A7%E5%AD%A6%E8%8B%B1%E8%AF%AD%E7%AC%AC%E4%BA%8C%E7%89%88%E8%A7%86%E5%90%AC%E8%AF%B4%E6%95%99%E7%A8%8B4.pdf" target="_blank" rel="noopener">在线查看</a> |
+| 新视野大学英语第四版读写教程4思政智慧版.pdf | PDF | 30.2 MB | <a href="/%E8%B5%84%E6%96%99/02-%E8%AF%BE%E7%A8%8B%E8%B5%84%E6%96%99/04-%E5%A4%A7%E4%BA%8C%E7%AC%AC%E4%BA%8C%E5%AD%A6%E6%9C%9F/%E5%A4%A7%E5%AD%A6%E8%8B%B1%E8%AF%AD4/%E8%AF%BE%E4%BB%B6/%E6%96%B0%E8%A7%86%E9%87%8E%E5%A4%A7%E5%AD%A6%E8%8B%B1%E8%AF%AD%E7%AC%AC%E5%9B%9B%E7%89%88%E8%AF%BB%E5%86%99%E6%95%99%E7%A8%8B4%E6%80%9D%E6%94%BF%E6%99%BA%E6%85%A7%E7%89%88.pdf" target="_blank" rel="noopener">在线查看</a> |
+
+### 试卷与答案（2）
+
+| 文件 | 类型 | 大小 | 操作 |
+| :--- | :---: | ---: | :--- |
+| 大学英语（4）：教材单元翻译题汇总.pdf | PDF | 206 KB | <a href="/%E8%B5%84%E6%96%99/02-%E8%AF%BE%E7%A8%8B%E8%B5%84%E6%96%99/04-%E5%A4%A7%E4%BA%8C%E7%AC%AC%E4%BA%8C%E5%AD%A6%E6%9C%9F/%E5%A4%A7%E5%AD%A6%E8%8B%B1%E8%AF%AD4/%E8%AF%95%E5%8D%B7%E4%B8%8E%E7%AD%94%E6%A1%88/%E5%A4%A7%E5%AD%A6%E8%8B%B1%E8%AF%AD%EF%BC%884%EF%BC%89%EF%BC%9A%E6%95%99%E6%9D%90%E5%8D%95%E5%85%83%E7%BF%BB%E8%AF%91%E9%A2%98%E6%B1%87%E6%80%BB.pdf" target="_blank" rel="noopener">在线查看</a> |
+| 大学英语（4）：教材单元选词填空汇总.pdf | PDF | 167 KB | <a href="/%E8%B5%84%E6%96%99/02-%E8%AF%BE%E7%A8%8B%E8%B5%84%E6%96%99/04-%E5%A4%A7%E4%BA%8C%E7%AC%AC%E4%BA%8C%E5%AD%A6%E6%9C%9F/%E5%A4%A7%E5%AD%A6%E8%8B%B1%E8%AF%AD4/%E8%AF%95%E5%8D%B7%E4%B8%8E%E7%AD%94%E6%A1%88/%E5%A4%A7%E5%AD%A6%E8%8B%B1%E8%AF%AD%EF%BC%884%EF%BC%89%EF%BC%9A%E6%95%99%E6%9D%90%E5%8D%95%E5%85%83%E9%80%89%E8%AF%8D%E5%A1%AB%E7%A9%BA%E6%B1%87%E6%80%BB.pdf" target="_blank" rel="noopener">在线查看</a> |
+
+::: tip 关于下载
+PDF 与图片可直接在浏览器里**在线查看**；PPT / Word / Excel / 压缩包点「下载」后用本地软件打开。
 :::
 <!-- FILES:END -->
 

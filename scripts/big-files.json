@@ -1,4 +1,13 @@
 {
-  "_readme": "超过 60 MB、不进仓库的资料登记表。gen-courses 按 section 合并进课程页清单表格；填上 link 后该行变成「网盘下载」。",
-  "courses": {}
+  "_readme": "超过 60 MB、不进仓库的资料登记表。gen-courses 按 section 合并进课程页清单表格；填上 link 后该行变成「网盘下载」。name 可带子目录（如「教材/xxx.pdf」），展示时会写成「教材 / xxx.pdf」。",
+  "courses": {
+    "02-课程资料/04-大二第二学期/植物生理学": [
+      {
+        "section": "课件",
+        "name": "教材/植物生理学（第3版）.pdf",
+        "bytes": 145720877,
+        "link": "https://workdrive.zohopublic.com.cn/file/w85ca6a0d3c91ba5e4e0bb5c8aef6eba86ac4"
+      }
+    ]
+  }
 }

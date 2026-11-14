@@ -4,7 +4,8 @@
 
 安徽农业大学（AHAU）本科四年课程资料知识库，**以园艺学院培养方案为蓝本**
 （源自学习通课程《安农学习时光》，courseId=244549213，用户持有目录导出 PDF）。
-站点：https://czy1326.github.io/AHAU-Study-Hub/
+站点：**https://ahaustudyhub.me/** （自定义域名，Pages 已绑定，`docs/public/CNAME`）
+旧地址 https://czy1326.github.io/AHAU-Study-Hub/ 会自动 301 到新域名同路径（GitHub 去前缀）
 仓库：https://github.com/CZY1326/AHAU-Study-Hub （public，main 为 default branch）
 
 ## 技术栈（重要：已从 pnpm 迁移到 npm）
@@ -15,7 +16,7 @@
 - 锁文件：`package-lock.json`
 - **不要重新引入 pnpm**，也不要往 package.json 加 `packageManager` 字段
   （那是 corepack 的触发源，会与 CI 冲突导致部署失败）
-- 站点 base：`/AHAU-Study-Hub/`
+- 站点 base：**`/`**（2026-11-14 绑定自定义域名 ahaustudyhub.me 后从 `/AHAU-Study-Hub/` 改过来）
 
 ## 目录结构约定
 
@@ -77,12 +78,15 @@ docs/
 
 ### 2. 原生 `<a href>` 不会自动拼 base
 
-所以要显式加上 `/AHAU-Study-Hub/`，并用 `encodeURI` 处理中文路径。
+所以要显式加上 `BASE`（当前 `/`），并用 `encodeURI` 处理中文路径。
 `gen-courses.mjs` 里有 `BASE` 常量。
 
-**仓库改名时必须同步改两处 base**：
-- `docs/.vitepress/config.mts` 的 `base`
+**域名/base 变化时必须同步改三处**：
+- `docs/.vitepress/config.mts` 的 `base`（及 head 里 favicon 的 `href`）
 - `scripts/gen-courses.mjs` 的 `BASE`
+- `docs/public/CNAME`（自定义域名，缺了每次 Actions 部署会丢域名绑定）
+改完必须跑 `npm run files` 重生成课程页下载链接（35 页左右会变）。
+**顺带注意**：`npm run docs:build` 会清空 dist，`files:copy` 必须在 build 之后跑。
 
 ### 3. VitePress 只发布 `docs/public/` 下的静态资源
 

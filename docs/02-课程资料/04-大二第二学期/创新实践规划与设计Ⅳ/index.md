@@ -8,9 +8,16 @@
 > 请勿手动编辑标记区间内的内容。
 
 <!-- FILES:START -->
-::: info 资料还在路上
-这门课的课件 / 试卷与答案 / 复习资料暂未上传。
-如果你手上有**历年真题**或**老师的复习提纲**，欢迎提 PR 补进来 —— 那是价值最高的东西。
+### 试卷与答案（3）
+
+| 文件 | 类型 | 大小 | 操作 |
+| :--- | :---: | ---: | :--- |
+| 安徽农业大学毕业论文（设计）参考模板.zip | ZIP | 590 KB | <a href="/%E8%B5%84%E6%96%99/02-%E8%AF%BE%E7%A8%8B%E8%B5%84%E6%96%99/04-%E5%A4%A7%E4%BA%8C%E7%AC%AC%E4%BA%8C%E5%AD%A6%E6%9C%9F/%E5%88%9B%E6%96%B0%E5%AE%9E%E8%B7%B5%E8%A7%84%E5%88%92%E4%B8%8E%E8%AE%BE%E8%AE%A1%E2%85%A3/%E8%AF%95%E5%8D%B7%E4%B8%8E%E7%AD%94%E6%A1%88/%E5%AE%89%E5%BE%BD%E5%86%9C%E4%B8%9A%E5%A4%A7%E5%AD%A6%E6%AF%95%E4%B8%9A%E8%AE%BA%E6%96%87%EF%BC%88%E8%AE%BE%E8%AE%A1%EF%BC%89%E5%8F%82%E8%80%83%E6%A8%A1%E6%9D%BF.zip" download>下载</a> |
+| 进化树.pdf | PDF | 2.9 MB | <a href="/%E8%B5%84%E6%96%99/02-%E8%AF%BE%E7%A8%8B%E8%B5%84%E6%96%99/04-%E5%A4%A7%E4%BA%8C%E7%AC%AC%E4%BA%8C%E5%AD%A6%E6%9C%9F/%E5%88%9B%E6%96%B0%E5%AE%9E%E8%B7%B5%E8%A7%84%E5%88%92%E4%B8%8E%E8%AE%BE%E8%AE%A1%E2%85%A3/%E8%AF%95%E5%8D%B7%E4%B8%8E%E7%AD%94%E6%A1%88/%E8%BF%9B%E5%8C%96%E6%A0%91.pdf" target="_blank" rel="noopener">在线查看</a> |
+| 论文综述.pdf | PDF | 126 KB | <a href="/%E8%B5%84%E6%96%99/02-%E8%AF%BE%E7%A8%8B%E8%B5%84%E6%96%99/04-%E5%A4%A7%E4%BA%8C%E7%AC%AC%E4%BA%8C%E5%AD%A6%E6%9C%9F/%E5%88%9B%E6%96%B0%E5%AE%9E%E8%B7%B5%E8%A7%84%E5%88%92%E4%B8%8E%E8%AE%BE%E8%AE%A1%E2%85%A3/%E8%AF%95%E5%8D%B7%E4%B8%8E%E7%AD%94%E6%A1%88/%E8%AE%BA%E6%96%87%E7%BB%BC%E8%BF%B0.pdf" target="_blank" rel="noopener">在线查看</a> |
+
+::: tip 关于下载
+PDF 与图片可直接在浏览器里**在线查看**；PPT / Word / Excel / 压缩包点「下载」后用本地软件打开。
 :::
 <!-- FILES:END -->
 
