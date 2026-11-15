@@ -8,9 +8,18 @@
 > 请勿手动编辑标记区间内的内容。
 
 <!-- FILES:START -->
-::: info 资料还在路上
-这门课的课件 / 试卷与答案 / 复习资料暂未上传。
-如果你手上有**历年真题**或**老师的复习提纲**，欢迎提 PR 补进来 —— 那是价值最高的东西。
+### 课件（5）
+
+| 文件 | 类型 | 大小 | 操作 |
+| :--- | :---: | ---: | :--- |
+| 1.中西方音乐比较.pdf | PDF | 29.1 MB | <a href="/%E8%B5%84%E6%96%99/05-%E5%85%AC%E9%80%89%E8%AF%BE%E5%A4%96/%E6%A0%A1%E6%9C%AC%E5%85%AC%E9%80%89/%E4%B8%AD%E8%A5%BF%E6%96%B9%E9%9F%B3%E4%B9%90%E6%AF%94%E8%BE%83/%E8%AF%BE%E4%BB%B6/1.%E4%B8%AD%E8%A5%BF%E6%96%B9%E9%9F%B3%E4%B9%90%E6%AF%94%E8%BE%83.pdf" target="_blank" rel="noopener">在线查看</a> |
+| 2.1.中西方音乐比较1.pptx | PPT | 182 KB | <a href="/%E8%B5%84%E6%96%99/05-%E5%85%AC%E9%80%89%E8%AF%BE%E5%A4%96/%E6%A0%A1%E6%9C%AC%E5%85%AC%E9%80%89/%E4%B8%AD%E8%A5%BF%E6%96%B9%E9%9F%B3%E4%B9%90%E6%AF%94%E8%BE%83/%E8%AF%BE%E4%BB%B6/2.1.%E4%B8%AD%E8%A5%BF%E6%96%B9%E9%9F%B3%E4%B9%90%E6%AF%94%E8%BE%831.pptx" download>下载</a> |
+| 2.2中西方音乐比较2.pdf | PDF | 776 KB | <a href="/%E8%B5%84%E6%96%99/05-%E5%85%AC%E9%80%89%E8%AF%BE%E5%A4%96/%E6%A0%A1%E6%9C%AC%E5%85%AC%E9%80%89/%E4%B8%AD%E8%A5%BF%E6%96%B9%E9%9F%B3%E4%B9%90%E6%AF%94%E8%BE%83/%E8%AF%BE%E4%BB%B6/2.2%E4%B8%AD%E8%A5%BF%E6%96%B9%E9%9F%B3%E4%B9%90%E6%AF%94%E8%BE%832.pdf" target="_blank" rel="noopener">在线查看</a> |
+| 3.本课程后两次课内容.pdf | PDF | 852 KB | <a href="/%E8%B5%84%E6%96%99/05-%E5%85%AC%E9%80%89%E8%AF%BE%E5%A4%96/%E6%A0%A1%E6%9C%AC%E5%85%AC%E9%80%89/%E4%B8%AD%E8%A5%BF%E6%96%B9%E9%9F%B3%E4%B9%90%E6%AF%94%E8%BE%83/%E8%AF%BE%E4%BB%B6/3.%E6%9C%AC%E8%AF%BE%E7%A8%8B%E5%90%8E%E4%B8%A4%E6%AC%A1%E8%AF%BE%E5%86%85%E5%AE%B9.pdf" target="_blank" rel="noopener">在线查看</a> |
+| 民族乐器.zip | ZIP | 16.8 MB | <a href="/%E8%B5%84%E6%96%99/05-%E5%85%AC%E9%80%89%E8%AF%BE%E5%A4%96/%E6%A0%A1%E6%9C%AC%E5%85%AC%E9%80%89/%E4%B8%AD%E8%A5%BF%E6%96%B9%E9%9F%B3%E4%B9%90%E6%AF%94%E8%BE%83/%E8%AF%BE%E4%BB%B6/%E6%B0%91%E6%97%8F%E4%B9%90%E5%99%A8.zip" download>下载</a> |
+
+::: tip 关于下载
+PDF 与图片可直接在浏览器里**在线查看**；PPT / Word / Excel / 压缩包点「下载」后用本地软件打开。
 :::
 <!-- FILES:END -->
 

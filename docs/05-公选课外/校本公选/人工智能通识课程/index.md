@@ -8,9 +8,15 @@
 > 请勿手动编辑标记区间内的内容。
 
 <!-- FILES:START -->
-::: info 资料还在路上
-这门课的课件 / 试卷与答案 / 复习资料暂未上传。
-如果你手上有**历年真题**或**老师的复习提纲**，欢迎提 PR 补进来 —— 那是价值最高的东西。
+### 课件（2）
+
+| 文件 | 类型 | 大小 | 操作 |
+| :--- | :---: | ---: | :--- |
+| 安徽农业大学人工智能通识课选课操作手册.docx | DOC | 4.2 MB | <a href="/%E8%B5%84%E6%96%99/05-%E5%85%AC%E9%80%89%E8%AF%BE%E5%A4%96/%E6%A0%A1%E6%9C%AC%E5%85%AC%E9%80%89/%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD%E9%80%9A%E8%AF%86%E8%AF%BE%E7%A8%8B/%E8%AF%BE%E4%BB%B6/%E5%AE%89%E5%BE%BD%E5%86%9C%E4%B8%9A%E5%A4%A7%E5%AD%A6%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD%E9%80%9A%E8%AF%86%E8%AF%BE%E9%80%89%E8%AF%BE%E6%93%8D%E4%BD%9C%E6%89%8B%E5%86%8C.docx" download>下载</a> |
+| 人工智能通识课程.jpg | 图片 | 149 KB | <a href="/%E8%B5%84%E6%96%99/05-%E5%85%AC%E9%80%89%E8%AF%BE%E5%A4%96/%E6%A0%A1%E6%9C%AC%E5%85%AC%E9%80%89/%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD%E9%80%9A%E8%AF%86%E8%AF%BE%E7%A8%8B/%E8%AF%BE%E4%BB%B6/%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD%E9%80%9A%E8%AF%86%E8%AF%BE%E7%A8%8B.jpg" target="_blank" rel="noopener">在线查看</a> |
+
+::: tip 关于下载
+PDF 与图片可直接在浏览器里**在线查看**；PPT / Word / Excel / 压缩包点「下载」后用本地软件打开。
 :::
 <!-- FILES:END -->
 

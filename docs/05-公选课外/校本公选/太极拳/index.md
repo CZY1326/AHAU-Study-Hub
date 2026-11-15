@@ -16,11 +16,7 @@
 
 ## 避坑指南与复习攻略
 
-::: tip 待补充
-1. **平时分**：占比多少？作业/考勤/课堂表现如何计分。
-2. **期末**：难度如何？题型结构、重点章节、是否考原题。
-3. **冲刺**：考前怎么突击最有效，推荐刷哪些题。
-:::
+[课程资源](https://mooc2-ans.chaoxing.com/mooc2-ans/mycourse/tch?courseid=244549213&clazzid=101849777&cpi=462047944&enc=0c44c08b8b951dcffa411ed194e88a9c&t=1794750421806&pageHeader=3&v=2&hideHead=0&perspectiveType=)
 
 ## 免责声明
 
