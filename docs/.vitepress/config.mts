@@ -111,7 +111,16 @@ export default defineConfig({
           { text: '⑧ 大四第二学期', link: '/02-课程资料/08-大四第二学期/' },
         ],
       },
-      { text: '公选课外', link: '/05-公选课外/' },
+      {
+        text: '公选课外',
+        items: [
+          { text: '公选与课外总览', link: '/05-公选课外/' },
+          { text: '校本公选', link: '/05-公选课外/校本公选/' },
+          { text: '园艺专选', link: '/05-公选课外/园艺专选/' },
+          { text: '其他课程', link: '/05-公选课外/其他课程/' },
+          { text: '课外资料', link: '/05-公选课外/课外资料/' },
+        ],
+      },
       {
         text: '学习通课程',
         link: 'https://mooc1.chaoxing.com/mooc-ans/course/portal/hRG5C5vWREn8t1KtkLwSwg==',
