@@ -32,7 +32,7 @@ const MODULES = [
   { dir: '02-课程资料', title: '课程资料', blurb: '按学期整理四年课程：课件、真题与复习提纲，公共课与专业课全覆盖。' },
   { dir: '03-学业专栏', title: '学业专栏', blurb: '选课、绩点、考试纪律、保研与考研答疑。' },
   { dir: '04-生活专栏', title: '生活专栏', blurb: '食堂、社团、奖助学金、网络与出行。' },
-  { dir: '05-公选课外', title: '公选课外', blurb: '校本公选、专业选修与课外资料集中地。', noIndex: true },
+  { dir: '05-公选课外', title: '公选课外', blurb: '校本公选、专业选修与课外资料集中地。' },
 ]
 
 /**
@@ -134,7 +134,7 @@ const COURSE_GROUPS = {
     ],
   },
   '05-公选课外': {
-    kind: 'elective', // 分组页 = 课程表（本模块不生成总览页，入口由导航下拉提供）
+    kind: 'elective', // 模块页 = 分组总览（不进导航，靠页面内分组表进入）；分组页 = 课程表
     groups: [
       ['校本公选', [
         ['太极拳', '体育'],
@@ -355,6 +355,24 @@ ${rows}
 `
 }
 
+/** 05-公选课外 模块页：分组总览 */
+function electiveModuleIndex(mod, groups) {
+  const desc = { 校本公选: '全校开放的公选、通识与公共课', 园艺专选: '专业选修与配套实验/实习', 其他课程: '公共基础与跨专业课程', 课外资料: '工具平台、事务指南与兴趣资料' }
+  const rows = groups
+    .map(([name]) => `| [${name}](./${name}/) | ${desc[name] || ''} |`)
+    .join('\n')
+  return `# ${mod.title}
+
+> ${mod.blurb}
+
+## 课程分组
+
+| 分组 | 说明 |
+| :--- | :--- |
+${rows}
+`
+}
+
 /** 分组页（学期 / 公选分组通用）：课程表（即跳转入口，不再单列快速跳转） */
 function groupIndex(groupName, courses, isInfo) {
   const rows = courses
@@ -485,13 +503,12 @@ async function main() {
 
     const conf = COURSE_GROUPS[mod.dir]
 
-    // 模块 index（noIndex 的模块不生成，避免重建被删掉的总览页）
-    if (!mod.noIndex) {
-      let moduleTpl
-      if (conf?.kind === 'semester') moduleTpl = courseModuleIndex(mod, conf.groups)
-      else moduleTpl = moduleIndex(mod)
-      if (await emit(join(modDir, 'index.md'), moduleTpl)) written.push(`${mod.dir}/index.md`)
-    }
+    // 模块 index
+    let moduleTpl
+    if (conf?.kind === 'semester') moduleTpl = courseModuleIndex(mod, conf.groups)
+    else if (conf?.kind === 'elective') moduleTpl = electiveModuleIndex(mod, conf.groups)
+    else moduleTpl = moduleIndex(mod)
+    if (await emit(join(modDir, 'index.md'), moduleTpl)) written.push(`${mod.dir}/index.md`)
 
     // 课程模块：分组（学期/公选分类）→ 课程
     if (conf) {
