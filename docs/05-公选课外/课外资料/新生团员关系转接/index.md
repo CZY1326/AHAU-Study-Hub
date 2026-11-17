@@ -16,6 +16,5 @@
 
 ## 内容介绍
 
-::: tip 待补充
-欢迎补充本页的介绍与使用说明，可点页面底部「在 GitHub 上编辑此页」直接完善。
-:::
+[@2023级萌新，新生团组织关系转接指引|来啦！](https://mp.weixin.qq.com/s/42ARyw_awY79oJ0HhT1RRA)
+[新生必看！@2025级小萌新，你的团组织关系转接指南来啦](https://mp.weixin.qq.com/s/SEXIOqmzw1_8sGuVwTiqcg)
