@@ -45,11 +45,15 @@ function buildSidebar() {
     return items
   }
 
-  return modules.map((mod) => ({
-    text: mod,
-    collapsed: false,
-    items: [{ text: '本模块总览', link: `/${mod}/` }, ...buildItems(join(DOCS, mod), mod)],
-  }))
+  return modules.map((mod) => {
+    const children = buildItems(join(DOCS, mod), mod)
+    // 模块根目录没有 index.md 时不挂「本模块总览」（如 05-公选课外 只保留四个分组入口），
+    // 否则侧边栏会出现一条 404 链接。
+    const items = existsSync(join(DOCS, mod, 'index.md'))
+      ? [{ text: '本模块总览', link: `/${mod}/` }, ...children]
+      : children
+    return { text: mod, collapsed: false, items }
+  })
 }
 
 export default defineConfig({
@@ -114,7 +118,6 @@ export default defineConfig({
       {
         text: '公选课外',
         items: [
-          { text: '公选与课外总览', link: '/05-公选课外/' },
           { text: '校本公选', link: '/05-公选课外/校本公选/' },
           { text: '园艺专选', link: '/05-公选课外/园艺专选/' },
           { text: '其他课程', link: '/05-公选课外/其他课程/' },
