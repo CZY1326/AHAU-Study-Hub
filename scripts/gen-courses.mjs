@@ -67,6 +67,18 @@ const FILE_TYPES = {
   '.jpg': { icon: '🖼️', label: '图片', kind: 'image' },
   '.jpeg': { icon: '🖼️', label: '图片', kind: 'image' },
   '.mp4': { icon: '🎬', label: '视频', kind: 'video' },
+  // 生信 / 课外工具类资料（TBtools、MEGA 那套）常用格式
+  '.fa': { icon: '🧬', label: '序列', kind: 'binary' },
+  '.fasta': { icon: '🧬', label: '序列', kind: 'binary' },
+  '.fna': { icon: '🧬', label: '序列', kind: 'binary' },
+  '.faa': { icon: '🧬', label: '序列', kind: 'binary' },
+  '.hmm': { icon: '🧬', label: 'HMM', kind: 'binary' },
+  '.gff': { icon: '🧬', label: '注释', kind: 'text' },
+  '.gff3': { icon: '🧬', label: '注释', kind: 'text' },
+  '.gz': { icon: '🗜️', label: 'GZ', kind: 'archive' },
+  '.exe': { icon: '⚙️', label: 'EXE', kind: 'binary' },
+  '.csv': { icon: '📈', label: 'CSV', kind: 'sheet' },
+  '.tsv': { icon: '📈', label: 'TSV', kind: 'sheet' },
 }
 
 /** 支持页内预览的类型（点击即在浏览器打开） */

@@ -8,14 +8,15 @@
 > 请勿手动编辑标记区间内的内容。
 
 <!-- FILES:START -->
-### 课件（6）
+### 课件（7）
 
 | 文件 | 类型 | 大小 | 操作 |
 | :--- | :---: | ---: | :--- |
 | 输出结果.zip | ZIP | 8.2 MB | <a href="/%E8%B5%84%E6%96%99/05-%E5%85%AC%E9%80%89%E8%AF%BE%E5%A4%96/%E8%AF%BE%E5%A4%96%E8%B5%84%E6%96%99/TBtools%E4%B8%8EMEGA/%E8%AF%BE%E4%BB%B6/%E8%BE%93%E5%87%BA%E7%BB%93%E6%9E%9C.zip" download>下载</a> |
-| 准备及教程 / Fragaria_vesca_v6_proteins-ganjing.fa | 文件 | 14.9 MB | <a href="https://workdrive.zoho.com.cn/file/bctep1096720483d54582b9f49cd859f4cefa" target="_blank" rel="noopener">网盘下载</a> |
-| 准备及教程 / MEGA_X_10.0.5_win64_setup.exe | 文件 | 92.0 MB | <a href="https://workdrive.zoho.com.cn/file/bctepe84db499378d415eb5d7b85527150fac" target="_blank" rel="noopener">网盘下载</a> |
-| 准备及教程 / Pfam-A.hmm.gz | 文件 | 296.1 MB | 网盘待上传 |
+| 准备及教程 / MEGA_X_10.0.5_win64_setup.exe | EXE | 92.0 MB | <a href="https://workdrive.zoho.com.cn/file/bctepe84db499378d415eb5d7b85527150fac" target="_blank" rel="noopener">网盘下载</a> |
+| 准备及教程 / Pfam-A.hmm.gz | GZ | 296.1 MB | <a href="https://workdrive.zoho.com.cn/file/bctep1096720483d54582b9f49cd859f4cefa" target="_blank" rel="noopener">网盘下载</a> |
+| 准备及教程 / Araport11_pep_20250411.fa | 序列 | 25.5 MB | <a href="/%E8%B5%84%E6%96%99/05-%E5%85%AC%E9%80%89%E8%AF%BE%E5%A4%96/%E8%AF%BE%E5%A4%96%E8%B5%84%E6%96%99/TBtools%E4%B8%8EMEGA/%E8%AF%BE%E4%BB%B6/%E5%87%86%E5%A4%87%E5%8F%8A%E6%95%99%E7%A8%8B/Araport11_pep_20250411.fa" download>下载</a> |
+| 准备及教程 / Fragaria_vesca_v6_proteins-ganjing.fa | 序列 | 14.9 MB | <a href="/%E8%B5%84%E6%96%99/05-%E5%85%AC%E9%80%89%E8%AF%BE%E5%A4%96/%E8%AF%BE%E5%A4%96%E8%B5%84%E6%96%99/TBtools%E4%B8%8EMEGA/%E8%AF%BE%E4%BB%B6/%E5%87%86%E5%A4%87%E5%8F%8A%E6%95%99%E7%A8%8B/Fragaria_vesca_v6_proteins-ganjing.fa" download>下载</a> |
 | 准备及教程 / TBtools.docx | DOC | 3.8 MB | <a href="/%E8%B5%84%E6%96%99/05-%E5%85%AC%E9%80%89%E8%AF%BE%E5%A4%96/%E8%AF%BE%E5%A4%96%E8%B5%84%E6%96%99/TBtools%E4%B8%8EMEGA/%E8%AF%BE%E4%BB%B6/%E5%87%86%E5%A4%87%E5%8F%8A%E6%95%99%E7%A8%8B/TBtools.docx" download>下载</a> |
 | 准备及教程 / UltraEditv2320040X32.zip | ZIP | 37.5 MB | <a href="/%E8%B5%84%E6%96%99/05-%E5%85%AC%E9%80%89%E8%AF%BE%E5%A4%96/%E8%AF%BE%E5%A4%96%E8%B5%84%E6%96%99/TBtools%E4%B8%8EMEGA/%E8%AF%BE%E4%BB%B6/%E5%87%86%E5%A4%87%E5%8F%8A%E6%95%99%E7%A8%8B/UltraEditv2320040X32.zip" download>下载</a> |
 
