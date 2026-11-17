@@ -126,6 +126,12 @@ VitePress 的死链检查**只检查站内链接**，外链不受影响。
 
 GitHub 单文件硬上限 100 MB。
 
+**新扩展名的资料必须先进 `FILE_TYPES`**（`scripts/gen-courses.mjs`）。
+`collectFiles` 遇到未登记的扩展名会静默跳过，文件入库了页面上也看不到，FAQ 里没人会告诉你。
+
+**登记到 big-files.json 的文件必须从 docs 目录移出**（备份到 `E:/AHAU-Backup-BigFiles/`）。
+`gen-courses` 是按磁盘扫描的，本地副本还在就会再渲一行失效的本地下载链接。
+
 **⚠️ 不要按扩展名往 .gitignore 加媒体忽略规则**（曾加 `*.mp4/*.zip` 等，
 导致 3 个文件从未入库、本地构建正常而 CI 构建失败）。大小由
 `npm run checksize` 在 CI 强制 50 MB 上限。
