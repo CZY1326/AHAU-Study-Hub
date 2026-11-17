@@ -8,9 +8,15 @@
 > 请勿手动编辑标记区间内的内容。
 
 <!-- FILES:START -->
-::: info 资料还在路上
-这门课的课件 / 试卷与答案 / 复习资料暂未上传。
-如果你手上有**历年真题**或**老师的复习提纲**，欢迎提 PR 补进来 —— 那是价值最高的东西。
+### 课件（2）
+
+| 文件 | 类型 | 大小 | 操作 |
+| :--- | :---: | ---: | :--- |
+| 测量学实习指导书与实习报告.pdf | PDF | 3.3 MB | <a href="/%E8%B5%84%E6%96%99/05-%E5%85%AC%E9%80%89%E8%AF%BE%E5%A4%96/%E5%85%B6%E4%BB%96%E8%AF%BE%E7%A8%8B/%E6%B5%8B%E9%87%8F%E5%AD%A6%E5%AE%9E%E4%B9%A0/%E8%AF%BE%E4%BB%B6/%E6%B5%8B%E9%87%8F%E5%AD%A6%E5%AE%9E%E4%B9%A0%E6%8C%87%E5%AF%BC%E4%B9%A6%E4%B8%8E%E5%AE%9E%E4%B9%A0%E6%8A%A5%E5%91%8A.pdf" target="_blank" rel="noopener">在线查看</a> |
+| 经纬仪导线测量.pdf | PDF | 1.7 MB | <a href="/%E8%B5%84%E6%96%99/05-%E5%85%AC%E9%80%89%E8%AF%BE%E5%A4%96/%E5%85%B6%E4%BB%96%E8%AF%BE%E7%A8%8B/%E6%B5%8B%E9%87%8F%E5%AD%A6%E5%AE%9E%E4%B9%A0/%E8%AF%BE%E4%BB%B6/%E7%BB%8F%E7%BA%AC%E4%BB%AA%E5%AF%BC%E7%BA%BF%E6%B5%8B%E9%87%8F.pdf" target="_blank" rel="noopener">在线查看</a> |
+
+::: tip 关于下载
+PDF 与图片可直接在浏览器里**在线查看**；PPT / Word / Excel / 压缩包点「下载」后用本地软件打开。
 :::
 <!-- FILES:END -->
 
