@@ -2,6 +2,10 @@
 
 > 从收到录取通知书到军训结束，这一页覆盖你最容易踩坑的每个环节。
 
+::: tip 内容来源
+本专栏整理自学习通专题 **「安农新生攻略」**（[在线查看](https://mooc1.chaoxing.com/mooc-ans/zt/portal/Slo-tOmoW8mDYiUxFFNvug==)，匿名可浏览，附件下载需登录学习通）。
+:::
+
 ## 入学前准备
 
 ::: tip 必备材料清单

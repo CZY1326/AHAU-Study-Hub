@@ -32,6 +32,8 @@
 | 🗂 **仓库直连**（兜底） | [CZY1326/AHAU-Study-Hub](https://github.com/CZY1326/AHAU-Study-Hub/tree/main/docs) | 网页版打不开时用；进 `docs/` 按学期找目录，直接看/下文件 |
 | 🔁 旧地址 | [czy1326.github.io/AHAU-Study-Hub](https://czy1326.github.io/AHAU-Study-Hub/) | 会自动 301 跳到主网址；与主站同一套托管，**不是备份** |
 | 🎫 学习通课程门户 | [mooc1.chaoxing.com · 安农学习时光](https://mooc1.chaoxing.com/mooc-ans/course/portal/hRG5C5vWREn8t1KtkLwSwg==) | 看通知、拿未整理的原始文件，需登录学习通 |
+| 🧭 学习通专题 · 新生攻略 | [mooc1.chaoxing.com · 安农新生攻略](https://mooc1.chaoxing.com/mooc-ans/zt/portal/Slo-tOmoW8mDYiUxFFNvug==) | 本站新生/生活/学业专栏的内容源头，匿名可看，附件需登录 |
+| 📚 学习通专题 · 全部课程资料 | [mooc1.chaoxing.com · 安农学习时光（资料镜像）](https://mooc1.chaoxing.com/mooc-ans/zt/portal/k4dhSa1vfuD-yxx7PEHMHA==) | 按学期挂全套课件/真题/复习资料，站内 02-课程资料 与它一一对应 |
 
 ---
 
