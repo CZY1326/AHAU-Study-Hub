@@ -25,7 +25,7 @@
 | 专题 | 内容 | 链接 |
 | :--- | :--- | :--- |
 | **安农新生攻略** | 新生入学、大学生活、学业相关问题共 50+ 篇图文，是本站 00 / 01 / 03 / 04 四个专栏的内容源头 | [打开专题](https://mooc1.chaoxing.com/mooc-ans/zt/portal/Slo-tOmoW8mDYiUxFFNvug==) |
-| **安农学习时光 · 课程资料镜像** | 按学期挂全套课程的课件 / 真题 / 复习资料清单，与本站 02-课程资料、05-公选课外 一一对应 | [打开专题](https://mooc1.chaoxing.com/mooc-ans/zt/portal/k4dhSa1vfuD-yxx7PEHMHA==) |
+| **安农学习时光 · 课程资料镜像** | 按学期挂全套课程的课件 / 真题 / 复习资料清单，与本站 02-课程资料、05-公选课外 一一对应 | [打开专题](https://mooc1.chaoxing.com/mooc-ans/zt/portal/TFUdI-9nGGvD6UUAlO3EGw==) |
 
 ## 公众号
 
