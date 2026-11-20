@@ -12,7 +12,7 @@
 
 | 文件 | 类型 | 大小 | 操作 |
 | :--- | :---: | ---: | :--- |
-| 现代农业政策与法规.pdf | PDF | 3.4 MB | <a href="/%E8%B5%84%E6%96%99/05-%E5%85%AC%E9%80%89%E8%AF%BE%E5%A4%96/%E5%9B%AD%E8%89%BA%E4%B8%93%E9%80%89/%E7%8E%B0%E4%BB%A3%E5%86%9C%E4%B8%9A%E6%94%BF%E7%AD%96%E4%B8%8E%E6%B3%95%E8%A7%84/%E8%AF%BE%E4%BB%B6/%E7%8E%B0%E4%BB%A3%E5%86%9C%E4%B8%9A%E6%94%BF%E7%AD%96%E4%B8%8E%E6%B3%95%E8%A7%84.pdf" target="_blank" rel="noopener">在线查看</a> |
+| 现代农业政策与法规.pdf | PDF | 3.4 MB | <a href="/05-%E5%85%AC%E9%80%89%E8%AF%BE%E5%A4%96/%E5%9B%AD%E8%89%BA%E4%B8%93%E9%80%89/%E7%8E%B0%E4%BB%A3%E5%86%9C%E4%B8%9A%E6%94%BF%E7%AD%96%E4%B8%8E%E6%B3%95%E8%A7%84/%E8%AF%BE%E4%BB%B6/%E7%8E%B0%E4%BB%A3%E5%86%9C%E4%B8%9A%E6%94%BF%E7%AD%96%E4%B8%8E%E6%B3%95%E8%A7%84.pdf" target="_blank" rel="noopener">在线查看</a> |
 
 ::: tip 关于下载
 PDF 与图片可直接在浏览器里**在线查看**；PPT / Word / Excel / 压缩包点「下载」后用本地软件打开。

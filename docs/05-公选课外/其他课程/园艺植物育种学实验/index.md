@@ -12,8 +12,8 @@
 
 | 文件 | 类型 | 大小 | 操作 |
 | :--- | :---: | ---: | :--- |
-| 安徽农业大学园艺学院实验报告.pdf | PDF | 181 KB | <a href="/%E8%B5%84%E6%96%99/05-%E5%85%AC%E9%80%89%E8%AF%BE%E5%A4%96/%E5%85%B6%E4%BB%96%E8%AF%BE%E7%A8%8B/%E5%9B%AD%E8%89%BA%E6%A4%8D%E7%89%A9%E8%82%B2%E7%A7%8D%E5%AD%A6%E5%AE%9E%E9%AA%8C/%E8%AF%BE%E4%BB%B6/%E5%AE%89%E5%BE%BD%E5%86%9C%E4%B8%9A%E5%A4%A7%E5%AD%A6%E5%9B%AD%E8%89%BA%E5%AD%A6%E9%99%A2%E5%AE%9E%E9%AA%8C%E6%8A%A5%E5%91%8A.pdf" target="_blank" rel="noopener">在线查看</a> |
-| 园艺学院实验报告纸.pdf | PDF | 55 KB | <a href="/%E8%B5%84%E6%96%99/05-%E5%85%AC%E9%80%89%E8%AF%BE%E5%A4%96/%E5%85%B6%E4%BB%96%E8%AF%BE%E7%A8%8B/%E5%9B%AD%E8%89%BA%E6%A4%8D%E7%89%A9%E8%82%B2%E7%A7%8D%E5%AD%A6%E5%AE%9E%E9%AA%8C/%E8%AF%BE%E4%BB%B6/%E5%9B%AD%E8%89%BA%E5%AD%A6%E9%99%A2%E5%AE%9E%E9%AA%8C%E6%8A%A5%E5%91%8A%E7%BA%B8.pdf" target="_blank" rel="noopener">在线查看</a> |
+| 安徽农业大学园艺学院实验报告.pdf | PDF | 181 KB | <a href="/05-%E5%85%AC%E9%80%89%E8%AF%BE%E5%A4%96/%E5%85%B6%E4%BB%96%E8%AF%BE%E7%A8%8B/%E5%9B%AD%E8%89%BA%E6%A4%8D%E7%89%A9%E8%82%B2%E7%A7%8D%E5%AD%A6%E5%AE%9E%E9%AA%8C/%E8%AF%BE%E4%BB%B6/%E5%AE%89%E5%BE%BD%E5%86%9C%E4%B8%9A%E5%A4%A7%E5%AD%A6%E5%9B%AD%E8%89%BA%E5%AD%A6%E9%99%A2%E5%AE%9E%E9%AA%8C%E6%8A%A5%E5%91%8A.pdf" target="_blank" rel="noopener">在线查看</a> |
+| 园艺学院实验报告纸.pdf | PDF | 55 KB | <a href="/05-%E5%85%AC%E9%80%89%E8%AF%BE%E5%A4%96/%E5%85%B6%E4%BB%96%E8%AF%BE%E7%A8%8B/%E5%9B%AD%E8%89%BA%E6%A4%8D%E7%89%A9%E8%82%B2%E7%A7%8D%E5%AD%A6%E5%AE%9E%E9%AA%8C/%E8%AF%BE%E4%BB%B6/%E5%9B%AD%E8%89%BA%E5%AD%A6%E9%99%A2%E5%AE%9E%E9%AA%8C%E6%8A%A5%E5%91%8A%E7%BA%B8.pdf" target="_blank" rel="noopener">在线查看</a> |
 
 ::: tip 关于下载
 PDF 与图片可直接在浏览器里**在线查看**；PPT / Word / Excel / 压缩包点「下载」后用本地软件打开。

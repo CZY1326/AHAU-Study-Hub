@@ -12,7 +12,7 @@
 
 | 文件 | 类型 | 大小 | 操作 |
 | :--- | :---: | ---: | :--- |
-| 参考.pdf | PDF | 829 KB | <a href="/%E8%B5%84%E6%96%99/02-%E8%AF%BE%E7%A8%8B%E8%B5%84%E6%96%99/04-%E5%A4%A7%E4%BA%8C%E7%AC%AC%E4%BA%8C%E5%AD%A6%E6%9C%9F/%E5%BD%A2%E5%8A%BF%E4%B8%8E%E6%94%BF%E7%AD%964/%E5%A4%8D%E4%B9%A0%E8%B5%84%E6%96%99/%E5%8F%82%E8%80%83.pdf" target="_blank" rel="noopener">在线查看</a> |
+| 参考.pdf | PDF | 829 KB | <a href="/02-%E8%AF%BE%E7%A8%8B%E8%B5%84%E6%96%99/04-%E5%A4%A7%E4%BA%8C%E7%AC%AC%E4%BA%8C%E5%AD%A6%E6%9C%9F/%E5%BD%A2%E5%8A%BF%E4%B8%8E%E6%94%BF%E7%AD%964/%E5%A4%8D%E4%B9%A0%E8%B5%84%E6%96%99/%E5%8F%82%E8%80%83.pdf" target="_blank" rel="noopener">在线查看</a> |
 
 ::: tip 关于下载
 PDF 与图片可直接在浏览器里**在线查看**；PPT / Word / Excel / 压缩包点「下载」后用本地软件打开。

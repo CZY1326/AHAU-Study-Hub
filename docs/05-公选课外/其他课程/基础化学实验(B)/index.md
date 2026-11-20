@@ -12,7 +12,7 @@
 
 | 文件 | 类型 | 大小 | 操作 |
 | :--- | :---: | ---: | :--- |
-| 《基础化学实验Ⅱ》实验报告.pdf | PDF | 2.5 MB | <a href="/%E8%B5%84%E6%96%99/05-%E5%85%AC%E9%80%89%E8%AF%BE%E5%A4%96/%E5%85%B6%E4%BB%96%E8%AF%BE%E7%A8%8B/%E5%9F%BA%E7%A1%80%E5%8C%96%E5%AD%A6%E5%AE%9E%E9%AA%8C(B)/%E8%AF%BE%E4%BB%B6/%E3%80%8A%E5%9F%BA%E7%A1%80%E5%8C%96%E5%AD%A6%E5%AE%9E%E9%AA%8C%E2%85%A1%E3%80%8B%E5%AE%9E%E9%AA%8C%E6%8A%A5%E5%91%8A.pdf" target="_blank" rel="noopener">在线查看</a> |
+| 《基础化学实验Ⅱ》实验报告.pdf | PDF | 2.5 MB | <a href="/05-%E5%85%AC%E9%80%89%E8%AF%BE%E5%A4%96/%E5%85%B6%E4%BB%96%E8%AF%BE%E7%A8%8B/%E5%9F%BA%E7%A1%80%E5%8C%96%E5%AD%A6%E5%AE%9E%E9%AA%8C(B)/%E8%AF%BE%E4%BB%B6/%E3%80%8A%E5%9F%BA%E7%A1%80%E5%8C%96%E5%AD%A6%E5%AE%9E%E9%AA%8C%E2%85%A1%E3%80%8B%E5%AE%9E%E9%AA%8C%E6%8A%A5%E5%91%8A.pdf" target="_blank" rel="noopener">在线查看</a> |
 
 ::: tip 关于下载
 PDF 与图片可直接在浏览器里**在线查看**；PPT / Word / Excel / 压缩包点「下载」后用本地软件打开。

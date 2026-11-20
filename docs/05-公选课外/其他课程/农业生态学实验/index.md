@@ -12,14 +12,14 @@
 
 | 文件 | 类型 | 大小 | 操作 |
 | :--- | :---: | ---: | :--- |
-| 实验二.白三叶净提液对小麦种子萌发的影响.pdf | PDF | 983 KB | <a href="/%E8%B5%84%E6%96%99/05-%E5%85%AC%E9%80%89%E8%AF%BE%E5%A4%96/%E5%85%B6%E4%BB%96%E8%AF%BE%E7%A8%8B/%E5%86%9C%E4%B8%9A%E7%94%9F%E6%80%81%E5%AD%A6%E5%AE%9E%E9%AA%8C/%E8%AF%BE%E4%BB%B6/%E5%AE%9E%E9%AA%8C%E4%BA%8C.%E7%99%BD%E4%B8%89%E5%8F%B6%E5%87%80%E6%8F%90%E6%B6%B2%E5%AF%B9%E5%B0%8F%E9%BA%A6%E7%A7%8D%E5%AD%90%E8%90%8C%E5%8F%91%E7%9A%84%E5%BD%B1%E5%93%8D.pdf" target="_blank" rel="noopener">在线查看</a> |
-| 实验一.铝胁迫对黄瓜幼苗生长的影响.pdf | PDF | 1.4 MB | <a href="/%E8%B5%84%E6%96%99/05-%E5%85%AC%E9%80%89%E8%AF%BE%E5%A4%96/%E5%85%B6%E4%BB%96%E8%AF%BE%E7%A8%8B/%E5%86%9C%E4%B8%9A%E7%94%9F%E6%80%81%E5%AD%A6%E5%AE%9E%E9%AA%8C/%E8%AF%BE%E4%BB%B6/%E5%AE%9E%E9%AA%8C%E4%B8%80.%E9%93%9D%E8%83%81%E8%BF%AB%E5%AF%B9%E9%BB%84%E7%93%9C%E5%B9%BC%E8%8B%97%E7%94%9F%E9%95%BF%E7%9A%84%E5%BD%B1%E5%93%8D.pdf" target="_blank" rel="noopener">在线查看</a> |
+| 实验二.白三叶净提液对小麦种子萌发的影响.pdf | PDF | 983 KB | <a href="/05-%E5%85%AC%E9%80%89%E8%AF%BE%E5%A4%96/%E5%85%B6%E4%BB%96%E8%AF%BE%E7%A8%8B/%E5%86%9C%E4%B8%9A%E7%94%9F%E6%80%81%E5%AD%A6%E5%AE%9E%E9%AA%8C/%E8%AF%BE%E4%BB%B6/%E5%AE%9E%E9%AA%8C%E4%BA%8C.%E7%99%BD%E4%B8%89%E5%8F%B6%E5%87%80%E6%8F%90%E6%B6%B2%E5%AF%B9%E5%B0%8F%E9%BA%A6%E7%A7%8D%E5%AD%90%E8%90%8C%E5%8F%91%E7%9A%84%E5%BD%B1%E5%93%8D.pdf" target="_blank" rel="noopener">在线查看</a> |
+| 实验一.铝胁迫对黄瓜幼苗生长的影响.pdf | PDF | 1.4 MB | <a href="/05-%E5%85%AC%E9%80%89%E8%AF%BE%E5%A4%96/%E5%85%B6%E4%BB%96%E8%AF%BE%E7%A8%8B/%E5%86%9C%E4%B8%9A%E7%94%9F%E6%80%81%E5%AD%A6%E5%AE%9E%E9%AA%8C/%E8%AF%BE%E4%BB%B6/%E5%AE%9E%E9%AA%8C%E4%B8%80.%E9%93%9D%E8%83%81%E8%BF%AB%E5%AF%B9%E9%BB%84%E7%93%9C%E5%B9%BC%E8%8B%97%E7%94%9F%E9%95%BF%E7%9A%84%E5%BD%B1%E5%93%8D.pdf" target="_blank" rel="noopener">在线查看</a> |
 
 ### 试卷与答案（1）
 
 | 文件 | 类型 | 大小 | 操作 |
 | :--- | :---: | ---: | :--- |
-| 农业生态学实验报告.pdf | PDF | 302 KB | <a href="/%E8%B5%84%E6%96%99/05-%E5%85%AC%E9%80%89%E8%AF%BE%E5%A4%96/%E5%85%B6%E4%BB%96%E8%AF%BE%E7%A8%8B/%E5%86%9C%E4%B8%9A%E7%94%9F%E6%80%81%E5%AD%A6%E5%AE%9E%E9%AA%8C/%E8%AF%95%E5%8D%B7%E4%B8%8E%E7%AD%94%E6%A1%88/%E5%86%9C%E4%B8%9A%E7%94%9F%E6%80%81%E5%AD%A6%E5%AE%9E%E9%AA%8C%E6%8A%A5%E5%91%8A.pdf" target="_blank" rel="noopener">在线查看</a> |
+| 农业生态学实验报告.pdf | PDF | 302 KB | <a href="/05-%E5%85%AC%E9%80%89%E8%AF%BE%E5%A4%96/%E5%85%B6%E4%BB%96%E8%AF%BE%E7%A8%8B/%E5%86%9C%E4%B8%9A%E7%94%9F%E6%80%81%E5%AD%A6%E5%AE%9E%E9%AA%8C/%E8%AF%95%E5%8D%B7%E4%B8%8E%E7%AD%94%E6%A1%88/%E5%86%9C%E4%B8%9A%E7%94%9F%E6%80%81%E5%AD%A6%E5%AE%9E%E9%AA%8C%E6%8A%A5%E5%91%8A.pdf" target="_blank" rel="noopener">在线查看</a> |
 
 ::: tip 关于下载
 PDF 与图片可直接在浏览器里**在线查看**；PPT / Word / Excel / 压缩包点「下载」后用本地软件打开。

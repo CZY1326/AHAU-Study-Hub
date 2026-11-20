@@ -12,22 +12,22 @@
 
 | 文件 | 类型 | 大小 | 操作 |
 | :--- | :---: | ---: | :--- |
-| 大学语文复习汇总.pdf | PDF | 635 KB | <a href="/%E8%B5%84%E6%96%99/05-%E5%85%AC%E9%80%89%E8%AF%BE%E5%A4%96/%E5%85%B6%E4%BB%96%E8%AF%BE%E7%A8%8B/%E5%A4%A7%E5%AD%A6%E8%AF%AD%E6%96%87/%E8%AF%BE%E4%BB%B6/%E5%A4%A7%E5%AD%A6%E8%AF%AD%E6%96%87%E5%A4%8D%E4%B9%A0%E6%B1%87%E6%80%BB.pdf" target="_blank" rel="noopener">在线查看</a> |
-| 大学语文学习资料（笔记版）.pdf | PDF | 4.0 MB | <a href="/%E8%B5%84%E6%96%99/05-%E5%85%AC%E9%80%89%E8%AF%BE%E5%A4%96/%E5%85%B6%E4%BB%96%E8%AF%BE%E7%A8%8B/%E5%A4%A7%E5%AD%A6%E8%AF%AD%E6%96%87/%E8%AF%BE%E4%BB%B6/%E5%A4%A7%E5%AD%A6%E8%AF%AD%E6%96%87%E5%AD%A6%E4%B9%A0%E8%B5%84%E6%96%99%EF%BC%88%E7%AC%94%E8%AE%B0%E7%89%88%EF%BC%89.pdf" target="_blank" rel="noopener">在线查看</a> |
-| 大学语文学习资料（通用版）.pdf | PDF | 3.8 MB | <a href="/%E8%B5%84%E6%96%99/05-%E5%85%AC%E9%80%89%E8%AF%BE%E5%A4%96/%E5%85%B6%E4%BB%96%E8%AF%BE%E7%A8%8B/%E5%A4%A7%E5%AD%A6%E8%AF%AD%E6%96%87/%E8%AF%BE%E4%BB%B6/%E5%A4%A7%E5%AD%A6%E8%AF%AD%E6%96%87%E5%AD%A6%E4%B9%A0%E8%B5%84%E6%96%99%EF%BC%88%E9%80%9A%E7%94%A8%E7%89%88%EF%BC%89.pdf" target="_blank" rel="noopener">在线查看</a> |
+| 大学语文复习汇总.pdf | PDF | 635 KB | <a href="/05-%E5%85%AC%E9%80%89%E8%AF%BE%E5%A4%96/%E5%85%B6%E4%BB%96%E8%AF%BE%E7%A8%8B/%E5%A4%A7%E5%AD%A6%E8%AF%AD%E6%96%87/%E8%AF%BE%E4%BB%B6/%E5%A4%A7%E5%AD%A6%E8%AF%AD%E6%96%87%E5%A4%8D%E4%B9%A0%E6%B1%87%E6%80%BB.pdf" target="_blank" rel="noopener">在线查看</a> |
+| 大学语文学习资料（笔记版）.pdf | PDF | 4.0 MB | <a href="/05-%E5%85%AC%E9%80%89%E8%AF%BE%E5%A4%96/%E5%85%B6%E4%BB%96%E8%AF%BE%E7%A8%8B/%E5%A4%A7%E5%AD%A6%E8%AF%AD%E6%96%87/%E8%AF%BE%E4%BB%B6/%E5%A4%A7%E5%AD%A6%E8%AF%AD%E6%96%87%E5%AD%A6%E4%B9%A0%E8%B5%84%E6%96%99%EF%BC%88%E7%AC%94%E8%AE%B0%E7%89%88%EF%BC%89.pdf" target="_blank" rel="noopener">在线查看</a> |
+| 大学语文学习资料（通用版）.pdf | PDF | 3.8 MB | <a href="/05-%E5%85%AC%E9%80%89%E8%AF%BE%E5%A4%96/%E5%85%B6%E4%BB%96%E8%AF%BE%E7%A8%8B/%E5%A4%A7%E5%AD%A6%E8%AF%AD%E6%96%87/%E8%AF%BE%E4%BB%B6/%E5%A4%A7%E5%AD%A6%E8%AF%AD%E6%96%87%E5%AD%A6%E4%B9%A0%E8%B5%84%E6%96%99%EF%BC%88%E9%80%9A%E7%94%A8%E7%89%88%EF%BC%89.pdf" target="_blank" rel="noopener">在线查看</a> |
 
 ### 试卷与答案（2）
 
 | 文件 | 类型 | 大小 | 操作 |
 | :--- | :---: | ---: | :--- |
-| 《2013大学语文试卷》A.doc | DOC | 50 KB | <a href="/%E8%B5%84%E6%96%99/05-%E5%85%AC%E9%80%89%E8%AF%BE%E5%A4%96/%E5%85%B6%E4%BB%96%E8%AF%BE%E7%A8%8B/%E5%A4%A7%E5%AD%A6%E8%AF%AD%E6%96%87/%E8%AF%95%E5%8D%B7%E4%B8%8E%E7%AD%94%E6%A1%88/%E3%80%8A2013%E5%A4%A7%E5%AD%A6%E8%AF%AD%E6%96%87%E8%AF%95%E5%8D%B7%E3%80%8BA.doc" download>下载</a> |
-| 《2013大学语文试卷》B.doc | DOC | 50 KB | <a href="/%E8%B5%84%E6%96%99/05-%E5%85%AC%E9%80%89%E8%AF%BE%E5%A4%96/%E5%85%B6%E4%BB%96%E8%AF%BE%E7%A8%8B/%E5%A4%A7%E5%AD%A6%E8%AF%AD%E6%96%87/%E8%AF%95%E5%8D%B7%E4%B8%8E%E7%AD%94%E6%A1%88/%E3%80%8A2013%E5%A4%A7%E5%AD%A6%E8%AF%AD%E6%96%87%E8%AF%95%E5%8D%B7%E3%80%8BB.doc" download>下载</a> |
+| 《2013大学语文试卷》A.doc | DOC | 50 KB | <a href="/05-%E5%85%AC%E9%80%89%E8%AF%BE%E5%A4%96/%E5%85%B6%E4%BB%96%E8%AF%BE%E7%A8%8B/%E5%A4%A7%E5%AD%A6%E8%AF%AD%E6%96%87/%E8%AF%95%E5%8D%B7%E4%B8%8E%E7%AD%94%E6%A1%88/%E3%80%8A2013%E5%A4%A7%E5%AD%A6%E8%AF%AD%E6%96%87%E8%AF%95%E5%8D%B7%E3%80%8BA.doc" download>下载</a> |
+| 《2013大学语文试卷》B.doc | DOC | 50 KB | <a href="/05-%E5%85%AC%E9%80%89%E8%AF%BE%E5%A4%96/%E5%85%B6%E4%BB%96%E8%AF%BE%E7%A8%8B/%E5%A4%A7%E5%AD%A6%E8%AF%AD%E6%96%87/%E8%AF%95%E5%8D%B7%E4%B8%8E%E7%AD%94%E6%A1%88/%E3%80%8A2013%E5%A4%A7%E5%AD%A6%E8%AF%AD%E6%96%87%E8%AF%95%E5%8D%B7%E3%80%8BB.doc" download>下载</a> |
 
 ### 复习资料（1）
 
 | 文件 | 类型 | 大小 | 操作 |
 | :--- | :---: | ---: | :--- |
-| 大学语文.zip | ZIP | 1.1 MB | <a href="/%E8%B5%84%E6%96%99/05-%E5%85%AC%E9%80%89%E8%AF%BE%E5%A4%96/%E5%85%B6%E4%BB%96%E8%AF%BE%E7%A8%8B/%E5%A4%A7%E5%AD%A6%E8%AF%AD%E6%96%87/%E5%A4%8D%E4%B9%A0%E8%B5%84%E6%96%99/%E5%A4%A7%E5%AD%A6%E8%AF%AD%E6%96%87.zip" download>下载</a> |
+| 大学语文.zip | ZIP | 1.1 MB | <a href="/05-%E5%85%AC%E9%80%89%E8%AF%BE%E5%A4%96/%E5%85%B6%E4%BB%96%E8%AF%BE%E7%A8%8B/%E5%A4%A7%E5%AD%A6%E8%AF%AD%E6%96%87/%E5%A4%8D%E4%B9%A0%E8%B5%84%E6%96%99/%E5%A4%A7%E5%AD%A6%E8%AF%AD%E6%96%87.zip" download>下载</a> |
 
 ::: tip 关于下载
 PDF 与图片可直接在浏览器里**在线查看**；PPT / Word / Excel / 压缩包点「下载」后用本地软件打开。

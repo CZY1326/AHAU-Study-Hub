@@ -12,7 +12,7 @@
 
 | 文件 | 类型 | 大小 | 操作 |
 | :--- | :---: | ---: | :--- |
-| 设施蓝莓基地案例分析.pdf | PDF | 5.5 MB | <a href="/%E8%B5%84%E6%96%99/05-%E5%85%AC%E9%80%89%E8%AF%BE%E5%A4%96/%E5%9B%AD%E8%89%BA%E4%B8%93%E9%80%89/%E8%AE%BE%E6%96%BD%E7%8E%AF%E5%A2%83%E4%B8%8E%E8%B0%83%E6%8E%A7/%E8%AF%95%E5%8D%B7%E4%B8%8E%E7%AD%94%E6%A1%88/%E8%AE%BE%E6%96%BD%E8%93%9D%E8%8E%93%E5%9F%BA%E5%9C%B0%E6%A1%88%E4%BE%8B%E5%88%86%E6%9E%90.pdf" target="_blank" rel="noopener">在线查看</a> |
+| 设施蓝莓基地案例分析.pdf | PDF | 5.5 MB | <a href="/05-%E5%85%AC%E9%80%89%E8%AF%BE%E5%A4%96/%E5%9B%AD%E8%89%BA%E4%B8%93%E9%80%89/%E8%AE%BE%E6%96%BD%E7%8E%AF%E5%A2%83%E4%B8%8E%E8%B0%83%E6%8E%A7/%E8%AF%95%E5%8D%B7%E4%B8%8E%E7%AD%94%E6%A1%88/%E8%AE%BE%E6%96%BD%E8%93%9D%E8%8E%93%E5%9F%BA%E5%9C%B0%E6%A1%88%E4%BE%8B%E5%88%86%E6%9E%90.pdf" target="_blank" rel="noopener">在线查看</a> |
 
 ::: tip 关于下载
 PDF 与图片可直接在浏览器里**在线查看**；PPT / Word / Excel / 压缩包点「下载」后用本地软件打开。

@@ -34,7 +34,6 @@ const END = '<!-- FILES:END -->'
  * 若取消自定义域名，需与 config.mts 一起改回 '/AHAU-Study-Hub/'。
  */
 const BASE = '/'
-const ASSET_PREFIX = '资料'
 
 /** 每门课固定三个资料子目录，顺序即展示顺序 */
 const SECTIONS = [
@@ -268,9 +267,9 @@ function renderSections(courseRelPath, sections) {
           return `| ${label} | ${f.type.label} | ${humanSize(f.size)} | ${action} |`
         }
         // 文件在仓库中的位置：docs/<relPath>（relPath 相对 docs/，已含子目录）
-        // 站点中映射到：<base>/资料/<relPath>
+        // 站点中映射到：<base>/<relPath>（镜像复制保证该路径在 dist 里存在）
         // 用 <a href> 而非 Markdown 链接，绕开 VitePress 的内部路由死链检查。
-        const sitePath = encodeURI(`${BASE}${ASSET_PREFIX}/${f.relPath}`)
+        const sitePath = encodeURI(`${BASE}${f.relPath}`)
         // 资料目录里可能还有「1.卷一 / 2.卷二」这类分组子目录，
         // 展示时补上分组名，避免同名文件看起来重复。
         const parts = f.relPath.slice(courseRelPath.length + 1).split('/')
@@ -402,51 +401,28 @@ async function runGenerate(checkOnly) {
  * 把 docs 下的资料文件复制到 dist/资料/，使下载链接可用。
  * VitePress 只发布 public/ 里的静态资源，课程目录里的 PDF 默认不会进站点。
  */
+/**
+ * --copy 模式入口：资料统一由镜像复制进 dist（原始路径）。
+ * 曾额外复制一份到 dist/资料/，已废弃（见 runMirrorCopy 注释）。
+ */
 async function runCopy() {
   if (!(await exists(DIST))) {
     console.error('❌ 未找到 dist 目录，请先运行 `npm run docs:build`。')
     process.exit(1)
   }
-
-  const pages = await findCoursePages()
-  let copied = 0
-  let bytes = 0
-
-  for (const page of pages) {
-    // 分组页（学期 / 公选分组）没有 FILES 标记区间，不是课程页；
-    // 但 courseSections 会把其下的课程目录当扩展 section，导致整个学期被重复复制。
-    const idx = await readFile(page.file, 'utf8')
-    if (!idx.includes(START)) continue
-    for (const sec of await courseSections(page.courseDir)) {
-      const secDir = join(page.courseDir, sec.dir)
-      if (!(await isDir(secDir))) continue
-
-      const files = await collectFiles(secDir, DOCS)
-      for (const f of files) {
-        const src = join(DOCS, f.relPath)
-        // 保持 relPath 的子目录结构（资料目录里可能有「1.卷一」这类分组），
-        // 否则同名文件会互相覆盖、且与页面里的链接对不上。
-        const dst = join(DIST, '资料', f.relPath)
-        await mkdir(dirname(dst), { recursive: true })
-        await copyFile(src, dst)
-        copied++
-        bytes += f.size
-      }
-    }
-  }
-
-  console.log(`✅ 已复制 ${copied} 个资料文件到 dist/资料/（共 ${humanSize(bytes)}）。`)
-
   await runMirrorCopy()
 }
 
 /**
  * 镜像复制：把 docs/ 下所有非 Markdown 文件按原相对路径复制进 dist。
  *
- * 解决「主题页附件」问题：主题页（00~03 模块）与课程页正文里用
- * [下载](./文件.pdf) 这类相对链接时，VitePress 构建不会把这些文件
- * 带进产物，线上点击会 404。镜像复制后，相对路径在站点里同样成立
- * （cleanUrls 下页面 URL 是目录形式，./文件 正好落在同目录）。
+ * 这是资料上线的唯一复制通道（2026-11-20 起）：
+ * - 课程页 FILES 区间的下载链接直接指向 <base>/<relPath>（原始路径）；
+ * - 主题页正文里的相对链接（./images/xx 等）也落在同目录，一并可用。
+ *
+ * 旧方案会把课程资料再复制一份到 dist/资料/，资料体积涨到 5 GB 后
+ * 产物接近 10.3 GB，超过 GitHub Pages 部署 10 GB 上限（部署报
+ * "Artifact could not be deployed"），故移除该重复复制。
  *
  * 排除：.md（由 VitePress 渲染）、.vitepress、public（已由构建处理）、
  * 点开头文件（.gitkeep 等）。

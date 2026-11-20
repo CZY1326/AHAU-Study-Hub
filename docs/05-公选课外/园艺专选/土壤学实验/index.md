@@ -12,13 +12,13 @@
 
 | 文件 | 类型 | 大小 | 操作 |
 | :--- | :---: | ---: | :--- |
-| 土壤学实验指导书2020.pdf | PDF | 1.0 MB | <a href="/%E8%B5%84%E6%96%99/05-%E5%85%AC%E9%80%89%E8%AF%BE%E5%A4%96/%E5%9B%AD%E8%89%BA%E4%B8%93%E9%80%89/%E5%9C%9F%E5%A3%A4%E5%AD%A6%E5%AE%9E%E9%AA%8C/%E8%AF%BE%E4%BB%B6/%E5%9C%9F%E5%A3%A4%E5%AD%A6%E5%AE%9E%E9%AA%8C%E6%8C%87%E5%AF%BC%E4%B9%A62020.pdf" target="_blank" rel="noopener">在线查看</a> |
+| 土壤学实验指导书2020.pdf | PDF | 1.0 MB | <a href="/05-%E5%85%AC%E9%80%89%E8%AF%BE%E5%A4%96/%E5%9B%AD%E8%89%BA%E4%B8%93%E9%80%89/%E5%9C%9F%E5%A3%A4%E5%AD%A6%E5%AE%9E%E9%AA%8C/%E8%AF%BE%E4%BB%B6/%E5%9C%9F%E5%A3%A4%E5%AD%A6%E5%AE%9E%E9%AA%8C%E6%8C%87%E5%AF%BC%E4%B9%A62020.pdf" target="_blank" rel="noopener">在线查看</a> |
 
 ### 试卷与答案（1）
 
 | 文件 | 类型 | 大小 | 操作 |
 | :--- | :---: | ---: | :--- |
-| 土壤学Ⅱ实验报告.pdf | PDF | 492 KB | <a href="/%E8%B5%84%E6%96%99/05-%E5%85%AC%E9%80%89%E8%AF%BE%E5%A4%96/%E5%9B%AD%E8%89%BA%E4%B8%93%E9%80%89/%E5%9C%9F%E5%A3%A4%E5%AD%A6%E5%AE%9E%E9%AA%8C/%E8%AF%95%E5%8D%B7%E4%B8%8E%E7%AD%94%E6%A1%88/%E5%9C%9F%E5%A3%A4%E5%AD%A6%E2%85%A1%E5%AE%9E%E9%AA%8C%E6%8A%A5%E5%91%8A.pdf" target="_blank" rel="noopener">在线查看</a> |
+| 土壤学Ⅱ实验报告.pdf | PDF | 492 KB | <a href="/05-%E5%85%AC%E9%80%89%E8%AF%BE%E5%A4%96/%E5%9B%AD%E8%89%BA%E4%B8%93%E9%80%89/%E5%9C%9F%E5%A3%A4%E5%AD%A6%E5%AE%9E%E9%AA%8C/%E8%AF%95%E5%8D%B7%E4%B8%8E%E7%AD%94%E6%A1%88/%E5%9C%9F%E5%A3%A4%E5%AD%A6%E2%85%A1%E5%AE%9E%E9%AA%8C%E6%8A%A5%E5%91%8A.pdf" target="_blank" rel="noopener">在线查看</a> |
 
 ::: tip 关于下载
 PDF 与图片可直接在浏览器里**在线查看**；PPT / Word / Excel / 压缩包点「下载」后用本地软件打开。

@@ -12,7 +12,7 @@
 
 | 文件 | 类型 | 大小 | 操作 |
 | :--- | :---: | ---: | :--- |
-| 体测评分量表.pdf | PDF | 362 KB | <a href="/%E8%B5%84%E6%96%99/05-%E5%85%AC%E9%80%89%E8%AF%BE%E5%A4%96/%E8%AF%BE%E5%A4%96%E8%B5%84%E6%96%99/%E4%BD%93%E6%B5%8B%E8%AF%84%E5%88%86%E9%87%8F%E8%A1%A8/%E8%AF%BE%E4%BB%B6/%E4%BD%93%E6%B5%8B%E8%AF%84%E5%88%86%E9%87%8F%E8%A1%A8.pdf" target="_blank" rel="noopener">在线查看</a> |
+| 体测评分量表.pdf | PDF | 362 KB | <a href="/05-%E5%85%AC%E9%80%89%E8%AF%BE%E5%A4%96/%E8%AF%BE%E5%A4%96%E8%B5%84%E6%96%99/%E4%BD%93%E6%B5%8B%E8%AF%84%E5%88%86%E9%87%8F%E8%A1%A8/%E8%AF%BE%E4%BB%B6/%E4%BD%93%E6%B5%8B%E8%AF%84%E5%88%86%E9%87%8F%E8%A1%A8.pdf" target="_blank" rel="noopener">在线查看</a> |
 
 ::: tip 关于下载
 PDF 与图片可直接在浏览器里**在线查看**；PPT / Word / Excel / 压缩包点「下载」后用本地软件打开。

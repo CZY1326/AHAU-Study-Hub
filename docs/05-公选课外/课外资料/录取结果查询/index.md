@@ -12,7 +12,7 @@
 
 | 文件 | 类型 | 大小 | 操作 |
 | :--- | :---: | ---: | :--- |
-| 录取结果查询.pdf | PDF | 168 KB | <a href="/%E8%B5%84%E6%96%99/05-%E5%85%AC%E9%80%89%E8%AF%BE%E5%A4%96/%E8%AF%BE%E5%A4%96%E8%B5%84%E6%96%99/%E5%BD%95%E5%8F%96%E7%BB%93%E6%9E%9C%E6%9F%A5%E8%AF%A2/%E8%AF%BE%E4%BB%B6/%E5%BD%95%E5%8F%96%E7%BB%93%E6%9E%9C%E6%9F%A5%E8%AF%A2.pdf" target="_blank" rel="noopener">在线查看</a> |
+| 录取结果查询.pdf | PDF | 168 KB | <a href="/05-%E5%85%AC%E9%80%89%E8%AF%BE%E5%A4%96/%E8%AF%BE%E5%A4%96%E8%B5%84%E6%96%99/%E5%BD%95%E5%8F%96%E7%BB%93%E6%9E%9C%E6%9F%A5%E8%AF%A2/%E8%AF%BE%E4%BB%B6/%E5%BD%95%E5%8F%96%E7%BB%93%E6%9E%9C%E6%9F%A5%E8%AF%A2.pdf" target="_blank" rel="noopener">在线查看</a> |
 
 ::: tip 关于下载
 PDF 与图片可直接在浏览器里**在线查看**；PPT / Word / Excel / 压缩包点「下载」后用本地软件打开。
