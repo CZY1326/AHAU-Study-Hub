@@ -8,11 +8,13 @@
 > 请勿手动编辑标记区间内的内容。
 
 <!-- FILES:START -->
-### 课件（1）
+### 课件（3）
 
 | 文件 | 类型 | 大小 | 操作 |
 | :--- | :---: | ---: | :--- |
 | 大学语文复习汇总.pdf | PDF | 635 KB | <a href="/%E8%B5%84%E6%96%99/05-%E5%85%AC%E9%80%89%E8%AF%BE%E5%A4%96/%E5%85%B6%E4%BB%96%E8%AF%BE%E7%A8%8B/%E5%A4%A7%E5%AD%A6%E8%AF%AD%E6%96%87/%E8%AF%BE%E4%BB%B6/%E5%A4%A7%E5%AD%A6%E8%AF%AD%E6%96%87%E5%A4%8D%E4%B9%A0%E6%B1%87%E6%80%BB.pdf" target="_blank" rel="noopener">在线查看</a> |
+| 大学语文学习资料（笔记版）.pdf | PDF | 4.0 MB | <a href="/%E8%B5%84%E6%96%99/05-%E5%85%AC%E9%80%89%E8%AF%BE%E5%A4%96/%E5%85%B6%E4%BB%96%E8%AF%BE%E7%A8%8B/%E5%A4%A7%E5%AD%A6%E8%AF%AD%E6%96%87/%E8%AF%BE%E4%BB%B6/%E5%A4%A7%E5%AD%A6%E8%AF%AD%E6%96%87%E5%AD%A6%E4%B9%A0%E8%B5%84%E6%96%99%EF%BC%88%E7%AC%94%E8%AE%B0%E7%89%88%EF%BC%89.pdf" target="_blank" rel="noopener">在线查看</a> |
+| 大学语文学习资料（通用版）.pdf | PDF | 3.8 MB | <a href="/%E8%B5%84%E6%96%99/05-%E5%85%AC%E9%80%89%E8%AF%BE%E5%A4%96/%E5%85%B6%E4%BB%96%E8%AF%BE%E7%A8%8B/%E5%A4%A7%E5%AD%A6%E8%AF%AD%E6%96%87/%E8%AF%BE%E4%BB%B6/%E5%A4%A7%E5%AD%A6%E8%AF%AD%E6%96%87%E5%AD%A6%E4%B9%A0%E8%B5%84%E6%96%99%EF%BC%88%E9%80%9A%E7%94%A8%E7%89%88%EF%BC%89.pdf" target="_blank" rel="noopener">在线查看</a> |
 
 ### 试卷与答案（2）
 
