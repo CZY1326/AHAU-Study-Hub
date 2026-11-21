@@ -8,9 +8,29 @@
 > 请勿手动编辑标记区间内的内容。
 
 <!-- FILES:START -->
-::: info 资料还在路上
-这门课的课件 / 试卷与答案 / 复习资料暂未上传。
-如果你手上有**历年真题**或**老师的复习提纲**，欢迎提 PR 补进来 —— 那是价值最高的东西。
+### 课件（2）
+
+| 文件 | 类型 | 大小 | 操作 |
+| :--- | :---: | ---: | :--- |
+| 园艺植物种子学（第一版）.pdf | PDF | 2.4 MB | <a href="/05-%E5%85%AC%E9%80%89%E8%AF%BE%E5%A4%96/%E5%9B%AD%E8%89%BA%E4%B8%93%E9%80%89/%E5%9B%AD%E8%89%BA%E6%A4%8D%E7%89%A9%E7%A7%8D%E5%AD%90%E5%AD%A6/%E8%AF%BE%E4%BB%B6/%E5%9B%AD%E8%89%BA%E6%A4%8D%E7%89%A9%E7%A7%8D%E5%AD%90%E5%AD%A6%EF%BC%88%E7%AC%AC%E4%B8%80%E7%89%88%EF%BC%89.pdf" target="_blank" rel="noopener">在线查看</a> |
+| 种子学资料整理（打印版）.pdf | PDF | 269 KB | <a href="/05-%E5%85%AC%E9%80%89%E8%AF%BE%E5%A4%96/%E5%9B%AD%E8%89%BA%E4%B8%93%E9%80%89/%E5%9B%AD%E8%89%BA%E6%A4%8D%E7%89%A9%E7%A7%8D%E5%AD%90%E5%AD%A6/%E8%AF%BE%E4%BB%B6/%E7%A7%8D%E5%AD%90%E5%AD%A6%E8%B5%84%E6%96%99%E6%95%B4%E7%90%86%EF%BC%88%E6%89%93%E5%8D%B0%E7%89%88%EF%BC%89.pdf" target="_blank" rel="noopener">在线查看</a> |
+
+### 试卷与答案（1）
+
+| 文件 | 类型 | 大小 | 操作 |
+| :--- | :---: | ---: | :--- |
+| 园艺植物种子学复习总结.pdf | PDF | 549 KB | <a href="/05-%E5%85%AC%E9%80%89%E8%AF%BE%E5%A4%96/%E5%9B%AD%E8%89%BA%E4%B8%93%E9%80%89/%E5%9B%AD%E8%89%BA%E6%A4%8D%E7%89%A9%E7%A7%8D%E5%AD%90%E5%AD%A6/%E8%AF%95%E5%8D%B7%E4%B8%8E%E7%AD%94%E6%A1%88/%E5%9B%AD%E8%89%BA%E6%A4%8D%E7%89%A9%E7%A7%8D%E5%AD%90%E5%AD%A6%E5%A4%8D%E4%B9%A0%E6%80%BB%E7%BB%93.pdf" target="_blank" rel="noopener">在线查看</a> |
+
+### 复习资料（3）
+
+| 文件 | 类型 | 大小 | 操作 |
+| :--- | :---: | ---: | :--- |
+| 0.种子学第二版思考题.pdf | PDF | 1.8 MB | <a href="/05-%E5%85%AC%E9%80%89%E8%AF%BE%E5%A4%96/%E5%9B%AD%E8%89%BA%E4%B8%93%E9%80%89/%E5%9B%AD%E8%89%BA%E6%A4%8D%E7%89%A9%E7%A7%8D%E5%AD%90%E5%AD%A6/%E5%A4%8D%E4%B9%A0%E8%B5%84%E6%96%99/0.%E7%A7%8D%E5%AD%90%E5%AD%A6%E7%AC%AC%E4%BA%8C%E7%89%88%E6%80%9D%E8%80%83%E9%A2%98.pdf" target="_blank" rel="noopener">在线查看</a> |
+| 1.种子学绪论、第一章.pdf | PDF | 204 KB | <a href="/05-%E5%85%AC%E9%80%89%E8%AF%BE%E5%A4%96/%E5%9B%AD%E8%89%BA%E4%B8%93%E9%80%89/%E5%9B%AD%E8%89%BA%E6%A4%8D%E7%89%A9%E7%A7%8D%E5%AD%90%E5%AD%A6/%E5%A4%8D%E4%B9%A0%E8%B5%84%E6%96%99/1.%E7%A7%8D%E5%AD%90%E5%AD%A6%E7%BB%AA%E8%AE%BA%E3%80%81%E7%AC%AC%E4%B8%80%E7%AB%A0.pdf" target="_blank" rel="noopener">在线查看</a> |
+| 2.种子学第二章.pdf | PDF | 208 KB | <a href="/05-%E5%85%AC%E9%80%89%E8%AF%BE%E5%A4%96/%E5%9B%AD%E8%89%BA%E4%B8%93%E9%80%89/%E5%9B%AD%E8%89%BA%E6%A4%8D%E7%89%A9%E7%A7%8D%E5%AD%90%E5%AD%A6/%E5%A4%8D%E4%B9%A0%E8%B5%84%E6%96%99/2.%E7%A7%8D%E5%AD%90%E5%AD%A6%E7%AC%AC%E4%BA%8C%E7%AB%A0.pdf" target="_blank" rel="noopener">在线查看</a> |
+
+::: tip 关于下载
+PDF 与图片可直接在浏览器里**在线查看**；PPT / Word / Excel / 压缩包点「下载」后用本地软件打开。
 :::
 <!-- FILES:END -->
 
