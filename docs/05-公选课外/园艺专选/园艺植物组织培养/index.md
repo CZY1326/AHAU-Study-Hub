@@ -14,6 +14,13 @@
 | :--- | :---: | ---: | :--- |
 | 植物组织培养A卷（2026-2027学年第一学期）.pdf | PDF | 207 KB | <a href="/05-%E5%85%AC%E9%80%89%E8%AF%BE%E5%A4%96/%E5%9B%AD%E8%89%BA%E4%B8%93%E9%80%89/%E5%9B%AD%E8%89%BA%E6%A4%8D%E7%89%A9%E7%BB%84%E7%BB%87%E5%9F%B9%E5%85%BB/%E8%AF%95%E5%8D%B7%E4%B8%8E%E7%AD%94%E6%A1%88/%E6%A4%8D%E7%89%A9%E7%BB%84%E7%BB%87%E5%9F%B9%E5%85%BBA%E5%8D%B7%EF%BC%882026-2027%E5%AD%A6%E5%B9%B4%E7%AC%AC%E4%B8%80%E5%AD%A6%E6%9C%9F%EF%BC%89.pdf" target="_blank" rel="noopener">在线查看</a> |
 
+### 复习资料（2）
+
+| 文件 | 类型 | 大小 | 操作 |
+| :--- | :---: | ---: | :--- |
+| 植物组织培养期末复习.pdf | PDF | 439 KB | <a href="/05-%E5%85%AC%E9%80%89%E8%AF%BE%E5%A4%96/%E5%9B%AD%E8%89%BA%E4%B8%93%E9%80%89/%E5%9B%AD%E8%89%BA%E6%A4%8D%E7%89%A9%E7%BB%84%E7%BB%87%E5%9F%B9%E5%85%BB/%E5%A4%8D%E4%B9%A0%E8%B5%84%E6%96%99/%E6%A4%8D%E7%89%A9%E7%BB%84%E7%BB%87%E5%9F%B9%E5%85%BB%E6%9C%9F%E6%9C%AB%E5%A4%8D%E4%B9%A0.pdf" target="_blank" rel="noopener">在线查看</a> |
+| 植物组织培养试题库.pdf | PDF | 574 KB | <a href="/05-%E5%85%AC%E9%80%89%E8%AF%BE%E5%A4%96/%E5%9B%AD%E8%89%BA%E4%B8%93%E9%80%89/%E5%9B%AD%E8%89%BA%E6%A4%8D%E7%89%A9%E7%BB%84%E7%BB%87%E5%9F%B9%E5%85%BB/%E5%A4%8D%E4%B9%A0%E8%B5%84%E6%96%99/%E6%A4%8D%E7%89%A9%E7%BB%84%E7%BB%87%E5%9F%B9%E5%85%BB%E8%AF%95%E9%A2%98%E5%BA%93.pdf" target="_blank" rel="noopener">在线查看</a> |
+
 ::: tip 关于下载
 PDF 与图片可直接在浏览器里**在线查看**；PPT / Word / Excel / 压缩包点「下载」后用本地软件打开。
 :::
