@@ -83,6 +83,7 @@ const FILE_TYPES = {
   '.exe': { icon: '⚙️', label: 'EXE', kind: 'binary' },
   '.csv': { icon: '📈', label: 'CSV', kind: 'sheet' },
   '.tsv': { icon: '📈', label: 'TSV', kind: 'sheet' },
+  '.epub': { icon: '📘', label: 'EPUB', kind: 'doc' },
 }
 
 /** 支持页内预览的类型（点击即在浏览器打开） */
@@ -117,15 +118,33 @@ function humanSize(bytes) {
   return `${(bytes / 1024 / 1024 / 1024).toFixed(2)} GB`
 }
 
-/** 数字前缀排序：让 10 排在 2 后面（而不是 ASCII 序的 10 < 2） */
+/**
+ * 自然排序：把字符串切成数字块 / 文本块逐段比较，
+ * 数字块按数值比（10 排在 2 后面），文本块按 zh-CN 比。
+ * 传 relPath 时可让子目录整体成组（避免按文件名散排）。
+ */
 function naturalCompare(a, b) {
-  const na = a.match(/^(\d+)/)
-  const nb = b.match(/^(\d+)/)
-  if (na && nb) {
-    const diff = Number(na[1]) - Number(nb[1])
-    if (diff !== 0) return diff
+  const tok = (s) => s.match(/\d+|\D+/g) || []
+  const ta = tok(a)
+  const tb = tok(b)
+  for (let i = 0; i < Math.max(ta.length, tb.length); i++) {
+    const x = ta[i]
+    const y = tb[i]
+    if (x === undefined) return -1
+    if (y === undefined) return 1
+    const xd = /^\d+$/.test(x)
+    const yd = /^\d+$/.test(y)
+    if (xd && yd) {
+      const diff = Number(x) - Number(y)
+      if (diff !== 0) return diff
+    } else if (xd !== yd) {
+      return xd ? -1 : 1 // 数字块排在文本块前
+    } else {
+      const diff = x.localeCompare(y, 'zh-CN')
+      if (diff !== 0) return diff
+    }
   }
-  return a.localeCompare(b, 'zh-CN')
+  return 0
 }
 
 /* ------------------------------------------------------------------ *
@@ -145,6 +164,7 @@ async function collectFiles(dir, docsRelBase) {
     for (const e of entries) {
       if (IGNORE_FILES.has(e.name)) continue
       if (e.name.startsWith('.')) continue
+      if (e.name.startsWith('~$')) continue // Office 打开时的临时锁文件
       const full = join(current, e.name)
       if (e.isDirectory()) {
         await walk(full)
@@ -164,7 +184,8 @@ async function collectFiles(dir, docsRelBase) {
   }
 
   await walk(dir)
-  return out.sort((a, b) => naturalCompare(a.name, b.name))
+  // 按 relPath 排序：同一子目录的文件保持成组，目录编号优先于文件名编号
+  return out.sort((a, b) => naturalCompare(a.relPath, b.relPath))
 }
 
 /**
@@ -219,7 +240,7 @@ async function scanCourse(courseDir, courseRel, bigAll) {
         link: r.link || '',
         external: true,
       }))
-    const all = files.concat(extras).sort((a, b) => naturalCompare(a.name, b.name))
+    const all = files.concat(extras).sort((a, b) => naturalCompare(a.relPath, b.relPath))
     if (all.length) result.push({ ...sec, files: all })
   }
   return result

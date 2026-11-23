@@ -170,3 +170,6 @@ desktop.ini
 !.vscode/extensions.json
 *.swp
 
+
+# Office 临时锁文件
+~$*
