@@ -31,8 +31,8 @@
 
 | 文件 | 类型 | 大小 | 操作 |
 | :--- | :---: | ---: | :--- |
-| 无土栽培学.pdf | PDF | 3.0 MB | <a href="/02-%E8%AF%BE%E7%A8%8B%E8%B5%84%E6%96%99/05-%E5%A4%A7%E4%B8%89%E7%AC%AC%E4%B8%80%E5%AD%A6%E6%9C%9F/%E6%97%A0%E5%9C%9F%E6%A0%BD%E5%9F%B9%E5%AD%A6/%E8%AF%95%E5%8D%B7%E4%B8%8E%E7%AD%94%E6%A1%88/%E6%97%A0%E5%9C%9F%E6%A0%BD%E5%9F%B9%E5%AD%A6.pdf" target="_blank" rel="noopener">在线查看</a> |
 | 无土栽培学2.pdf | PDF | 3.3 MB | <a href="/02-%E8%AF%BE%E7%A8%8B%E8%B5%84%E6%96%99/05-%E5%A4%A7%E4%B8%89%E7%AC%AC%E4%B8%80%E5%AD%A6%E6%9C%9F/%E6%97%A0%E5%9C%9F%E6%A0%BD%E5%9F%B9%E5%AD%A6/%E8%AF%95%E5%8D%B7%E4%B8%8E%E7%AD%94%E6%A1%88/%E6%97%A0%E5%9C%9F%E6%A0%BD%E5%9F%B9%E5%AD%A62.pdf" target="_blank" rel="noopener">在线查看</a> |
+| 无土栽培学.pdf | PDF | 3.0 MB | <a href="/02-%E8%AF%BE%E7%A8%8B%E8%B5%84%E6%96%99/05-%E5%A4%A7%E4%B8%89%E7%AC%AC%E4%B8%80%E5%AD%A6%E6%9C%9F/%E6%97%A0%E5%9C%9F%E6%A0%BD%E5%9F%B9%E5%AD%A6/%E8%AF%95%E5%8D%B7%E4%B8%8E%E7%AD%94%E6%A1%88/%E6%97%A0%E5%9C%9F%E6%A0%BD%E5%9F%B9%E5%AD%A6.pdf" target="_blank" rel="noopener">在线查看</a> |
 
 ::: tip 关于下载
 PDF 与图片可直接在浏览器里**在线查看**；PPT / Word / Excel / 压缩包点「下载」后用本地软件打开。

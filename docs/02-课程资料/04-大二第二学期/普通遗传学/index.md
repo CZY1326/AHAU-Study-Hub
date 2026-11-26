@@ -38,8 +38,8 @@
 
 | 文件 | 类型 | 大小 | 操作 |
 | :--- | :---: | ---: | :--- |
-| 习题册 / 普通遗传学 习题集(含答案).pdf | PDF | 644 KB | <a href="/02-%E8%AF%BE%E7%A8%8B%E8%B5%84%E6%96%99/04-%E5%A4%A7%E4%BA%8C%E7%AC%AC%E4%BA%8C%E5%AD%A6%E6%9C%9F/%E6%99%AE%E9%80%9A%E9%81%97%E4%BC%A0%E5%AD%A6/%E5%A4%8D%E4%B9%A0%E8%B5%84%E6%96%99/%E4%B9%A0%E9%A2%98%E5%86%8C/%E6%99%AE%E9%80%9A%E9%81%97%E4%BC%A0%E5%AD%A6%20%E4%B9%A0%E9%A2%98%E9%9B%86(%E5%90%AB%E7%AD%94%E6%A1%88).pdf" target="_blank" rel="noopener">在线查看</a> |
 | 教材 / 遗传学（第四版）.pdf | PDF | 8.4 MB | <a href="/02-%E8%AF%BE%E7%A8%8B%E8%B5%84%E6%96%99/04-%E5%A4%A7%E4%BA%8C%E7%AC%AC%E4%BA%8C%E5%AD%A6%E6%9C%9F/%E6%99%AE%E9%80%9A%E9%81%97%E4%BC%A0%E5%AD%A6/%E5%A4%8D%E4%B9%A0%E8%B5%84%E6%96%99/%E6%95%99%E6%9D%90/%E9%81%97%E4%BC%A0%E5%AD%A6%EF%BC%88%E7%AC%AC%E5%9B%9B%E7%89%88%EF%BC%89.pdf" target="_blank" rel="noopener">在线查看</a> |
+| 习题册 / 普通遗传学 习题集(含答案).pdf | PDF | 644 KB | <a href="/02-%E8%AF%BE%E7%A8%8B%E8%B5%84%E6%96%99/04-%E5%A4%A7%E4%BA%8C%E7%AC%AC%E4%BA%8C%E5%AD%A6%E6%9C%9F/%E6%99%AE%E9%80%9A%E9%81%97%E4%BC%A0%E5%AD%A6/%E5%A4%8D%E4%B9%A0%E8%B5%84%E6%96%99/%E4%B9%A0%E9%A2%98%E5%86%8C/%E6%99%AE%E9%80%9A%E9%81%97%E4%BC%A0%E5%AD%A6%20%E4%B9%A0%E9%A2%98%E9%9B%86(%E5%90%AB%E7%AD%94%E6%A1%88).pdf" target="_blank" rel="noopener">在线查看</a> |
 | 习题册 / 遗传学习题册.pdf | PDF | 16.0 MB | <a href="/02-%E8%AF%BE%E7%A8%8B%E8%B5%84%E6%96%99/04-%E5%A4%A7%E4%BA%8C%E7%AC%AC%E4%BA%8C%E5%AD%A6%E6%9C%9F/%E6%99%AE%E9%80%9A%E9%81%97%E4%BC%A0%E5%AD%A6/%E5%A4%8D%E4%B9%A0%E8%B5%84%E6%96%99/%E4%B9%A0%E9%A2%98%E5%86%8C/%E9%81%97%E4%BC%A0%E5%AD%A6%E4%B9%A0%E9%A2%98%E5%86%8C.pdf" target="_blank" rel="noopener">在线查看</a> |
 
 ::: tip 关于下载
